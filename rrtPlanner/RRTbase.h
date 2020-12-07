@@ -39,8 +39,8 @@ class RRT {
         default_random_engine random;
         bool goalBias = true; // whether or not to use goal biasing
         float goal_bias_value = 0.2;
-        double eps = 1;
-        double tol = 0.03;
+        double eps = 2;
+        double tol = 3;
         time_t start, end;
         struct Q {
             double pose[numofDOFs]; // 4 DOF (x, y, z, theta)
@@ -54,7 +54,8 @@ class RRT {
 
         RRT(double* map, int x_size, int y_size, int z_size, double* start_pose, double* goal_pose);
         int GetMapIndex(int x, int y, int z);
-        int IsValidPose(Q* q);
+        int IsValidPose(double* pose);
+        int ClearPath(double* pose1, double* pose2);
         Q* Sample();
         int Same(Q* q1, Q* q2);
         Q* NearestNeighbor(Q* q);

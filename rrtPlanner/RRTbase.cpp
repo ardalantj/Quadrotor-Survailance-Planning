@@ -23,20 +23,42 @@ int RRT::GetMapIndex(int x, int y, int z) {
     return index;
 }
 
-int RRT::IsValidPose(Q* q) {
+int RRT::IsValidPose(double* pose) {
     // determine if pose is valid in map
     // check map boundaries
-    if (q->pose[0] < 0 || q->pose[0] >= x_size ||
-        q->pose[1] < 0 || q->pose[0] >= y_size ||
-        q->pose[2] < 0 || q->pose[2] >= z_size) {
+    if (pose[0] < 0 || pose[0] >= x_size ||
+        pose[1] < 0 || pose[0] >= y_size ||
+        pose[2] < 0 || pose[2] >= z_size) {
         return 0;
     }
 
     // check the map (0 map value is free, 1 map value is obstacle)
-    if (!map[GetMapIndex(q->pose[0], q->pose[1], q->pose[2])]) {
+    if (!map[GetMapIndex(int(pose[0]), int(pose[1]), int(pose[2]))]) {
         return 0;
     }
 
+    return 1;
+}
+
+int RRT::ClearPath(double* pose1, double* pose2) {
+    // check if path is clear from pose1 to pose2
+    double dist[numofDOFs-1];
+    double maxdist = 0;
+    for (int i = 0; i < numofDOFs - 1; i ++) {
+        dist[i] = pose2[i] - pose1[i];
+        if (abs(dist[i]) > maxdist) {
+            maxdist = abs(dist[i]);
+        }
+    }
+    double temp[numofDOFs];
+    for (int j = 0; j < maxdist; j++) {
+        for (int k = 0; k < numofDOFs - 1; k ++) {
+            temp[k] = pose1[k] + int(j * (dist[k] / maxdist));
+        }
+        if (!IsValidPose(temp)) {
+            return 0;
+        }
+    }
     return 1;
 }
 
@@ -59,7 +81,7 @@ RRT::Q* RRT::Sample() {
     for (int i = 0; i < numofDOFs; i++) {
         // uniform_real_distribution<double> angle(0, 2*PI);
         // qrand.angles[j] = angle(random);
-        qsample->pose[i] = (double) (rand() / double(RAND_MAX)) * (sizes[i]);
+        qsample->pose[i] = rand() % sizes[i];
     }
     return qsample;
 }
@@ -174,7 +196,7 @@ stack<RRT::Q*> RRT::Interpolate(Q* qnear, Q* qfar) { //near is goalside
     for (int i=1; i<int(steps); i++) {
         Q* qnew = new Q;
         for (int j=0; j<numofDOFs; j++) {
-            qnew->pose[j] = qfar->pose[j] + i*dist[j];
+            qnew->pose[j] = qfar->pose[j] + int(i*dist[j]);
         }
         interstack.push(qnew);
     }
@@ -245,7 +267,7 @@ double** RRT::RunRRT() {
     while ((end - start) <= run_time) { 
         auto qsample = Sample();
         Extend(qsample);
-        auto qgoal = ReachedGoalQ();
+        auto qgoal = ReachedGoal();
         if (qgoal != nullptr) {
             MakePlan(qstart, qgoal);
             // return path; // uncomment if returning first path found
