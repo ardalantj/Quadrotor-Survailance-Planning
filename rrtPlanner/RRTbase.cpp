@@ -16,6 +16,8 @@ RRT::RRT(double* map, int x_size, int y_size, int z_size, double* start_pose, do
     pathvec.clear();
 };
 
+RRT::~RRT() {}
+
 int RRT::GetMapIndex(int x, int y, int z) {
     // assuming 0 start indexing
     int index = z * x_size * y_size;
@@ -215,7 +217,7 @@ double RRT::MaxDist(Q* q1, Q* q2) {
     return maxdist;
 }
 
-void RRT::MakePlan(Q* qstart, Q* qgoal) {
+vector<vector<int>> RRT::MakePlan(Q* qstart, Q* qgoal) {
     // make a stack of the Q's in the path
     stack<Q*> pathstack;
     pathstack.push(qgoal);
@@ -232,29 +234,23 @@ void RRT::MakePlan(Q* qstart, Q* qgoal) {
             pathstack.push(pathstack.top()->parent);
         }
     }
-    numsamples = pathstack.size();
+    planlength = pathstack.size();
 
     // put them into "path"
-    if (numsamples < bestpath) {
-        // put in vector for local biasing
-        pathvec.clear();
-        while (!pathstack.empty()) {
-            pathvec.push_back(pathstack.top());
-            pathstack.pop();
+    // put in vector for local biasing
+    vector<vector<int>> plan; 
+    while (!pathstack.empty()) {
+        vector<int> temp;
+        for (int i = 0; i < numofDOFs-1; i ++) {
+            temp.push_back(pathstack.top()->pose[i]);
         }
-        bestpath = numsamples;
-        delete[] path;
-        path = (double**) malloc(numsamples*sizeof(double*));
-        for (int i=0; i<numsamples; i++) {
-            path[i] = (double*) malloc(numofDOFs*sizeof(double));
-            for (int j=0; j<numofDOFs; j++) {
-                path[i][j] = pathvec[i]->pose[j];
-            }
-        }
+        plan.push_back(temp);
+        pathstack.pop();
     }
+    return plan;
 }
 
-double** RRT::RunRRT() {
+vector<vector<int>>* RRT::RunRRT() {
     Q* qstart = new Q;
     for (int i = 0; i < numofDOFs; i++) {
         qstart->pose[i] = start_pose[i];
@@ -263,22 +259,23 @@ double** RRT::RunRRT() {
     int count = 0;
     time(&start);
     time(&end);
-    // while (k < 8500) { // uncomment if iteration based instead of time based
+
+    vector<vector<int>>* plan = nullptr;
     while ((end - start) <= run_time) { 
         auto qsample = Sample();
         Extend(qsample);
         auto qgoal = ReachedGoal();
         if (qgoal != nullptr) {
-            MakePlan(qstart, qgoal);
+            *plan = MakePlan(qstart, qgoal);
             // return path; // uncomment if returning first path found
         }
         count ++ ;
         time(&end);
     }
     if (bestpath < INT_MAX) {
-        numsamples = bestpath;
+        planlength = bestpath;
     }
     cout << "Vector Size: " << V.size() << endl; 
-    cout << "Plan Length: " << numsamples << endl;
-    return path;
+    cout << "Plan Length: " << planlength << endl;
+    return plan;
 }

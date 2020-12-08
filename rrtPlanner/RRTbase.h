@@ -17,6 +17,7 @@
 #include <memory>
 #include <random>
 #include <cmath>
+#include <variant>
 
 using namespace std;
 
@@ -49,10 +50,11 @@ class RRT {
         };
         std::vector<Q*> V; // vector of pointers to vertices (serves as the map)
         vector<Q*> pathvec; // store current path for local bias
-        int numsamples;
-        int bestpath;
+        int planlength;
+        // typedef vector<variant<int,int,int,double>> posevec;
 
         RRT(double* map, int x_size, int y_size, int z_size, double* start_pose, double* goal_pose);
+        ~RRT();
         int GetMapIndex(int x, int y, int z);
         int IsValidPose(double* pose);
         int ClearPath(double* pose1, double* pose2);
@@ -66,6 +68,6 @@ class RRT {
         Q* ReachedGoal();
         stack<Q*> Interpolate(Q* qnear, Q* qfar);
         double MaxDist(Q* q1, Q* q2);
-        void MakePlan(Q* qstart, Q* qgoal);
-        double** RunRRT();
+        vector<vector<int>> MakePlan(Q* qstart, Q* qgoal);
+        vector<vector<int>>* RunRRT();
 };

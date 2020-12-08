@@ -115,7 +115,7 @@ RRTstar::Q* RRTstar::FindGoalQ() {
     return nullptr;
 }
 
-vector<RRTstar::Q*> RRTstar::MakePlan(Q* qstart, Q* qgoal) {
+vector<vector<int>> RRTstar::MakePlan(Q* qstart, Q* qgoal) {
     // trace parents back from qgoal to qstart
     stack<Q*> planstack;
     planstack.push(qgoal);
@@ -132,15 +132,21 @@ vector<RRTstar::Q*> RRTstar::MakePlan(Q* qstart, Q* qgoal) {
         }
     }
 
-    vector<Q*> plan;
+    vector<vector<int>> plan;
     while (!planstack.empty()) {
-        plan.push_back(planstack.top());
+        vector<int> temp;
+        for (int i = 0; i < numofDOFs - 1; i ++) {
+            temp.push_back(planstack.top()->pose[i]);
+        }
+        plan.push_back(temp);
         planstack.pop();
     }
+    planlength = plan.size();
     return plan;
 }
 
-vector<RRTstar::Q*>* RRTstar::RunRRT() {
+vector<vector<int>>* RRTstar::RunRRT() {
+    vector<vector<int>>* plan;
     Q* qstart = new Q;
     qstart->cost = 0.0;
     for (int i = 0; i < numofDOFs; i ++) {
@@ -156,7 +162,7 @@ vector<RRTstar::Q*>* RRTstar::RunRRT() {
         for (int i = 0; i < numofDOFs; i++) {
             qgoal->pose[i] = goal_pose[i];
         }
-        return &MakePlan(qstart, qgoal);
+        *plan = MakePlan(qstart, qgoal);
     }
-    return nullptr;
+    return plan;
 }

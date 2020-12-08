@@ -17,6 +17,7 @@
 #include <memory>
 #include <random>
 #include <cmath>
+#include <variant>
 
 #include "RRTbase.h"
 
@@ -26,6 +27,7 @@ class RRTstar : public RRT {
     public:
         int runtime = 60;
 
+        using RRT::RRT;
         double Cost(Q* q1, Q* q2);
         double GetRadius();
         Q* Steer(Q* qnearest, Q* qsample);
@@ -33,6 +35,6 @@ class RRTstar : public RRT {
         void Extend(Q* q);
         void BuildRRT(Q* qstart);
         Q* FindGoalQ();
-        vector<Q*> MakePlan(Q* qstart, Q* qgoal);
-        vector<Q*>* RunRRT();
+        vector<vector<int>> MakePlan(Q* qstart, Q* qgoal);
+        vector<vector<int>>* RunRRT();
 };

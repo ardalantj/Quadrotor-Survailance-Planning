@@ -25,15 +25,25 @@ using namespace std;
 #define	PLAN_OUT	plhs[0]
 #define	PLANLENGTH_OUT	plhs[1]
 
-static void plannerRRT(double* map, int x_size, int y_size, 
-                        double* start_pose, double* goal_pose, vector<vector<int>>* plan) {
-    // no plan by default
-    *plan = NULL;
+#if !defined(MAX)
+#define	MAX(A, B)	((A) > (B) ? (A) : (B))
+#endif
+
+#if !defined(MIN)
+#define	MIN(A, B)	((A) < (B) ? (A) : (B))
+#endif
+
+#define PI 3.141592654
+
+static void plannerRRT(double* map, int x_size, int y_size, int z_size, 
+                        double* start_pose, double* goal_pose, 
+                        vector<vector<int>>* plan, int* planlength) {
     
     cout << "RRT ------------------------" << endl;
     int starttime = clock();
     static RRT rrt(map, x_size, y_size, z_size, start_pose, goal_pose);
-    *plan = rrt.RunRRT();
+    plan = rrt.RunRRT();
+    *planlength = rrt.planlength;
     int endtime = clock();
     float RRTtime = float(endtime - starttime) / float(CLOCKS_PER_SEC);
     cout << "RRT Time: " << RRTtime << " sec" << endl; 
@@ -41,15 +51,16 @@ static void plannerRRT(double* map, int x_size, int y_size,
     return;
 }
 
-static void plannerRRTstar(double* map, int x_size, int y_size, 
-                            double* start_pose, double* goal_pose, vector<vector<int>>* plan) {
-    // no plan by default
-    *plan = NULL;
+static void plannerRRTstar(double* map, int x_size, int y_size, int z_size,
+                            double* start_pose, double* goal_pose, 
+                            vector<vector<int>>* plan, int* planlength) {
     
     cout << "RRT Star ------------------------" << endl;
     int starttime = clock();
     static RRTstar rrtstar(map, x_size, y_size, z_size, start_pose, goal_pose);
-    *plan = rrtstar.RunRRT();
+    plan = rrtstar.RunRRT();
+    *planlength = rrtstar.planlength;
+    int endtime = clock();
     float RRTstartime = float(endtime - starttime) / float(CLOCKS_PER_SEC);
     cout << "RRTstar Time: " << RRTstartime << " sec" << endl; 
 
@@ -69,9 +80,18 @@ void mexFunction( int nlhs, mxArray *plhs[],
                 "Two output arguments required."); 
     } 
         
-    /* get the dimensions of the map and the map matrix itself*/     
-    int x_size = (int) mxGetM(MAP_IN);
-    int y_size = (int) mxGetN(MAP_IN);
+    /* get the dimensions of the map and the map matrix itself*/
+    auto dims_ptr = mxGetDimensions(MAP_IN);  
+    int sizes[3];
+    for (int dim = 0; dim < 3; dim++) {
+        sizes[dim] = *dims_ptr;
+        dims_ptr ++;
+    }
+    int x_size = (int) sizes[0];
+    int y_size = (int) sizes[1];
+    int z_size = (int) sizes[2];   
+    // int x_size = (int) mxGetM(MAP_IN);
+    // int y_size = (int) mxGetN(MAP_IN);
     double* map = mxGetPr(MAP_IN);
     
     /* get the start and goal angles*/     
@@ -95,18 +115,18 @@ void mexFunction( int nlhs, mxArray *plhs[],
     }
     
     //call the planner
-    double** plan = NULL;
+    vector<vector<int>>* plan = NULL;
+    int planlength = 0;
     
     //call the corresponding planner function 
     if (planner_id == RRTBASE)
     {
-       plannerRRT(map,x_size,y_size, start_pose, goal_pose, numofDOFs, &plan);
+       plannerRRT(map, x_size, y_size, z_size, start_pose, goal_pose, plan, &planlength);
     }
     else if (planner_id == RRTSTAR) {
-        plannerRRTstar(map,x_size,y_size, start_pose, goal_pose, numofDOFs, &plan);
+        plannerRRTstar(map, x_size, y_size, z_size, start_pose, goal_pose, plan, &planlength);
     }
     
-    int planlength = plan.size();
     printf("planner returned plan of length=%d\n", planlength); 
     
     /* Create return values */
@@ -120,7 +140,7 @@ void mexFunction( int nlhs, mxArray *plhs[],
         {
             for (j = 0; j < numofDOFs; j++)
             {
-                plan_out[j*planlength + i] = plan[i][j];
+                plan_out[j*planlength + i] = (double) (*plan)[i][j];
             }
         }
     }
@@ -132,7 +152,7 @@ void mexFunction( int nlhs, mxArray *plhs[],
         int j;
         for(j = 0; j < numofDOFs; j++)
         {
-                plan_out[j] = start_pose[j];
+                plan_out[j] = (double) start_pose[j];
         }     
     }
     
