@@ -1,0 +1,12 @@
+\subsubsection parameters ROS parameters
+
+Reads and maintains the following parameters on the ROS server
+
+- \b "~roll_gain" : \b [double] proportional gain of roll angle min: 0.1, default: 90.0, max: 200.0
+- \b "~pitch_gain" : \b [double] proportional gain of pitch angle min: 0.1, default: 80.0, max: 200.0
+- \b "~roll_int_gain" : \b [double] integral gain of roll angle min: 0.1, default: 1.0, max: 200.0
+- \b "~pitch_int_gain" : \b [double] integral gain of pitch angle min: 0.1, default: 1.0, max: 200.0
+- \b "~p_gain" : \b [double] derivative gain of roll angle min: 0.1, default: 30.0, max: 200.0
+- \b "~q_gain" : \b [double] derivative gain of pitch angle min: 0.1, default: 25.0, max: 200.0
+- \b "~r_gain" : \b [double] derivative gain of yaw angle min: 0.1, default: 0.8, max: 200.0
+

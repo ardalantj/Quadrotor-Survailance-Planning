@@ -1,0 +1,29 @@
+\subsubsection parameters ROS parameters
+
+Reads and maintains the following parameters on the ROS server
+
+- \b "~q_x" : \b [double] Penality on x axis pos min: 0.001, default: 50.0, max: 200.0
+- \b "~q_y" : \b [double] Penality on y axis pos min: 0.001, default: 50.0, max: 200.0
+- \b "~q_z" : \b [double] Penality on z axis pos min: 0.001, default: 80.0, max: 200.0
+- \b "~q_vx" : \b [double] Penality on x axis vel min: 0.001, default: 20.0, max: 200.0
+- \b "~q_vy" : \b [double] Penality on y axis vel min: 0.001, default: 20.0, max: 200.0
+- \b "~q_vz" : \b [double] Penality on z axis vel min: 0.001, default: 35.0, max: 200.0
+- \b "~q_roll" : \b [double] Penality on roll state min: 0.001, default: 20.0, max: 200.0
+- \b "~q_pitch" : \b [double] Penality on pitch state min: 0.001, default: 20.0, max: 200.0
+- \b "~r_roll" : \b [double] Penality on roll cmd min: 1.0, default: 30.0, max: 200.0
+- \b "~r_pitch" : \b [double] Penality on pitch cmd min: 1.0, default: 30.0, max: 200.0
+- \b "~r_thrust" : \b [double] Penality on thrust cmd min: 1.0, default: 5.0, max: 200.0
+- \b "~r_droll" : \b [double] Penality on delta roll cmd min: 0.1, default: 0.26, max: 1.0
+- \b "~r_dpitch" : \b [double] Penality on delta pitch cmd min: 0.1, default: 0.26, max: 1.0
+- \b "~r_dthrust" : \b [double] Penality on delta thrust cmd min: 0.001, default: 0.01, max: 0.1
+- \b "~roll_max" : \b [double] max roll cmd [rad] min: 0.1, default: 0.45, max: 1.0
+- \b "~pitch_max" : \b [double] max pitch cmd [rad] min: 0.1, default: 0.45, max: 1.0
+- \b "~yaw_rate_max" : \b [double] max yawrate cmd [rad/s] min: 0.1, default: 1.5, max: 2.0
+- \b "~thrust_min" : \b [double] min thrust cmd [m/s2] min: 5.0, default: 5.0, max: 25.0
+- \b "~thrust_max" : \b [double] max thrust cmd [m/s2] min: 5.0, default: 15.0, max: 25.0
+- \b "~K_yaw" : \b [double] yaw gain min: 0.01, default: 0.5, max: 2.0
+- \b "~Ki_xy" : \b [double] integrator gain for xy min: 0.01, default: 0.2, max: 3.0
+- \b "~Ki_altitude" : \b [double] integrator gain for altitude min: 0.01, default: 0.2, max: 3.0
+- \b "~enable_offset_free" : \b [bool] XY offset free MPC min: False, default: True, max: True
+- \b "~enable_integrator" : \b [bool] integral action min: False, default: False, max: True
+

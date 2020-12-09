@@ -1,0 +1,8 @@
+prefix=/home/ardalan/catkin_ws/install
+
+Name: mav_disturbance_observer
+Description: Description of mav_disturbance_observer
+Version: 1.0.0
+Cflags: -I${prefix}/include
+Libs: -L${prefix}/lib -lKFDisturbanceObserverLibrary
+Requires: dynamic_reconfigure mav_msgs roscpp cmake_modules tf message_generation

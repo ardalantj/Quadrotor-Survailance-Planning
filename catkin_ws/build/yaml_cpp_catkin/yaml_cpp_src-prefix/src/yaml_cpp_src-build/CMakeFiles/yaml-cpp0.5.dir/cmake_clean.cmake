@@ -1,0 +1,41 @@
+file(REMOVE_RECURSE
+  "CMakeFiles/yaml-cpp0.5.dir/src/emitterstate.cpp.o"
+  "CMakeFiles/yaml-cpp0.5.dir/src/scantag.cpp.o"
+  "CMakeFiles/yaml-cpp0.5.dir/src/emitterutils.cpp.o"
+  "CMakeFiles/yaml-cpp0.5.dir/src/parse.cpp.o"
+  "CMakeFiles/yaml-cpp0.5.dir/src/null.cpp.o"
+  "CMakeFiles/yaml-cpp0.5.dir/src/node.cpp.o"
+  "CMakeFiles/yaml-cpp0.5.dir/src/regex_yaml.cpp.o"
+  "CMakeFiles/yaml-cpp0.5.dir/src/scanner.cpp.o"
+  "CMakeFiles/yaml-cpp0.5.dir/src/tag.cpp.o"
+  "CMakeFiles/yaml-cpp0.5.dir/src/convert.cpp.o"
+  "CMakeFiles/yaml-cpp0.5.dir/src/stream.cpp.o"
+  "CMakeFiles/yaml-cpp0.5.dir/src/emitter.cpp.o"
+  "CMakeFiles/yaml-cpp0.5.dir/src/exceptions.cpp.o"
+  "CMakeFiles/yaml-cpp0.5.dir/src/singledocparser.cpp.o"
+  "CMakeFiles/yaml-cpp0.5.dir/src/scantoken.cpp.o"
+  "CMakeFiles/yaml-cpp0.5.dir/src/binary.cpp.o"
+  "CMakeFiles/yaml-cpp0.5.dir/src/exp.cpp.o"
+  "CMakeFiles/yaml-cpp0.5.dir/src/memory.cpp.o"
+  "CMakeFiles/yaml-cpp0.5.dir/src/nodebuilder.cpp.o"
+  "CMakeFiles/yaml-cpp0.5.dir/src/emitfromevents.cpp.o"
+  "CMakeFiles/yaml-cpp0.5.dir/src/emit.cpp.o"
+  "CMakeFiles/yaml-cpp0.5.dir/src/directives.cpp.o"
+  "CMakeFiles/yaml-cpp0.5.dir/src/parser.cpp.o"
+  "CMakeFiles/yaml-cpp0.5.dir/src/node_data.cpp.o"
+  "CMakeFiles/yaml-cpp0.5.dir/src/scanscalar.cpp.o"
+  "CMakeFiles/yaml-cpp0.5.dir/src/simplekey.cpp.o"
+  "CMakeFiles/yaml-cpp0.5.dir/src/nodeevents.cpp.o"
+  "CMakeFiles/yaml-cpp0.5.dir/src/ostream_wrapper.cpp.o"
+  "CMakeFiles/yaml-cpp0.5.dir/src/contrib/graphbuilderadapter.cpp.o"
+  "CMakeFiles/yaml-cpp0.5.dir/src/contrib/graphbuilder.cpp.o"
+  "libyaml-cpp0.5.pdb"
+  "libyaml-cpp0.5.so"
+  "libyaml-cpp0.5.so.0.5.3"
+  "libyaml-cpp0.5.so.0.5"
+)
+
+# Per-language clean rules from dependency scanning.
+foreach(lang CXX)
+  include(CMakeFiles/yaml-cpp0.5.dir/cmake_clean_${lang}.cmake OPTIONAL)
+endforeach()

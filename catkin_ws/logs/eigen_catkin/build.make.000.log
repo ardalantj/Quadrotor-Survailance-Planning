@@ -1,0 +1,721 @@
+[35m[1mScanning dependencies of target eigen_src[0m
+[ 12%] [34m[1mCreating directories for 'eigen_src'[0m
+[ 25%] [34m[1mPerforming download step (download, verify and extract) for 'eigen_src'[0m
+-- downloading...
+     src='https://gitlab.com/libeigen/eigen/-/archive/3.3.4/eigen-3.3.4.tar.bz2'
+     dst='/home/ardalan/catkin_ws/build/eigen_catkin/eigen_src-prefix/src/eigen-3.3.4.tar.bz2'
+     timeout='none'
+-- downloading... done
+-- verifying file...
+     file='/home/ardalan/catkin_ws/build/eigen_catkin/eigen_src-prefix/src/eigen-3.3.4.tar.bz2'
+-- verifying file... done
+-- extracting...
+     src='/home/ardalan/catkin_ws/build/eigen_catkin/eigen_src-prefix/src/eigen-3.3.4.tar.bz2'
+     dst='/home/ardalan/catkin_ws/build/eigen_catkin/eigen_src-prefix/src/eigen_src'
+-- extracting... [tar xfz]
+-- extracting... [analysis]
+-- extracting... [rename]
+-- extracting... [clean up]
+-- extracting... done
+[ 50%] [34m[1mPerforming patch step for 'eigen_src'[0m
+[ 50%] [34m[1mNo update step for 'eigen_src'[0m
+patching file Eigen/StdVector
+patching file CMakeLists.txt
+patching file blas/CMakeLists.txt
+patching file unsupported/CMakeLists.txt
+patching file Eigen/src/Core/AssignEvaluator.h
+patching file Eigen/src/Core/products/GeneralMatrixVector.h
+[ 62%] [34m[1mPerforming configure step for 'eigen_src'[0m
+-- The C compiler identification is GNU 5.4.0
+-- The CXX compiler identification is GNU 5.4.0
+-- Check for working C compiler: /usr/bin/cc
+-- Check for working C compiler: /usr/bin/cc -- works
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Check for working CXX compiler: /usr/bin/c++
+-- Check for working CXX compiler: /usr/bin/c++ -- works
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+abort: repository /home/ardalan/catkin_ws/build/eigen_catkin/eigen_src-prefix/src/eigen_src not found!
+abort: repository /home/ardalan/catkin_ws/build/eigen_catkin/eigen_src-prefix/src/eigen_src not found!
+-- Performing Test standard_math_library_linked_to_automatically
+-- Performing Test standard_math_library_linked_to_automatically - Success
+-- Standard libraries to link to explicitly: none
+-- Performing Test COMPILER_SUPPORT_WERROR
+-- Performing Test COMPILER_SUPPORT_WERROR - Success
+-- Performing Test COMPILER_SUPPORT_pedantic
+-- Performing Test COMPILER_SUPPORT_pedantic - Success
+-- Performing Test COMPILER_SUPPORT_Wall
+-- Performing Test COMPILER_SUPPORT_Wall - Success
+-- Performing Test COMPILER_SUPPORT_Wextra
+-- Performing Test COMPILER_SUPPORT_Wextra - Success
+-- Performing Test COMPILER_SUPPORT_Wundef
+-- Performing Test COMPILER_SUPPORT_Wundef - Success
+-- Performing Test COMPILER_SUPPORT_Wcastalign
+-- Performing Test COMPILER_SUPPORT_Wcastalign - Success
+-- Performing Test COMPILER_SUPPORT_Wcharsubscripts
+-- Performing Test COMPILER_SUPPORT_Wcharsubscripts - Success
+-- Performing Test COMPILER_SUPPORT_Wnonvirtualdtor
+-- Performing Test COMPILER_SUPPORT_Wnonvirtualdtor - Success
+-- Performing Test COMPILER_SUPPORT_Wunusedlocaltypedefs
+-- Performing Test COMPILER_SUPPORT_Wunusedlocaltypedefs - Success
+-- Performing Test COMPILER_SUPPORT_Wpointerarith
+-- Performing Test COMPILER_SUPPORT_Wpointerarith - Success
+-- Performing Test COMPILER_SUPPORT_Wwritestrings
+-- Performing Test COMPILER_SUPPORT_Wwritestrings - Success
+-- Performing Test COMPILER_SUPPORT_Wformatsecurity
+-- Performing Test COMPILER_SUPPORT_Wformatsecurity - Success
+-- Performing Test COMPILER_SUPPORT_Wshorten64to32
+-- Performing Test COMPILER_SUPPORT_Wshorten64to32 - Failed
+-- Performing Test COMPILER_SUPPORT_Wlogicalop
+-- Performing Test COMPILER_SUPPORT_Wlogicalop - Success
+-- Performing Test COMPILER_SUPPORT_Wenumconversion
+-- Performing Test COMPILER_SUPPORT_Wenumconversion - Failed
+-- Performing Test COMPILER_SUPPORT_Wcpp11extensions
+-- Performing Test COMPILER_SUPPORT_Wcpp11extensions - Failed
+-- Performing Test COMPILER_SUPPORT_Wdoublepromotion
+-- Performing Test COMPILER_SUPPORT_Wdoublepromotion - Success
+-- Performing Test COMPILER_SUPPORT_Wnopsabi
+-- Performing Test COMPILER_SUPPORT_Wnopsabi - Success
+-- Performing Test COMPILER_SUPPORT_Wnovariadicmacros
+-- Performing Test COMPILER_SUPPORT_Wnovariadicmacros - Success
+-- Performing Test COMPILER_SUPPORT_Wnolonglong
+-- Performing Test COMPILER_SUPPORT_Wnolonglong - Success
+-- Performing Test COMPILER_SUPPORT_fnochecknew
+-- Performing Test COMPILER_SUPPORT_fnochecknew - Success
+-- Performing Test COMPILER_SUPPORT_fnocommon
+-- Performing Test COMPILER_SUPPORT_fnocommon - Success
+-- Performing Test COMPILER_SUPPORT_fstrictaliasing
+-- Performing Test COMPILER_SUPPORT_fstrictaliasing - Success
+-- Performing Test COMPILER_SUPPORT_wd981
+-- Performing Test COMPILER_SUPPORT_wd981 - Failed
+-- Performing Test COMPILER_SUPPORT_wd2304
+-- Performing Test COMPILER_SUPPORT_wd2304 - Failed
+-- Performing Test COMPILER_SUPPORT_STRICTANSI
+-- Performing Test COMPILER_SUPPORT_STRICTANSI - Failed
+-- Performing Test COMPILER_SUPPORT_Qunusedarguments
+-- Performing Test COMPILER_SUPPORT_Qunusedarguments - Failed
+-- Performing Test COMPILER_SUPPORT_ansi
+-- Performing Test COMPILER_SUPPORT_ansi - Success
+-- Performing Test COMPILER_SUPPORT_OPENMP
+-- Performing Test COMPILER_SUPPORT_OPENMP - Success
+-- Performing Test EIGEN_COMPILER_SUPPORT_CPP11
+-- Performing Test EIGEN_COMPILER_SUPPORT_CPP11 - Success
+-- Looking for Q_WS_X11
+-- Looking for Q_WS_X11 - found
+-- Looking for Q_WS_WIN
+-- Looking for Q_WS_WIN - not found
+-- Looking for Q_WS_QWS
+-- Looking for Q_WS_QWS - not found
+-- Looking for Q_WS_MAC
+-- Looking for Q_WS_MAC - not found
+-- Found Qt4: /usr/bin/qmake (found version "4.8.7") 
+-- The Fortran compiler identification is GNU 5.4.0
+-- Check for working Fortran compiler: /usr/bin/gfortran
+-- Check for working Fortran compiler: /usr/bin/gfortran  -- works
+-- Detecting Fortran compiler ABI info
+-- Detecting Fortran compiler ABI info - done
+-- Checking whether /usr/bin/gfortran supports Fortran 90
+-- Checking whether /usr/bin/gfortran supports Fortran 90 -- yes
+-- Found Qt4: /usr/bin/qmake (found version "4.8.7") 
+-- Found OpenGL: /usr/lib/x86_64-linux-gnu/libGL.so  
+-- Could NOT find CHOLMOD (missing:  CHOLMOD_INCLUDES CHOLMOD_LIBRARIES) 
+-- Could NOT find UMFPACK (missing:  UMFPACK_INCLUDES UMFPACK_LIBRARIES) 
+-- Could NOT find SUPERLU (missing:  SUPERLU_INCLUDES SUPERLU_LIBRARIES SUPERLU_VERSION_OK) 
+-- A version of Pastix has been found but pastix_nompi.h does not exist in the include directory. Because Eigen tests require a version without MPI, we disable the Pastix backend.
+CMake Warning (dev) in bench/spbench/CMakeLists.txt:
+  A logical block opening on the line
+
+    /home/ardalan/catkin_ws/build/eigen_catkin/eigen_src-prefix/src/eigen_src/bench/spbench/CMakeLists.txt:51 (if)
+
+  closes on the line
+
+    /home/ardalan/catkin_ws/build/eigen_catkin/eigen_src-prefix/src/eigen_src/bench/spbench/CMakeLists.txt:63 (endif)
+
+  with mis-matching arguments.
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+-- 
+-- Configured Eigen 3.3.4
+-- 
+-- Some things you can do now:
+-- --------------+--------------------------------------------------------------
+-- Command       |   Description
+-- --------------+--------------------------------------------------------------
+-- make install  | Install Eigen. Headers will be installed to:
+--               |     <CMAKE_INSTALL_PREFIX>/<INCLUDE_INSTALL_DIR>
+--               |   Using the following values:
+--               |     CMAKE_INSTALL_PREFIX: /home/ardalan/catkin_ws/devel
+--               |     INCLUDE_INSTALL_DIR:  include/eigen3
+--               |   Change the install location of Eigen headers using:
+--               |     cmake . -DCMAKE_INSTALL_PREFIX=yourprefix
+--               |   Or:
+--               |     cmake . -DINCLUDE_INSTALL_DIR=yourdir
+-- make doc      | Generate the API documentation, requires Doxygen & LaTeX
+-- make check    | Build and run the unit-tests. Read this page:
+--               |   http://eigen.tuxfamily.org/index.php?title=Tests
+-- make blas     | Build BLAS library (not the same thing as Eigen)
+-- make uninstall| Removes files installed by make install
+-- --------------+--------------------------------------------------------------
+-- 
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/ardalan/catkin_ws/build/eigen_catkin/eigen_src-prefix/src/eigen_src-build
+[ 75%] [34m[1mPerforming build step for 'eigen_src'[0m
+[ 87%] [34m[1mPerforming install step for 'eigen_src'[0m
+[36mInstall the project...[0m
+-- Install configuration: "Release"
+-- Installing: /home/ardalan/catkin_ws/devel/include/eigen3/signature_of_eigen3_matrix_library
+-- Installing: /home/ardalan/catkin_ws/devel/share/pkgconfig/eigen3.pc
+-- Installing: /home/ardalan/catkin_ws/devel/share/eigen3/cmake/Eigen3Targets.cmake
+-- Installing: /home/ardalan/catkin_ws/devel/share/eigen3/cmake/UseEigen3.cmake
+-- Installing: /home/ardalan/catkin_ws/devel/share/eigen3/cmake/Eigen3Config.cmake
+-- Installing: /home/ardalan/catkin_ws/devel/share/eigen3/cmake/Eigen3ConfigVersion.cmake
+-- Installing: /home/ardalan/catkin_ws/devel/include/eigen3/Eigen/Geometry
+-- Installing: /home/ardalan/catkin_ws/devel/include/eigen3/Eigen/PaStiXSupport
+-- Installing: /home/ardalan/catkin_ws/devel/include/eigen3/Eigen/Eigenvalues
+-- Installing: /home/ardalan/catkin_ws/devel/include/eigen3/Eigen/Eigen
+-- Installing: /home/ardalan/catkin_ws/devel/include/eigen3/Eigen/QtAlignedMalloc
+-- Installing: /home/ardalan/catkin_ws/devel/include/eigen3/Eigen/CholmodSupport
+-- Installing: /home/ardalan/catkin_ws/devel/include/eigen3/Eigen/SparseCore
+-- Installing: /home/ardalan/catkin_ws/devel/include/eigen3/Eigen/Core
+-- Installing: /home/ardalan/catkin_ws/devel/include/eigen3/Eigen/StdList
+-- Installing: /home/ardalan/catkin_ws/devel/include/eigen3/Eigen/MetisSupport
+-- Installing: /home/ardalan/catkin_ws/devel/include/eigen3/Eigen/Jacobi
+-- Installing: /home/ardalan/catkin_ws/devel/include/eigen3/Eigen/SparseQR
+-- Installing: /home/ardalan/catkin_ws/devel/include/eigen3/Eigen/SPQRSupport
+-- Installing: /home/ardalan/catkin_ws/devel/include/eigen3/Eigen/UmfPackSupport
+-- Installing: /home/ardalan/catkin_ws/devel/include/eigen3/Eigen/SparseLU
+-- Installing: /home/ardalan/catkin_ws/devel/include/eigen3/Eigen/Cholesky
+-- Installing: /home/ardalan/catkin_ws/devel/include/eigen3/Eigen/LU
+-- Installing: /home/ardalan/catkin_ws/devel/include/eigen3/Eigen/OrderingMethods
+-- Installing: /home/ardalan/catkin_ws/devel/include/eigen3/Eigen/Dense
+-- Installing: /home/ardalan/catkin_ws/devel/include/eigen3/Eigen/IterativeLinearSolvers
+-- Installing: /home/ardalan/catkin_ws/devel/include/eigen3/Eigen/StdDeque
+-- Installing: /home/ardalan/catkin_ws/devel/include/eigen3/Eigen/SuperLUSupport
+-- Installing: /home/ardalan/catkin_ws/devel/include/eigen3/Eigen/SVD
+-- Installing: /home/ardalan/catkin_ws/devel/include/eigen3/Eigen/Sparse
+-- Installing: /home/ardalan/catkin_ws/devel/include/eigen3/Eigen/PardisoSupport
+-- Installing: /home/ardalan/catkin_ws/devel/include/eigen3/Eigen/QR
+-- Installing: /home/ardalan/catkin_ws/devel/include/eigen3/Eigen/StdVector
+-- Installing: /home/ardalan/catkin_ws/devel/include/eigen3/Eigen/SparseCholesky
+-- Installing: /home/ardalan/catkin_ws/devel/include/eigen3/Eigen/Householder
+-- Installing: /home/ardalan/catkin_ws/devel/include/eigen3/Eigen/src
+-- Installing: /home/ardalan/catkin_ws/devel/include/eigen3/Eigen/src/Geometry
+-- Installing: /home/ardalan/catkin_ws/devel/include/eigen3/Eigen/src/Geometry/EulerAngles.h
+-- Installing: /home/ardalan/catkin_ws/devel/include/eigen3/Eigen/src/Geometry/Translation.h
+-- Installing: /home/ardalan/catkin_ws/devel/include/eigen3/Eigen/src/Geometry/ParametrizedLine.h
+-- Installing: /home/ardalan/catkin_ws/devel/include/eigen3/Eigen/src/Geometry/AlignedBox.h
+-- Installing: /home/ardalan/catkin_ws/devel/include/eigen3/Eigen/src/Geometry/Homogeneous.h
+-- Installing: /home/ardalan/catkin_ws/devel/include/eigen3/Eigen/src/Geometry/AngleAxis.h
+-- Installing: /home/ardalan/catkin_ws/devel/include/eigen3/Eigen/src/Geometry/Rotation2D.h
+-- Installing: /home/ardalan/catkin_ws/devel/include/eigen3/Eigen/src/Geometry/Hyperplane.h
+-- Installing: /home/ardalan/catkin_ws/devel/include/eigen3/Eigen/src/Geometry/OrthoMethods.h
+-- Installing: /home/ardalan/catkin_ws/devel/include/eigen3/Eigen/src/Geometry/Umeyama.h
+-- Installing: /home/ardalan/catkin_ws/devel/include/eigen3/Eigen/src/Geometry/Scaling.h
+-- Installing: /home/ardalan/catkin_ws/devel/include/eigen3/Eigen/src/Geometry/Transform.h
+-- Installing: /home/ardalan/catkin_ws/devel/include/eigen3/Eigen/src/Geometry/Quaternion.h
+-- Installing: /home/ardalan/catkin_ws/devel/include/eigen3/Eigen/src/Geometry/arch
+-- Installing: /home/ardalan/catkin_ws/devel/include/eigen3/Eigen/src/Geometry/arch/Geometry_SSE.h
+-- Installing: /home/ardalan/catkin_ws/devel/include/eigen3/Eigen/src/Geometry/RotationBase.h
+-- Installing: /home/ardalan/catkin_ws/devel/include/eigen3/Eigen/src/PaStiXSupport
+-- Installing: /home/ardalan/catkin_ws/devel/include/eigen3/Eigen/src/PaStiXSupport/PaStiXSupport.h
+-- Installing: /home/ardalan/catkin_ws/devel/include/eigen3/Eigen/src/Eigenvalues
+-- Installing: /home/ardalan/catkin_ws/devel/include/eigen3/Eigen/src/Eigenvalues/Tridiagonalization.h
+-- Installing: /home/ardalan/catkin_ws/devel/include/eigen3/Eigen/src/Eigenvalues/ComplexEigenSolver.h
+-- Installing: /home/ardalan/catkin_ws/devel/include/eigen3/Eigen/src/Eigenvalues/RealQZ.h
+-- Installing: /home/ardalan/catkin_ws/devel/include/eigen3/Eigen/src/Eigenvalues/RealSchur.h
+-- Installing: /home/ardalan/catkin_ws/devel/include/eigen3/Eigen/src/Eigenvalues/MatrixBaseEigenvalues.h
+-- Installing: /home/ardalan/catkin_ws/devel/include/eigen3/Eigen/src/Eigenvalues/SelfAdjointEigenSolver.h
+-- Installing: /home/ardalan/catkin_ws/devel/include/eigen3/Eigen/src/Eigenvalues/GeneralizedSelfAdjointEigenSolver.h
+-- Installing: /home/ardalan/catkin_ws/devel/include/eigen3/Eigen/src/Eigenvalues/GeneralizedEigenSolver.h
+-- Installing: /home/ardalan/catkin_ws/devel/include/eigen3/Eigen/src/Eigenvalues/RealSchur_LAPACKE.h
+-- Installing: /home/ardalan/catkin_ws/devel/include/eigen3/Eigen/src/Eigenvalues/EigenSolver.h
+-- Installing: /home/ardalan/catkin_ws/devel/include/eigen3/Eigen/src/Eigenvalues/ComplexSchur_LAPACKE.h
+-- Installing: /home/ardalan/catkin_ws/devel/include/eigen3/Eigen/src/Eigenvalues/ComplexSchur.h
+-- Installing: /home/ardalan/catkin_ws/devel/include/eigen3/Eigen/src/Eigenvalues/HessenbergDecomposition.h
+-- Installing: /home/ardalan/catkin_ws/devel/include/eigen3/Eigen/src/Eigenvalues/SelfAdjointEigenSolver_LAPACKE.h
+-- Installing: /home/ardalan/catkin_ws/devel/include/eigen3/Eigen/src/CholmodSupport
+-- Installing: /home/ardalan/catkin_ws/devel/include/eigen3/Eigen/src/CholmodSupport/CholmodSupport.h
+-- Installing: /home/ardalan/catkin_ws/devel/include/eigen3/Eigen/src/SparseCore
+-- Installing: /home/ardalan/catkin_ws/devel/include/eigen3/Eigen/src/SparseCore/AmbiVector.h
+-- Installing: /home/ardalan/catkin_ws/devel/include/eigen3/Eigen/src/SparseCore/SparseSolverBase.h
+-- Installing: /home/ardalan/catkin_ws/devel/include/eigen3/Eigen/src/SparseCore/SparseTriangularView.h
+-- Installing: /home/ardalan/catkin_ws/devel/include/eigen3/Eigen/src/SparseCore/SparseColEtree.h
+-- Installing: /home/ardalan/catkin_ws/devel/include/eigen3/Eigen/src/SparseCore/SparseAssign.h
+-- Installing: /home/ardalan/catkin_ws/devel/include/eigen3/Eigen/src/SparseCore/SparseSelfAdjointView.h
+-- Installing: /home/ardalan/catkin_ws/devel/include/eigen3/Eigen/src/SparseCore/SparseDenseProduct.h
+-- Installing: /home/ardalan/catkin_ws/devel/include/eigen3/Eigen/src/SparseCore/SparseDot.h
+-- Installing: /home/ardalan/catkin_ws/devel/include/eigen3/Eigen/src/SparseCore/SparseRedux.h
+-- Installing: /home/ardalan/catkin_ws/devel/include/eigen3/Eigen/src/SparseCore/SparseMatrixBase.h
+-- Installing: /home/ardalan/catkin_ws/devel/include/eigen3/Eigen/src/SparseCore/SparseSparseProductWithPruning.h
+-- Installing: /home/ardalan/catkin_ws/devel/include/eigen3/Eigen/src/SparseCore/ConservativeSparseSparseProduct.h
+-- Installing: /home/ardalan/catkin_ws/devel/include/eigen3/Eigen/src/SparseCore/SparsePermutation.h
+-- Installing: /home/ardalan/catkin_ws/devel/include/eigen3/Eigen/src/SparseCore/SparseMatrix.h
+-- Installing: /home/ardalan/catkin_ws/devel/include/eigen3/Eigen/src/SparseCore/SparseBlock.h
+-- Installing: /home/ardalan/catkin_ws/devel/include/eigen3/Eigen/src/SparseCore/SparseMap.h
+-- Installing: /home/ardalan/catkin_ws/devel/include/eigen3/Eigen/src/SparseCore/TriangularSolver.h
+-- Installing: /home/ardalan/catkin_ws/devel/include/eigen3/Eigen/src/SparseCore/CompressedStorage.h
+-- Installing: /home/ardalan/catkin_ws/devel/include/eigen3/Eigen/src/SparseCore/SparseVector.h
+-- Installing: /home/ardalan/catkin_ws/devel/include/eigen3/Eigen/src/SparseCore/SparseView.h
+-- Installing: /home/ardalan/catkin_ws/devel/include/eigen3/Eigen/src/SparseCore/SparseRef.h
+-- Installing: /home/ardalan/catkin_ws/devel/include/eigen3/Eigen/src/SparseCore/SparseFuzzy.h
+-- Installing: /home/ardalan/catkin_ws/devel/include/eigen3/Eigen/src/SparseCore/SparseUtil.h
+-- Installing: /home/ardalan/catkin_ws/devel/include/eigen3/Eigen/src/SparseCore/SparseCwiseBinaryOp.h
+-- Installing: /home/ardalan/catkin_ws/devel/include/eigen3/Eigen/src/SparseCore/SparseProduct.h
+-- Installing: /home/ardalan/catkin_ws/devel/include/eigen3/Eigen/src/SparseCore/MappedSparseMatrix.h
+-- Installing: /home/ardalan/catkin_ws/devel/include/eigen3/Eigen/src/SparseCore/SparseCompressedBase.h
+-- Installing: /home/ardalan/catkin_ws/devel/include/eigen3/Eigen/src/SparseCore/SparseCwiseUnaryOp.h
+-- Installing: /home/ardalan/catkin_ws/devel/include/eigen3/Eigen/src/SparseCore/SparseDiagonalProduct.h
+-- Installing: /home/ardalan/catkin_ws/devel/include/eigen3/Eigen/src/SparseCore/SparseTranspose.h
+-- Installing: /home/ardalan/catkin_ws/devel/include/eigen3/Eigen/src/StlSupport
+-- Installing: /home/ardalan/catkin_ws/devel/include/eigen3/Eigen/src/StlSupport/StdList.h
+-- Installing: /home/ardalan/catkin_ws/devel/include/eigen3/Eigen/src/StlSupport/details.h
+-- Installing: /home/ardalan/catkin_ws/devel/include/eigen3/Eigen/src/StlSupport/StdDeque.h
+-- Installing: /home/ardalan/catkin_ws/devel/include/eigen3/Eigen/src/StlSupport/StdVector.h
+-- Installing: /home/ardalan/catkin_ws/devel/include/eigen3/Eigen/src/Core
+-- Installing: /home/ardalan/catkin_ws/devel/include/eigen3/Eigen/src/Core/PermutationMatrix.h
+-- Installing: /home/ardalan/catkin_ws/devel/include/eigen3/Eigen/src/Core/DiagonalProduct.h
+-- Installing: /home/ardalan/catkin_ws/devel/include/eigen3/Eigen/src/Core/BooleanRedux.h
+-- Installing: /home/ardalan/catkin_ws/devel/include/eigen3/Eigen/src/Core/MathFunctions.h
+-- Installing: /home/ardalan/catkin_ws/devel/include/eigen3/Eigen/src/Core/CommaInitializer.h
+-- Installing: /home/ardalan/catkin_ws/devel/include/eigen3/Eigen/src/Core/SolveTriangular.h
+-- Installing: /home/ardalan/catkin_ws/devel/include/eigen3/Eigen/src/Core/CwiseBinaryOp.h
+-- Installing: /home/ardalan/catkin_ws/devel/include/eigen3/Eigen/src/Core/Transpositions.h
+-- Installing: /home/ardalan/catkin_ws/devel/include/eigen3/Eigen/src/Core/SelfCwiseBinaryOp.h
+-- Installing: /home/ardalan/catkin_ws/devel/include/eigen3/Eigen/src/Core/EigenBase.h
+-- Installing: /home/ardalan/catkin_ws/devel/include/eigen3/Eigen/src/Core/Assign_MKL.h
+-- Installing: /home/ardalan/catkin_ws/devel/include/eigen3/Eigen/src/Core/ForceAlignedAccess.h
+-- Installing: /home/ardalan/catkin_ws/devel/include/eigen3/Eigen/src/Core/Reverse.h
+-- Installing: /home/ardalan/catkin_ws/devel/include/eigen3/Eigen/src/Core/DiagonalMatrix.h
+-- Installing: /home/ardalan/catkin_ws/devel/include/eigen3/Eigen/src/Core/Map.h
+-- Installing: /home/ardalan/catkin_ws/devel/include/eigen3/Eigen/src/Core/CwiseNullaryOp.h
+-- Installing: /home/ardalan/catkin_ws/devel/include/eigen3/Eigen/src/Core/Random.h
+-- Installing: /home/ardalan/catkin_ws/devel/include/eigen3/Eigen/src/Core/Ref.h
+-- Installing: /home/ardalan/catkin_ws/devel/include/eigen3/Eigen/src/Core/AssignEvaluator.h
+-- Installing: /home/ardalan/catkin_ws/devel/include/eigen3/Eigen/src/Core/MapBase.h
+-- Installing: /home/ardalan/catkin_ws/devel/include/eigen3/Eigen/src/Core/Inverse.h
+-- Installing: /home/ardalan/catkin_ws/devel/include/eigen3/Eigen/src/Core/ProductEvaluators.h
+-- Installing: /home/ardalan/catkin_ws/devel/include/eigen3/Eigen/src/Core/ArrayWrapper.h
+-- Installing: /home/ardalan/catkin_ws/devel/include/eigen3/Eigen/src/Core/NumTraits.h
+-- Installing: /home/ardalan/catkin_ws/devel/include/eigen3/Eigen/src/Core/GlobalFunctions.h
+-- Installing: /home/ardalan/catkin_ws/devel/include/eigen3/Eigen/src/Core/CoreIterators.h
+-- Installing: /home/ardalan/catkin_ws/devel/include/eigen3/Eigen/src/Core/Stride.h
+-- Installing: /home/ardalan/catkin_ws/devel/include/eigen3/Eigen/src/Core/Redux.h
+-- Installing: /home/ardalan/catkin_ws/devel/include/eigen3/Eigen/src/Core/Solve.h
+-- Installing: /home/ardalan/catkin_ws/devel/include/eigen3/Eigen/src/Core/Fuzzy.h
+-- Installing: /home/ardalan/catkin_ws/devel/include/eigen3/Eigen/src/Core/Dot.h
+-- Installing: /home/ardalan/catkin_ws/devel/include/eigen3/Eigen/src/Core/GeneralProduct.h
+-- Installing: /home/ardalan/catkin_ws/devel/include/eigen3/Eigen/src/Core/Select.h
+-- Installing: /home/ardalan/catkin_ws/devel/include/eigen3/Eigen/src/Core/CwiseUnaryView.h
+-- Installing: /home/ardalan/catkin_ws/devel/include/eigen3/Eigen/src/Core/ConditionEstimator.h
+-- Installing: /home/ardalan/catkin_ws/devel/include/eigen3/Eigen/src/Core/Transpose.h
+-- Installing: /home/ardalan/catkin_ws/devel/include/eigen3/Eigen/src/Core/TriangularMatrix.h
+-- Installing: /home/ardalan/catkin_ws/devel/include/eigen3/Eigen/src/Core/PlainObjectBase.h
+-- Installing: /home/ardalan/catkin_ws/devel/include/eigen3/Eigen/src/Core/Replicate.h
+-- Installing: /home/ardalan/catkin_ws/devel/include/eigen3/Eigen/src/Core/arch
+-- Installing: /home/ardalan/catkin_ws/devel/include/eigen3/Eigen/src/Core/arch/Default
+-- Installing: /home/ardalan/catkin_ws/devel/include/eigen3/Eigen/src/Core/arch/Default/Settings.h
+-- Installing: /home/ardalan/catkin_ws/devel/include/eigen3/Eigen/src/Core/arch/AltiVec
+-- Installing: /home/ardalan/catkin_ws/devel/include/eigen3/Eigen/src/Core/arch/AltiVec/MathFunctions.h
+-- Installing: /home/ardalan/catkin_ws/devel/include/eigen3/Eigen/src/Core/arch/AltiVec/Complex.h
+-- Installing: /home/ardalan/catkin_ws/devel/include/eigen3/Eigen/src/Core/arch/AltiVec/PacketMath.h
+-- Installing: /home/ardalan/catkin_ws/devel/include/eigen3/Eigen/src/Core/arch/AVX
+-- Installing: /home/ardalan/catkin_ws/devel/include/eigen3/Eigen/src/Core/arch/AVX/MathFunctions.h
+-- Installing: /home/ardalan/catkin_ws/devel/include/eigen3/Eigen/src/Core/arch/AVX/Complex.h
+-- Installing: /home/ardalan/catkin_ws/devel/include/eigen3/Eigen/src/Core/arch/AVX/PacketMath.h
+-- Installing: /home/ardalan/catkin_ws/devel/include/eigen3/Eigen/src/Core/arch/AVX/TypeCasting.h
+-- Installing: /home/ardalan/catkin_ws/devel/include/eigen3/Eigen/src/Core/arch/CUDA
+-- Installing: /home/ardalan/catkin_ws/devel/include/eigen3/Eigen/src/Core/arch/CUDA/MathFunctions.h
+-- Installing: /home/ardalan/catkin_ws/devel/include/eigen3/Eigen/src/Core/arch/CUDA/Complex.h
+-- Installing: /home/ardalan/catkin_ws/devel/include/eigen3/Eigen/src/Core/arch/CUDA/PacketMathHalf.h
+-- Installing: /home/ardalan/catkin_ws/devel/include/eigen3/Eigen/src/Core/arch/CUDA/PacketMath.h
+-- Installing: /home/ardalan/catkin_ws/devel/include/eigen3/Eigen/src/Core/arch/CUDA/TypeCasting.h
+-- Installing: /home/ardalan/catkin_ws/devel/include/eigen3/Eigen/src/Core/arch/CUDA/Half.h
+-- Installing: /home/ardalan/catkin_ws/devel/include/eigen3/Eigen/src/Core/arch/ZVector
+-- Installing: /home/ardalan/catkin_ws/devel/include/eigen3/Eigen/src/Core/arch/ZVector/MathFunctions.h
+-- Installing: /home/ardalan/catkin_ws/devel/include/eigen3/Eigen/src/Core/arch/ZVector/Complex.h
+-- Installing: /home/ardalan/catkin_ws/devel/include/eigen3/Eigen/src/Core/arch/ZVector/PacketMath.h
+-- Installing: /home/ardalan/catkin_ws/devel/include/eigen3/Eigen/src/Core/arch/NEON
+-- Installing: /home/ardalan/catkin_ws/devel/include/eigen3/Eigen/src/Core/arch/NEON/MathFunctions.h
+-- Installing: /home/ardalan/catkin_ws/devel/include/eigen3/Eigen/src/Core/arch/NEON/Complex.h
+-- Installing: /home/ardalan/catkin_ws/devel/include/eigen3/Eigen/src/Core/arch/NEON/PacketMath.h
+-- Installing: /home/ardalan/catkin_ws/devel/include/eigen3/Eigen/src/Core/arch/AVX512
+-- Installing: /home/ardalan/catkin_ws/devel/include/eigen3/Eigen/src/Core/arch/AVX512/MathFunctions.h
+-- Installing: /home/ardalan/catkin_ws/devel/include/eigen3/Eigen/src/Core/arch/AVX512/PacketMath.h
+-- Installing: /home/ardalan/catkin_ws/devel/include/eigen3/Eigen/src/Core/arch/SSE
+-- Installing: /home/ardalan/catkin_ws/devel/include/eigen3/Eigen/src/Core/arch/SSE/MathFunctions.h
+-- Installing: /home/ardalan/catkin_ws/devel/include/eigen3/Eigen/src/Core/arch/SSE/Complex.h
+-- Installing: /home/ardalan/catkin_ws/devel/include/eigen3/Eigen/src/Core/arch/SSE/PacketMath.h
+-- Installing: /home/ardalan/catkin_ws/devel/include/eigen3/Eigen/src/Core/arch/SSE/TypeCasting.h
+-- Installing: /home/ardalan/catkin_ws/devel/include/eigen3/Eigen/src/Core/Product.h
+-- Installing: /home/ardalan/catkin_ws/devel/include/eigen3/Eigen/src/Core/BandMatrix.h
+-- Installing: /home/ardalan/catkin_ws/devel/include/eigen3/Eigen/src/Core/functors
+-- Installing: /home/ardalan/catkin_ws/devel/include/eigen3/Eigen/src/Core/functors/StlFunctors.h
+-- Installing: /home/ardalan/catkin_ws/devel/include/eigen3/Eigen/src/Core/functors/UnaryFunctors.h
+-- Installing: /home/ardalan/catkin_ws/devel/include/eigen3/Eigen/src/Core/functors/NullaryFunctors.h
+-- Installing: /home/ardalan/catkin_ws/devel/include/eigen3/Eigen/src/Core/functors/AssignmentFunctors.h
+-- Installing: /home/ardalan/catkin_ws/devel/include/eigen3/Eigen/src/Core/functors/TernaryFunctors.h
+-- Installing: /home/ardalan/catkin_ws/devel/include/eigen3/Eigen/src/Core/functors/BinaryFunctors.h
+-- Installing: /home/ardalan/catkin_ws/devel/include/eigen3/Eigen/src/Core/VectorBlock.h
+-- Installing: /home/ardalan/catkin_ws/devel/include/eigen3/Eigen/src/Core/GenericPacketMath.h
+-- Installing: /home/ardalan/catkin_ws/devel/include/eigen3/Eigen/src/Core/DenseStorage.h
+-- Installing: /home/ardalan/catkin_ws/devel/include/eigen3/Eigen/src/Core/Visitor.h
+-- Installing: /home/ardalan/catkin_ws/devel/include/eigen3/Eigen/src/Core/util
+-- Installing: /home/ardalan/catkin_ws/devel/include/eigen3/Eigen/src/Core/util/Memory.h
+-- Installing: /home/ardalan/catkin_ws/devel/include/eigen3/Eigen/src/Core/util/Constants.h
+-- Installing: /home/ardalan/catkin_ws/devel/include/eigen3/Eigen/src/Core/util/DisableStupidWarnings.h
+-- Installing: /home/ardalan/catkin_ws/devel/include/eigen3/Eigen/src/Core/util/Meta.h
+-- Installing: /home/ardalan/catkin_ws/devel/include/eigen3/Eigen/src/Core/util/NonMPL2.h
+-- Installing: /home/ardalan/catkin_ws/devel/include/eigen3/Eigen/src/Core/util/XprHelper.h
+-- Installing: /home/ardalan/catkin_ws/devel/include/eigen3/Eigen/src/Core/util/StaticAssert.h
+-- Installing: /home/ardalan/catkin_ws/devel/include/eigen3/Eigen/src/Core/util/BlasUtil.h
+-- Installing: /home/ardalan/catkin_ws/devel/include/eigen3/Eigen/src/Core/util/Macros.h
+-- Installing: /home/ardalan/catkin_ws/devel/include/eigen3/Eigen/src/Core/util/ReenableStupidWarnings.h
+-- Installing: /home/ardalan/catkin_ws/devel/include/eigen3/Eigen/src/Core/util/ForwardDeclarations.h
+-- Installing: /home/ardalan/catkin_ws/devel/include/eigen3/Eigen/src/Core/util/MKL_support.h
+-- Installing: /home/ardalan/catkin_ws/devel/include/eigen3/Eigen/src/Core/ArrayBase.h
+-- Installing: /home/ardalan/catkin_ws/devel/include/eigen3/Eigen/src/Core/ReturnByValue.h
+-- Installing: /home/ardalan/catkin_ws/devel/include/eigen3/Eigen/src/Core/SolverBase.h
+-- Installing: /home/ardalan/catkin_ws/devel/include/eigen3/Eigen/src/Core/Matrix.h
+-- Installing: /home/ardalan/catkin_ws/devel/include/eigen3/Eigen/src/Core/IO.h
+-- Installing: /home/ardalan/catkin_ws/devel/include/eigen3/Eigen/src/Core/Assign.h
+-- Installing: /home/ardalan/catkin_ws/devel/include/eigen3/Eigen/src/Core/DenseBase.h
+-- Installing: /home/ardalan/catkin_ws/devel/include/eigen3/Eigen/src/Core/Diagonal.h
+-- Installing: /home/ardalan/catkin_ws/devel/include/eigen3/Eigen/src/Core/products
+-- Installing: /home/ardalan/catkin_ws/devel/include/eigen3/Eigen/src/Core/products/GeneralMatrixVector_BLAS.h
+-- Installing: /home/ardalan/catkin_ws/devel/include/eigen3/Eigen/src/Core/products/TriangularMatrixMatrix.h
+-- Installing: /home/ardalan/catkin_ws/devel/include/eigen3/Eigen/src/Core/products/TriangularSolverMatrix.h
+-- Installing: /home/ardalan/catkin_ws/devel/include/eigen3/Eigen/src/Core/products/SelfadjointMatrixVector_BLAS.h
+-- Installing: /home/ardalan/catkin_ws/devel/include/eigen3/Eigen/src/Core/products/GeneralMatrixMatrixTriangular_BLAS.h
+-- Installing: /home/ardalan/catkin_ws/devel/include/eigen3/Eigen/src/Core/products/GeneralMatrixVector.h
+-- Installing: /home/ardalan/catkin_ws/devel/include/eigen3/Eigen/src/Core/products/TriangularSolverMatrix_BLAS.h
+-- Installing: /home/ardalan/catkin_ws/devel/include/eigen3/Eigen/src/Core/products/TriangularMatrixMatrix_BLAS.h
+-- Installing: /home/ardalan/catkin_ws/devel/include/eigen3/Eigen/src/Core/products/SelfadjointMatrixVector.h
+-- Installing: /home/ardalan/catkin_ws/devel/include/eigen3/Eigen/src/Core/products/Parallelizer.h
+-- Installing: /home/ardalan/catkin_ws/devel/include/eigen3/Eigen/src/Core/products/SelfadjointProduct.h
+-- Installing: /home/ardalan/catkin_ws/devel/include/eigen3/Eigen/src/Core/products/TriangularMatrixVector_BLAS.h
+-- Installing: /home/ardalan/catkin_ws/devel/include/eigen3/Eigen/src/Core/products/GeneralBlockPanelKernel.h
+-- Installing: /home/ardalan/catkin_ws/devel/include/eigen3/Eigen/src/Core/products/TriangularMatrixVector.h
+-- Installing: /home/ardalan/catkin_ws/devel/include/eigen3/Eigen/src/Core/products/GeneralMatrixMatrixTriangular.h
+-- Installing: /home/ardalan/catkin_ws/devel/include/eigen3/Eigen/src/Core/products/GeneralMatrixMatrix_BLAS.h
+-- Installing: /home/ardalan/catkin_ws/devel/include/eigen3/Eigen/src/Core/products/GeneralMatrixMatrix.h
+-- Installing: /home/ardalan/catkin_ws/devel/include/eigen3/Eigen/src/Core/products/TriangularSolverVector.h
+-- Installing: /home/ardalan/catkin_ws/devel/include/eigen3/Eigen/src/Core/products/SelfadjointRank2Update.h
+-- Installing: /home/ardalan/catkin_ws/devel/include/eigen3/Eigen/src/Core/products/SelfadjointMatrixMatrix.h
+-- Installing: /home/ardalan/catkin_ws/devel/include/eigen3/Eigen/src/Core/products/SelfadjointMatrixMatrix_BLAS.h
+-- Installing: /home/ardalan/catkin_ws/devel/include/eigen3/Eigen/src/Core/NestByValue.h
+-- Installing: /home/ardalan/catkin_ws/devel/include/eigen3/Eigen/src/Core/Array.h
+-- Installing: /home/ardalan/catkin_ws/devel/include/eigen3/Eigen/src/Core/SelfAdjointView.h
+-- Installing: /home/ardalan/catkin_ws/devel/include/eigen3/Eigen/src/Core/NoAlias.h
+-- Installing: /home/ardalan/catkin_ws/devel/include/eigen3/Eigen/src/Core/CwiseUnaryOp.h
+-- Installing: /home/ardalan/catkin_ws/devel/include/eigen3/Eigen/src/Core/VectorwiseOp.h
+-- Installing: /home/ardalan/catkin_ws/devel/include/eigen3/Eigen/src/Core/MatrixBase.h
+-- Installing: /home/ardalan/catkin_ws/devel/include/eigen3/Eigen/src/Core/Swap.h
+-- Installing: /home/ardalan/catkin_ws/devel/include/eigen3/Eigen/src/Core/CoreEvaluators.h
+-- Installing: /home/ardalan/catkin_ws/devel/include/eigen3/Eigen/src/Core/DenseCoeffsBase.h
+-- Installing: /home/ardalan/catkin_ws/devel/include/eigen3/Eigen/src/Core/Block.h
+-- Installing: /home/ardalan/catkin_ws/devel/include/eigen3/Eigen/src/Core/CwiseTernaryOp.h
+-- Installing: /home/ardalan/catkin_ws/devel/include/eigen3/Eigen/src/Core/MathFunctionsImpl.h
+-- Installing: /home/ardalan/catkin_ws/devel/include/eigen3/Eigen/src/Core/StableNorm.h
+-- Installing: /home/ardalan/catkin_ws/devel/include/eigen3/Eigen/src/MetisSupport
+-- Installing: /home/ardalan/catkin_ws/devel/include/eigen3/Eigen/src/MetisSupport/MetisSupport.h
+-- Installing: /home/ardalan/catkin_ws/devel/include/eigen3/Eigen/src/Jacobi
+-- Installing: /home/ardalan/catkin_ws/devel/include/eigen3/Eigen/src/Jacobi/Jacobi.h
+-- Installing: /home/ardalan/catkin_ws/devel/include/eigen3/Eigen/src/SparseQR
+-- Installing: /home/ardalan/catkin_ws/devel/include/eigen3/Eigen/src/SparseQR/SparseQR.h
+-- Installing: /home/ardalan/catkin_ws/devel/include/eigen3/Eigen/src/SPQRSupport
+-- Installing: /home/ardalan/catkin_ws/devel/include/eigen3/Eigen/src/SPQRSupport/SuiteSparseQRSupport.h
+-- Installing: /home/ardalan/catkin_ws/devel/include/eigen3/Eigen/src/UmfPackSupport
+-- Installing: /home/ardalan/catkin_ws/devel/include/eigen3/Eigen/src/UmfPackSupport/UmfPackSupport.h
+-- Installing: /home/ardalan/catkin_ws/devel/include/eigen3/Eigen/src/SparseLU
+-- Installing: /home/ardalan/catkin_ws/devel/include/eigen3/Eigen/src/SparseLU/SparseLU_panel_bmod.h
+-- Installing: /home/ardalan/catkin_ws/devel/include/eigen3/Eigen/src/SparseLU/SparseLU.h
+-- Installing: /home/ardalan/catkin_ws/devel/include/eigen3/Eigen/src/SparseLU/SparseLU_pruneL.h
+-- Installing: /home/ardalan/catkin_ws/devel/include/eigen3/Eigen/src/SparseLU/SparseLU_SupernodalMatrix.h
+-- Installing: /home/ardalan/catkin_ws/devel/include/eigen3/Eigen/src/SparseLU/SparseLU_gemm_kernel.h
+-- Installing: /home/ardalan/catkin_ws/devel/include/eigen3/Eigen/src/SparseLU/SparseLUImpl.h
+-- Installing: /home/ardalan/catkin_ws/devel/include/eigen3/Eigen/src/SparseLU/SparseLU_Structs.h
+-- Installing: /home/ardalan/catkin_ws/devel/include/eigen3/Eigen/src/SparseLU/SparseLU_panel_dfs.h
+-- Installing: /home/ardalan/catkin_ws/devel/include/eigen3/Eigen/src/SparseLU/SparseLU_kernel_bmod.h
+-- Installing: /home/ardalan/catkin_ws/devel/include/eigen3/Eigen/src/SparseLU/SparseLU_Memory.h
+-- Installing: /home/ardalan/catkin_ws/devel/include/eigen3/Eigen/src/SparseLU/SparseLU_column_bmod.h
+-- Installing: /home/ardalan/catkin_ws/devel/include/eigen3/Eigen/src/SparseLU/SparseLU_relax_snode.h
+-- Installing: /home/ardalan/catkin_ws/devel/include/eigen3/Eigen/src/SparseLU/SparseLU_column_dfs.h
+-- Installing: /home/ardalan/catkin_ws/devel/include/eigen3/Eigen/src/SparseLU/SparseLU_Utils.h
+-- Installing: /home/ardalan/catkin_ws/devel/include/eigen3/Eigen/src/SparseLU/SparseLU_heap_relax_snode.h
+-- Installing: /home/ardalan/catkin_ws/devel/include/eigen3/Eigen/src/SparseLU/SparseLU_pivotL.h
+-- Installing: /home/ardalan/catkin_ws/devel/include/eigen3/Eigen/src/SparseLU/SparseLU_copy_to_ucol.h
+-- Installing: /home/ardalan/catkin_ws/devel/include/eigen3/Eigen/src/plugins
+-- Installing: /home/ardalan/catkin_ws/devel/include/eigen3/Eigen/src/plugins/CommonCwiseBinaryOps.h
+-- Installing: /home/ardalan/catkin_ws/devel/include/eigen3/Eigen/src/plugins/CommonCwiseUnaryOps.h
+-- Installing: /home/ardalan/catkin_ws/devel/include/eigen3/Eigen/src/plugins/ArrayCwiseBinaryOps.h
+-- Installing: /home/ardalan/catkin_ws/devel/include/eigen3/Eigen/src/plugins/ArrayCwiseUnaryOps.h
+-- Installing: /home/ardalan/catkin_ws/devel/include/eigen3/Eigen/src/plugins/MatrixCwiseUnaryOps.h
+-- Installing: /home/ardalan/catkin_ws/devel/include/eigen3/Eigen/src/plugins/MatrixCwiseBinaryOps.h
+-- Installing: /home/ardalan/catkin_ws/devel/include/eigen3/Eigen/src/plugins/BlockMethods.h
+-- Installing: /home/ardalan/catkin_ws/devel/include/eigen3/Eigen/src/Cholesky
+-- Installing: /home/ardalan/catkin_ws/devel/include/eigen3/Eigen/src/Cholesky/LLT.h
+-- Installing: /home/ardalan/catkin_ws/devel/include/eigen3/Eigen/src/Cholesky/LDLT.h
+-- Installing: /home/ardalan/catkin_ws/devel/include/eigen3/Eigen/src/Cholesky/LLT_LAPACKE.h
+-- Installing: /home/ardalan/catkin_ws/devel/include/eigen3/Eigen/src/LU
+-- Installing: /home/ardalan/catkin_ws/devel/include/eigen3/Eigen/src/LU/Determinant.h
+-- Installing: /home/ardalan/catkin_ws/devel/include/eigen3/Eigen/src/LU/FullPivLU.h
+-- Installing: /home/ardalan/catkin_ws/devel/include/eigen3/Eigen/src/LU/InverseImpl.h
+-- Installing: /home/ardalan/catkin_ws/devel/include/eigen3/Eigen/src/LU/arch
+-- Installing: /home/ardalan/catkin_ws/devel/include/eigen3/Eigen/src/LU/arch/Inverse_SSE.h
+-- Installing: /home/ardalan/catkin_ws/devel/include/eigen3/Eigen/src/LU/PartialPivLU.h
+-- Installing: /home/ardalan/catkin_ws/devel/include/eigen3/Eigen/src/LU/PartialPivLU_LAPACKE.h
+-- Installing: /home/ardalan/catkin_ws/devel/include/eigen3/Eigen/src/OrderingMethods
+-- Installing: /home/ardalan/catkin_ws/devel/include/eigen3/Eigen/src/OrderingMethods/Amd.h
+-- Installing: /home/ardalan/catkin_ws/devel/include/eigen3/Eigen/src/OrderingMethods/Eigen_Colamd.h
+-- Installing: /home/ardalan/catkin_ws/devel/include/eigen3/Eigen/src/OrderingMethods/Ordering.h
+-- Installing: /home/ardalan/catkin_ws/devel/include/eigen3/Eigen/src/IterativeLinearSolvers
+-- Installing: /home/ardalan/catkin_ws/devel/include/eigen3/Eigen/src/IterativeLinearSolvers/SolveWithGuess.h
+-- Installing: /home/ardalan/catkin_ws/devel/include/eigen3/Eigen/src/IterativeLinearSolvers/BiCGSTAB.h
+-- Installing: /home/ardalan/catkin_ws/devel/include/eigen3/Eigen/src/IterativeLinearSolvers/IncompleteLUT.h
+-- Installing: /home/ardalan/catkin_ws/devel/include/eigen3/Eigen/src/IterativeLinearSolvers/IncompleteCholesky.h
+-- Installing: /home/ardalan/catkin_ws/devel/include/eigen3/Eigen/src/IterativeLinearSolvers/LeastSquareConjugateGradient.h
+-- Installing: /home/ardalan/catkin_ws/devel/include/eigen3/Eigen/src/IterativeLinearSolvers/ConjugateGradient.h
+-- Installing: /home/ardalan/catkin_ws/devel/include/eigen3/Eigen/src/IterativeLinearSolvers/BasicPreconditioners.h
+-- Installing: /home/ardalan/catkin_ws/devel/include/eigen3/Eigen/src/IterativeLinearSolvers/IterativeSolverBase.h
+-- Installing: /home/ardalan/catkin_ws/devel/include/eigen3/Eigen/src/SuperLUSupport
+-- Installing: /home/ardalan/catkin_ws/devel/include/eigen3/Eigen/src/SuperLUSupport/SuperLUSupport.h
+-- Installing: /home/ardalan/catkin_ws/devel/include/eigen3/Eigen/src/SVD
+-- Installing: /home/ardalan/catkin_ws/devel/include/eigen3/Eigen/src/SVD/SVDBase.h
+-- Installing: /home/ardalan/catkin_ws/devel/include/eigen3/Eigen/src/SVD/JacobiSVD.h
+-- Installing: /home/ardalan/catkin_ws/devel/include/eigen3/Eigen/src/SVD/UpperBidiagonalization.h
+-- Installing: /home/ardalan/catkin_ws/devel/include/eigen3/Eigen/src/SVD/JacobiSVD_LAPACKE.h
+-- Installing: /home/ardalan/catkin_ws/devel/include/eigen3/Eigen/src/SVD/BDCSVD.h
+-- Installing: /home/ardalan/catkin_ws/devel/include/eigen3/Eigen/src/PardisoSupport
+-- Installing: /home/ardalan/catkin_ws/devel/include/eigen3/Eigen/src/PardisoSupport/PardisoSupport.h
+-- Installing: /home/ardalan/catkin_ws/devel/include/eigen3/Eigen/src/QR
+-- Installing: /home/ardalan/catkin_ws/devel/include/eigen3/Eigen/src/QR/ColPivHouseholderQR_LAPACKE.h
+-- Installing: /home/ardalan/catkin_ws/devel/include/eigen3/Eigen/src/QR/ColPivHouseholderQR.h
+-- Installing: /home/ardalan/catkin_ws/devel/include/eigen3/Eigen/src/QR/CompleteOrthogonalDecomposition.h
+-- Installing: /home/ardalan/catkin_ws/devel/include/eigen3/Eigen/src/QR/HouseholderQR_LAPACKE.h
+-- Installing: /home/ardalan/catkin_ws/devel/include/eigen3/Eigen/src/QR/HouseholderQR.h
+-- Installing: /home/ardalan/catkin_ws/devel/include/eigen3/Eigen/src/QR/FullPivHouseholderQR.h
+-- Installing: /home/ardalan/catkin_ws/devel/include/eigen3/Eigen/src/SparseCholesky
+-- Installing: /home/ardalan/catkin_ws/devel/include/eigen3/Eigen/src/SparseCholesky/SimplicialCholesky.h
+-- Installing: /home/ardalan/catkin_ws/devel/include/eigen3/Eigen/src/SparseCholesky/SimplicialCholesky_impl.h
+-- Installing: /home/ardalan/catkin_ws/devel/include/eigen3/Eigen/src/Householder
+-- Installing: /home/ardalan/catkin_ws/devel/include/eigen3/Eigen/src/Householder/HouseholderSequence.h
+-- Installing: /home/ardalan/catkin_ws/devel/include/eigen3/Eigen/src/Householder/BlockHouseholder.h
+-- Installing: /home/ardalan/catkin_ws/devel/include/eigen3/Eigen/src/Householder/Householder.h
+-- Installing: /home/ardalan/catkin_ws/devel/include/eigen3/Eigen/src/misc
+-- Installing: /home/ardalan/catkin_ws/devel/include/eigen3/Eigen/src/misc/Kernel.h
+-- Installing: /home/ardalan/catkin_ws/devel/include/eigen3/Eigen/src/misc/lapacke.h
+-- Installing: /home/ardalan/catkin_ws/devel/include/eigen3/Eigen/src/misc/lapacke_mangling.h
+-- Installing: /home/ardalan/catkin_ws/devel/include/eigen3/Eigen/src/misc/blas.h
+-- Installing: /home/ardalan/catkin_ws/devel/include/eigen3/Eigen/src/misc/RealSvd2x2.h
+-- Installing: /home/ardalan/catkin_ws/devel/include/eigen3/Eigen/src/misc/lapack.h
+-- Installing: /home/ardalan/catkin_ws/devel/include/eigen3/Eigen/src/misc/Image.h
+-- Installing: /home/ardalan/catkin_ws/devel/include/eigen3/unsupported/Eigen/AdolcForward
+-- Installing: /home/ardalan/catkin_ws/devel/include/eigen3/unsupported/Eigen/AlignedVector3
+-- Installing: /home/ardalan/catkin_ws/devel/include/eigen3/unsupported/Eigen/ArpackSupport
+-- Installing: /home/ardalan/catkin_ws/devel/include/eigen3/unsupported/Eigen/AutoDiff
+-- Installing: /home/ardalan/catkin_ws/devel/include/eigen3/unsupported/Eigen/BVH
+-- Installing: /home/ardalan/catkin_ws/devel/include/eigen3/unsupported/Eigen/EulerAngles
+-- Installing: /home/ardalan/catkin_ws/devel/include/eigen3/unsupported/Eigen/FFT
+-- Installing: /home/ardalan/catkin_ws/devel/include/eigen3/unsupported/Eigen/IterativeSolvers
+-- Installing: /home/ardalan/catkin_ws/devel/include/eigen3/unsupported/Eigen/KroneckerProduct
+-- Installing: /home/ardalan/catkin_ws/devel/include/eigen3/unsupported/Eigen/LevenbergMarquardt
+-- Installing: /home/ardalan/catkin_ws/devel/include/eigen3/unsupported/Eigen/MatrixFunctions
+-- Installing: /home/ardalan/catkin_ws/devel/include/eigen3/unsupported/Eigen/MoreVectorization
+-- Installing: /home/ardalan/catkin_ws/devel/include/eigen3/unsupported/Eigen/MPRealSupport
+-- Installing: /home/ardalan/catkin_ws/devel/include/eigen3/unsupported/Eigen/NonLinearOptimization
+-- Installing: /home/ardalan/catkin_ws/devel/include/eigen3/unsupported/Eigen/NumericalDiff
+-- Installing: /home/ardalan/catkin_ws/devel/include/eigen3/unsupported/Eigen/OpenGLSupport
+-- Installing: /home/ardalan/catkin_ws/devel/include/eigen3/unsupported/Eigen/Polynomials
+-- Installing: /home/ardalan/catkin_ws/devel/include/eigen3/unsupported/Eigen/Skyline
+-- Installing: /home/ardalan/catkin_ws/devel/include/eigen3/unsupported/Eigen/SparseExtra
+-- Installing: /home/ardalan/catkin_ws/devel/include/eigen3/unsupported/Eigen/SpecialFunctions
+-- Installing: /home/ardalan/catkin_ws/devel/include/eigen3/unsupported/Eigen/Splines
+-- Installing: /home/ardalan/catkin_ws/devel/include/eigen3/unsupported/Eigen/src
+-- Installing: /home/ardalan/catkin_ws/devel/include/eigen3/unsupported/Eigen/src/Polynomials
+-- Installing: /home/ardalan/catkin_ws/devel/include/eigen3/unsupported/Eigen/src/Polynomials/Companion.h
+-- Installing: /home/ardalan/catkin_ws/devel/include/eigen3/unsupported/Eigen/src/Polynomials/PolynomialUtils.h
+-- Installing: /home/ardalan/catkin_ws/devel/include/eigen3/unsupported/Eigen/src/Polynomials/PolynomialSolver.h
+-- Installing: /home/ardalan/catkin_ws/devel/include/eigen3/unsupported/Eigen/src/IterativeSolvers
+-- Installing: /home/ardalan/catkin_ws/devel/include/eigen3/unsupported/Eigen/src/IterativeSolvers/ConstrainedConjGrad.h
+-- Installing: /home/ardalan/catkin_ws/devel/include/eigen3/unsupported/Eigen/src/IterativeSolvers/DGMRES.h
+-- Installing: /home/ardalan/catkin_ws/devel/include/eigen3/unsupported/Eigen/src/IterativeSolvers/GMRES.h
+-- Installing: /home/ardalan/catkin_ws/devel/include/eigen3/unsupported/Eigen/src/IterativeSolvers/IncompleteLU.h
+-- Installing: /home/ardalan/catkin_ws/devel/include/eigen3/unsupported/Eigen/src/IterativeSolvers/Scaling.h
+-- Installing: /home/ardalan/catkin_ws/devel/include/eigen3/unsupported/Eigen/src/IterativeSolvers/IterationController.h
+-- Installing: /home/ardalan/catkin_ws/devel/include/eigen3/unsupported/Eigen/src/IterativeSolvers/MINRES.h
+-- Installing: /home/ardalan/catkin_ws/devel/include/eigen3/unsupported/Eigen/src/Eigenvalues
+-- Installing: /home/ardalan/catkin_ws/devel/include/eigen3/unsupported/Eigen/src/Eigenvalues/ArpackSelfAdjointEigenSolver.h
+-- Installing: /home/ardalan/catkin_ws/devel/include/eigen3/unsupported/Eigen/src/AutoDiff
+-- Installing: /home/ardalan/catkin_ws/devel/include/eigen3/unsupported/Eigen/src/AutoDiff/AutoDiffJacobian.h
+-- Installing: /home/ardalan/catkin_ws/devel/include/eigen3/unsupported/Eigen/src/AutoDiff/AutoDiffScalar.h
+-- Installing: /home/ardalan/catkin_ws/devel/include/eigen3/unsupported/Eigen/src/AutoDiff/AutoDiffVector.h
+-- Installing: /home/ardalan/catkin_ws/devel/include/eigen3/unsupported/Eigen/src/BVH
+-- Installing: /home/ardalan/catkin_ws/devel/include/eigen3/unsupported/Eigen/src/BVH/BVAlgorithms.h
+-- Installing: /home/ardalan/catkin_ws/devel/include/eigen3/unsupported/Eigen/src/BVH/KdBVH.h
+-- Installing: /home/ardalan/catkin_ws/devel/include/eigen3/unsupported/Eigen/src/Skyline
+-- Installing: /home/ardalan/catkin_ws/devel/include/eigen3/unsupported/Eigen/src/Skyline/SkylineInplaceLU.h
+-- Installing: /home/ardalan/catkin_ws/devel/include/eigen3/unsupported/Eigen/src/Skyline/SkylineProduct.h
+-- Installing: /home/ardalan/catkin_ws/devel/include/eigen3/unsupported/Eigen/src/Skyline/SkylineMatrixBase.h
+-- Installing: /home/ardalan/catkin_ws/devel/include/eigen3/unsupported/Eigen/src/Skyline/SkylineStorage.h
+-- Installing: /home/ardalan/catkin_ws/devel/include/eigen3/unsupported/Eigen/src/Skyline/SkylineUtil.h
+-- Installing: /home/ardalan/catkin_ws/devel/include/eigen3/unsupported/Eigen/src/Skyline/SkylineMatrix.h
+-- Installing: /home/ardalan/catkin_ws/devel/include/eigen3/unsupported/Eigen/src/Splines
+-- Installing: /home/ardalan/catkin_ws/devel/include/eigen3/unsupported/Eigen/src/Splines/SplineFwd.h
+-- Installing: /home/ardalan/catkin_ws/devel/include/eigen3/unsupported/Eigen/src/Splines/SplineFitting.h
+-- Installing: /home/ardalan/catkin_ws/devel/include/eigen3/unsupported/Eigen/src/Splines/Spline.h
+-- Installing: /home/ardalan/catkin_ws/devel/include/eigen3/unsupported/Eigen/src/NumericalDiff
+-- Installing: /home/ardalan/catkin_ws/devel/include/eigen3/unsupported/Eigen/src/NumericalDiff/NumericalDiff.h
+-- Installing: /home/ardalan/catkin_ws/devel/include/eigen3/unsupported/Eigen/src/KroneckerProduct
+-- Installing: /home/ardalan/catkin_ws/devel/include/eigen3/unsupported/Eigen/src/KroneckerProduct/KroneckerTensorProduct.h
+-- Installing: /home/ardalan/catkin_ws/devel/include/eigen3/unsupported/Eigen/src/FFT
+-- Installing: /home/ardalan/catkin_ws/devel/include/eigen3/unsupported/Eigen/src/FFT/ei_fftw_impl.h
+-- Installing: /home/ardalan/catkin_ws/devel/include/eigen3/unsupported/Eigen/src/FFT/ei_kissfft_impl.h
+-- Installing: /home/ardalan/catkin_ws/devel/include/eigen3/unsupported/Eigen/src/SparseExtra
+-- Installing: /home/ardalan/catkin_ws/devel/include/eigen3/unsupported/Eigen/src/SparseExtra/MatrixMarketIterator.h
+-- Installing: /home/ardalan/catkin_ws/devel/include/eigen3/unsupported/Eigen/src/SparseExtra/RandomSetter.h
+-- Installing: /home/ardalan/catkin_ws/devel/include/eigen3/unsupported/Eigen/src/SparseExtra/DynamicSparseMatrix.h
+-- Installing: /home/ardalan/catkin_ws/devel/include/eigen3/unsupported/Eigen/src/SparseExtra/MarketIO.h
+-- Installing: /home/ardalan/catkin_ws/devel/include/eigen3/unsupported/Eigen/src/SparseExtra/BlockSparseMatrix.h
+-- Installing: /home/ardalan/catkin_ws/devel/include/eigen3/unsupported/Eigen/src/SparseExtra/BlockOfDynamicSparseMatrix.h
+-- Installing: /home/ardalan/catkin_ws/devel/include/eigen3/unsupported/Eigen/src/LevenbergMarquardt
+-- Installing: /home/ardalan/catkin_ws/devel/include/eigen3/unsupported/Eigen/src/LevenbergMarquardt/LMcovar.h
+-- Installing: /home/ardalan/catkin_ws/devel/include/eigen3/unsupported/Eigen/src/LevenbergMarquardt/LMqrsolv.h
+-- Installing: /home/ardalan/catkin_ws/devel/include/eigen3/unsupported/Eigen/src/LevenbergMarquardt/LevenbergMarquardt.h
+-- Installing: /home/ardalan/catkin_ws/devel/include/eigen3/unsupported/Eigen/src/LevenbergMarquardt/LMonestep.h
+-- Installing: /home/ardalan/catkin_ws/devel/include/eigen3/unsupported/Eigen/src/LevenbergMarquardt/LMpar.h
+-- Installing: /home/ardalan/catkin_ws/devel/include/eigen3/unsupported/Eigen/src/SpecialFunctions
+-- Installing: /home/ardalan/catkin_ws/devel/include/eigen3/unsupported/Eigen/src/SpecialFunctions/SpecialFunctionsPacketMath.h
+-- Installing: /home/ardalan/catkin_ws/devel/include/eigen3/unsupported/Eigen/src/SpecialFunctions/SpecialFunctionsFunctors.h
+-- Installing: /home/ardalan/catkin_ws/devel/include/eigen3/unsupported/Eigen/src/SpecialFunctions/SpecialFunctionsImpl.h
+-- Installing: /home/ardalan/catkin_ws/devel/include/eigen3/unsupported/Eigen/src/SpecialFunctions/arch
+-- Installing: /home/ardalan/catkin_ws/devel/include/eigen3/unsupported/Eigen/src/SpecialFunctions/arch/CUDA
+-- Installing: /home/ardalan/catkin_ws/devel/include/eigen3/unsupported/Eigen/src/SpecialFunctions/arch/CUDA/CudaSpecialFunctions.h
+-- Installing: /home/ardalan/catkin_ws/devel/include/eigen3/unsupported/Eigen/src/SpecialFunctions/SpecialFunctionsHalf.h
+-- Installing: /home/ardalan/catkin_ws/devel/include/eigen3/unsupported/Eigen/src/SpecialFunctions/SpecialFunctionsArrayAPI.h
+-- Installing: /home/ardalan/catkin_ws/devel/include/eigen3/unsupported/Eigen/src/MatrixFunctions
+-- Installing: /home/ardalan/catkin_ws/devel/include/eigen3/unsupported/Eigen/src/MatrixFunctions/MatrixLogarithm.h
+-- Installing: /home/ardalan/catkin_ws/devel/include/eigen3/unsupported/Eigen/src/MatrixFunctions/MatrixFunction.h
+-- Installing: /home/ardalan/catkin_ws/devel/include/eigen3/unsupported/Eigen/src/MatrixFunctions/MatrixPower.h
+-- Installing: /home/ardalan/catkin_ws/devel/include/eigen3/unsupported/Eigen/src/MatrixFunctions/MatrixExponential.h
+-- Installing: /home/ardalan/catkin_ws/devel/include/eigen3/unsupported/Eigen/src/MatrixFunctions/MatrixSquareRoot.h
+-- Installing: /home/ardalan/catkin_ws/devel/include/eigen3/unsupported/Eigen/src/MatrixFunctions/StemFunction.h
+-- Installing: /home/ardalan/catkin_ws/devel/include/eigen3/unsupported/Eigen/src/MoreVectorization
+-- Installing: /home/ardalan/catkin_ws/devel/include/eigen3/unsupported/Eigen/src/MoreVectorization/MathFunctions.h
+-- Installing: /home/ardalan/catkin_ws/devel/include/eigen3/unsupported/Eigen/src/NonLinearOptimization
+-- Installing: /home/ardalan/catkin_ws/devel/include/eigen3/unsupported/Eigen/src/NonLinearOptimization/r1updt.h
+-- Installing: /home/ardalan/catkin_ws/devel/include/eigen3/unsupported/Eigen/src/NonLinearOptimization/lmpar.h
+-- Installing: /home/ardalan/catkin_ws/devel/include/eigen3/unsupported/Eigen/src/NonLinearOptimization/r1mpyq.h
+-- Installing: /home/ardalan/catkin_ws/devel/include/eigen3/unsupported/Eigen/src/NonLinearOptimization/chkder.h
+-- Installing: /home/ardalan/catkin_ws/devel/include/eigen3/unsupported/Eigen/src/NonLinearOptimization/dogleg.h
+-- Installing: /home/ardalan/catkin_ws/devel/include/eigen3/unsupported/Eigen/src/NonLinearOptimization/fdjac1.h
+-- Installing: /home/ardalan/catkin_ws/devel/include/eigen3/unsupported/Eigen/src/NonLinearOptimization/rwupdt.h
+-- Installing: /home/ardalan/catkin_ws/devel/include/eigen3/unsupported/Eigen/src/NonLinearOptimization/covar.h
+-- Installing: /home/ardalan/catkin_ws/devel/include/eigen3/unsupported/Eigen/src/NonLinearOptimization/LevenbergMarquardt.h
+-- Installing: /home/ardalan/catkin_ws/devel/include/eigen3/unsupported/Eigen/src/NonLinearOptimization/qrsolv.h
+-- Installing: /home/ardalan/catkin_ws/devel/include/eigen3/unsupported/Eigen/src/NonLinearOptimization/HybridNonLinearSolver.h
+-- Installing: /home/ardalan/catkin_ws/devel/include/eigen3/unsupported/Eigen/src/EulerAngles
+-- Installing: /home/ardalan/catkin_ws/devel/include/eigen3/unsupported/Eigen/src/EulerAngles/EulerAngles.h
+-- Installing: /home/ardalan/catkin_ws/devel/include/eigen3/unsupported/Eigen/src/EulerAngles/EulerSystem.h
+-- Installing: /home/ardalan/catkin_ws/devel/include/eigen3/unsupported/Eigen/CXX11/Tensor
+-- Installing: /home/ardalan/catkin_ws/devel/include/eigen3/unsupported/Eigen/CXX11/TensorSymmetry
+-- Installing: /home/ardalan/catkin_ws/devel/include/eigen3/unsupported/Eigen/CXX11/ThreadPool
+-- Installing: /home/ardalan/catkin_ws/devel/include/eigen3/unsupported/Eigen/CXX11/src
+-- Installing: /home/ardalan/catkin_ws/devel/include/eigen3/unsupported/Eigen/CXX11/src/Tensor
+-- Installing: /home/ardalan/catkin_ws/devel/include/eigen3/unsupported/Eigen/CXX11/src/Tensor/TensorSycl.h
+-- Installing: /home/ardalan/catkin_ws/devel/include/eigen3/unsupported/Eigen/CXX11/src/Tensor/Tensor.h
+-- Installing: /home/ardalan/catkin_ws/devel/include/eigen3/unsupported/Eigen/CXX11/src/Tensor/TensorLayoutSwap.h
+-- Installing: /home/ardalan/catkin_ws/devel/include/eigen3/unsupported/Eigen/CXX11/src/Tensor/TensorIndexList.h
+-- Installing: /home/ardalan/catkin_ws/devel/include/eigen3/unsupported/Eigen/CXX11/src/Tensor/TensorMorphing.h
+-- Installing: /home/ardalan/catkin_ws/devel/include/eigen3/unsupported/Eigen/CXX11/src/Tensor/TensorFFT.h
+-- Installing: /home/ardalan/catkin_ws/devel/include/eigen3/unsupported/Eigen/CXX11/src/Tensor/TensorDeviceCuda.h
+-- Installing: /home/ardalan/catkin_ws/devel/include/eigen3/unsupported/Eigen/CXX11/src/Tensor/TensorSyclConvertToDeviceExpression.h
+-- Installing: /home/ardalan/catkin_ws/devel/include/eigen3/unsupported/Eigen/CXX11/src/Tensor/TensorReductionCuda.h
+-- Installing: /home/ardalan/catkin_ws/devel/include/eigen3/unsupported/Eigen/CXX11/src/Tensor/TensorTraits.h
+-- Installing: /home/ardalan/catkin_ws/devel/include/eigen3/unsupported/Eigen/CXX11/src/Tensor/TensorSyclPlaceHolderExpr.h
+-- Installing: /home/ardalan/catkin_ws/devel/include/eigen3/unsupported/Eigen/CXX11/src/Tensor/TensorDeviceSycl.h
+-- Installing: /home/ardalan/catkin_ws/devel/include/eigen3/unsupported/Eigen/CXX11/src/Tensor/TensorFixedSize.h
+-- Installing: /home/ardalan/catkin_ws/devel/include/eigen3/unsupported/Eigen/CXX11/src/Tensor/TensorAssign.h
+-- Installing: /home/ardalan/catkin_ws/devel/include/eigen3/unsupported/Eigen/CXX11/src/Tensor/TensorScan.h
+-- Installing: /home/ardalan/catkin_ws/devel/include/eigen3/unsupported/Eigen/CXX11/src/Tensor/TensorContractionThreadPool.h
+-- Installing: /home/ardalan/catkin_ws/devel/include/eigen3/unsupported/Eigen/CXX11/src/Tensor/TensorSyclExprConstructor.h
+-- Installing: /home/ardalan/catkin_ws/devel/include/eigen3/unsupported/Eigen/CXX11/src/Tensor/TensorConvolution.h
+-- Installing: /home/ardalan/catkin_ws/devel/include/eigen3/unsupported/Eigen/CXX11/src/Tensor/TensorInitializer.h
+-- Installing: /home/ardalan/catkin_ws/devel/include/eigen3/unsupported/Eigen/CXX11/src/Tensor/TensorSyclExtractFunctors.h
+-- Installing: /home/ardalan/catkin_ws/devel/include/eigen3/unsupported/Eigen/CXX11/src/Tensor/TensorRandom.h
+-- Installing: /home/ardalan/catkin_ws/devel/include/eigen3/unsupported/Eigen/CXX11/src/Tensor/TensorDimensions.h
+-- Installing: /home/ardalan/catkin_ws/devel/include/eigen3/unsupported/Eigen/CXX11/src/Tensor/TensorInflation.h
+-- Installing: /home/ardalan/catkin_ws/devel/include/eigen3/unsupported/Eigen/CXX11/src/Tensor/TensorMacros.h
+-- Installing: /home/ardalan/catkin_ws/devel/include/eigen3/unsupported/Eigen/CXX11/src/Tensor/TensorDeviceDefault.h
+-- Installing: /home/ardalan/catkin_ws/devel/include/eigen3/unsupported/Eigen/CXX11/src/Tensor/TensorReverse.h
+-- Installing: /home/ardalan/catkin_ws/devel/include/eigen3/unsupported/Eigen/CXX11/src/Tensor/TensorDimensionList.h
+-- Installing: /home/ardalan/catkin_ws/devel/include/eigen3/unsupported/Eigen/CXX11/src/Tensor/TensorGenerator.h
+-- Installing: /home/ardalan/catkin_ws/devel/include/eigen3/unsupported/Eigen/CXX11/src/Tensor/TensorSyclTuple.h
+-- Installing: /home/ardalan/catkin_ws/devel/include/eigen3/unsupported/Eigen/CXX11/src/Tensor/TensorArgMax.h
+-- Installing: /home/ardalan/catkin_ws/devel/include/eigen3/unsupported/Eigen/CXX11/src/Tensor/TensorCustomOp.h
+-- Installing: /home/ardalan/catkin_ws/devel/include/eigen3/unsupported/Eigen/CXX11/src/Tensor/TensorIntDiv.h
+-- Installing: /home/ardalan/catkin_ws/devel/include/eigen3/unsupported/Eigen/CXX11/src/Tensor/TensorUInt128.h
+-- Installing: /home/ardalan/catkin_ws/devel/include/eigen3/unsupported/Eigen/CXX11/src/Tensor/TensorStriding.h
+-- Installing: /home/ardalan/catkin_ws/devel/include/eigen3/unsupported/Eigen/CXX11/src/Tensor/TensorVolumePatch.h
+-- Installing: /home/ardalan/catkin_ws/devel/include/eigen3/unsupported/Eigen/CXX11/src/Tensor/TensorConcatenation.h
+-- Installing: /home/ardalan/catkin_ws/devel/include/eigen3/unsupported/Eigen/CXX11/src/Tensor/TensorContractionCuda.h
+-- Installing: /home/ardalan/catkin_ws/devel/include/eigen3/unsupported/Eigen/CXX11/src/Tensor/TensorReduction.h
+-- Installing: /home/ardalan/catkin_ws/devel/include/eigen3/unsupported/Eigen/CXX11/src/Tensor/TensorEvaluator.h
+-- Installing: /home/ardalan/catkin_ws/devel/include/eigen3/unsupported/Eigen/CXX11/src/Tensor/TensorSyclRun.h
+-- Installing: /home/ardalan/catkin_ws/devel/include/eigen3/unsupported/Eigen/CXX11/src/Tensor/TensorFunctors.h
+-- Installing: /home/ardalan/catkin_ws/devel/include/eigen3/unsupported/Eigen/CXX11/src/Tensor/TensorImagePatch.h
+-- Installing: /home/ardalan/catkin_ws/devel/include/eigen3/unsupported/Eigen/CXX11/src/Tensor/TensorChipping.h
+-- Installing: /home/ardalan/catkin_ws/devel/include/eigen3/unsupported/Eigen/CXX11/src/Tensor/TensorContractionBlocking.h
+-- Installing: /home/ardalan/catkin_ws/devel/include/eigen3/unsupported/Eigen/CXX11/src/Tensor/TensorMeta.h
+-- Installing: /home/ardalan/catkin_ws/devel/include/eigen3/unsupported/Eigen/CXX11/src/Tensor/TensorStorage.h
+-- Installing: /home/ardalan/catkin_ws/devel/include/eigen3/unsupported/Eigen/CXX11/src/Tensor/TensorBase.h
+-- Installing: /home/ardalan/catkin_ws/devel/include/eigen3/unsupported/Eigen/CXX11/src/Tensor/TensorIO.h
+-- Installing: /home/ardalan/catkin_ws/devel/include/eigen3/unsupported/Eigen/CXX11/src/Tensor/TensorEvalTo.h
+-- Installing: /home/ardalan/catkin_ws/devel/include/eigen3/unsupported/Eigen/CXX11/src/Tensor/TensorGlobalFunctions.h
+-- Installing: /home/ardalan/catkin_ws/devel/include/eigen3/unsupported/Eigen/CXX11/src/Tensor/TensorPadding.h
+-- Installing: /home/ardalan/catkin_ws/devel/include/eigen3/unsupported/Eigen/CXX11/src/Tensor/TensorSyclExtractAccessor.h
+-- Installing: /home/ardalan/catkin_ws/devel/include/eigen3/unsupported/Eigen/CXX11/src/Tensor/TensorShuffling.h
+-- Installing: /home/ardalan/catkin_ws/devel/include/eigen3/unsupported/Eigen/CXX11/src/Tensor/TensorDevice.h
+-- Installing: /home/ardalan/catkin_ws/devel/include/eigen3/unsupported/Eigen/CXX11/src/Tensor/TensorRef.h
+-- Installing: /home/ardalan/catkin_ws/devel/include/eigen3/unsupported/Eigen/CXX11/src/Tensor/TensorContraction.h
+-- Installing: /home/ardalan/catkin_ws/devel/include/eigen3/unsupported/Eigen/CXX11/src/Tensor/TensorExpr.h
+-- Installing: /home/ardalan/catkin_ws/devel/include/eigen3/unsupported/Eigen/CXX11/src/Tensor/TensorMap.h
+-- Installing: /home/ardalan/catkin_ws/devel/include/eigen3/unsupported/Eigen/CXX11/src/Tensor/TensorDeviceThreadPool.h
+-- Installing: /home/ardalan/catkin_ws/devel/include/eigen3/unsupported/Eigen/CXX11/src/Tensor/TensorForcedEval.h
+-- Installing: /home/ardalan/catkin_ws/devel/include/eigen3/unsupported/Eigen/CXX11/src/Tensor/TensorConversion.h
+-- Installing: /home/ardalan/catkin_ws/devel/include/eigen3/unsupported/Eigen/CXX11/src/Tensor/TensorCostModel.h
+-- Installing: /home/ardalan/catkin_ws/devel/include/eigen3/unsupported/Eigen/CXX11/src/Tensor/TensorReductionSycl.h
+-- Installing: /home/ardalan/catkin_ws/devel/include/eigen3/unsupported/Eigen/CXX11/src/Tensor/TensorBroadcasting.h
+-- Installing: /home/ardalan/catkin_ws/devel/include/eigen3/unsupported/Eigen/CXX11/src/Tensor/TensorExecutor.h
+-- Installing: /home/ardalan/catkin_ws/devel/include/eigen3/unsupported/Eigen/CXX11/src/Tensor/TensorPatch.h
+-- Installing: /home/ardalan/catkin_ws/devel/include/eigen3/unsupported/Eigen/CXX11/src/Tensor/TensorContractionMapper.h
+-- Installing: /home/ardalan/catkin_ws/devel/include/eigen3/unsupported/Eigen/CXX11/src/Tensor/TensorSyclLeafCount.h
+-- Installing: /home/ardalan/catkin_ws/devel/include/eigen3/unsupported/Eigen/CXX11/src/Tensor/TensorForwardDeclarations.h
+-- Installing: /home/ardalan/catkin_ws/devel/include/eigen3/unsupported/Eigen/CXX11/src/TensorSymmetry
+-- Installing: /home/ardalan/catkin_ws/devel/include/eigen3/unsupported/Eigen/CXX11/src/TensorSymmetry/StaticSymmetry.h
+-- Installing: /home/ardalan/catkin_ws/devel/include/eigen3/unsupported/Eigen/CXX11/src/TensorSymmetry/DynamicSymmetry.h
+-- Installing: /home/ardalan/catkin_ws/devel/include/eigen3/unsupported/Eigen/CXX11/src/TensorSymmetry/Symmetry.h
+-- Installing: /home/ardalan/catkin_ws/devel/include/eigen3/unsupported/Eigen/CXX11/src/TensorSymmetry/util
+-- Installing: /home/ardalan/catkin_ws/devel/include/eigen3/unsupported/Eigen/CXX11/src/TensorSymmetry/util/TemplateGroupTheory.h
+-- Installing: /home/ardalan/catkin_ws/devel/include/eigen3/unsupported/Eigen/CXX11/src/ThreadPool
+-- Installing: /home/ardalan/catkin_ws/devel/include/eigen3/unsupported/Eigen/CXX11/src/ThreadPool/ThreadYield.h
+-- Installing: /home/ardalan/catkin_ws/devel/include/eigen3/unsupported/Eigen/CXX11/src/ThreadPool/ThreadLocal.h
+-- Installing: /home/ardalan/catkin_ws/devel/include/eigen3/unsupported/Eigen/CXX11/src/ThreadPool/EventCount.h
+-- Installing: /home/ardalan/catkin_ws/devel/include/eigen3/unsupported/Eigen/CXX11/src/ThreadPool/ThreadPoolInterface.h
+-- Installing: /home/ardalan/catkin_ws/devel/include/eigen3/unsupported/Eigen/CXX11/src/ThreadPool/ThreadEnvironment.h
+-- Installing: /home/ardalan/catkin_ws/devel/include/eigen3/unsupported/Eigen/CXX11/src/ThreadPool/SimpleThreadPool.h
+-- Installing: /home/ardalan/catkin_ws/devel/include/eigen3/unsupported/Eigen/CXX11/src/ThreadPool/NonBlockingThreadPool.h
+-- Installing: /home/ardalan/catkin_ws/devel/include/eigen3/unsupported/Eigen/CXX11/src/ThreadPool/RunQueue.h
+-- Installing: /home/ardalan/catkin_ws/devel/include/eigen3/unsupported/Eigen/CXX11/src/util
+-- Installing: /home/ardalan/catkin_ws/devel/include/eigen3/unsupported/Eigen/CXX11/src/util/MaxSizeVector.h
+-- Installing: /home/ardalan/catkin_ws/devel/include/eigen3/unsupported/Eigen/CXX11/src/util/EmulateCXX11Meta.h
+-- Installing: /home/ardalan/catkin_ws/devel/include/eigen3/unsupported/Eigen/CXX11/src/util/EmulateArray.h
+-- Installing: /home/ardalan/catkin_ws/devel/include/eigen3/unsupported/Eigen/CXX11/src/util/CXX11Workarounds.h
+-- Installing: /home/ardalan/catkin_ws/devel/include/eigen3/unsupported/Eigen/CXX11/src/util/CXX11Meta.h
+[100%] [34m[1mCompleted 'eigen_src'[0m
+[100%] Built target eigen_src

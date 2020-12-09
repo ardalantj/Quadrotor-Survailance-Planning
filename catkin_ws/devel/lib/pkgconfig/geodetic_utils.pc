@@ -1,0 +1,8 @@
+prefix=/home/ardalan/catkin_ws/devel
+
+Name: geodetic_utils
+Description: Description of geodetic_utils
+Version: 1.0.0
+Cflags: -I/home/ardalan/catkin_ws/src/geodetic_utils/geodetic_utils/include
+Libs: -L${prefix}/lib 
+Requires: roslib roscpp tf sensor_msgs geometry_msgs cmake_modules std_srvs

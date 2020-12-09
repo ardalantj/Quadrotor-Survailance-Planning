@@ -1,0 +1,1071 @@
+[35m[1mScanning dependencies of target uAvionix.xml-v1.0[0m
+[  4%] [34m[1mGenerating include/v1.0/uAvionix/uAvionix.h[0m
+Validating /home/ardalan/catkin_ws/src/mavlink/message_definitions/v1.0/uAvionix.xml
+Parsing /home/ardalan/catkin_ws/src/mavlink/message_definitions/v1.0/uAvionix.xml
+Ignoring MAVLink2 message UAVIONIX_ADSB_OUT_CFG
+Ignoring MAVLink2 message UAVIONIX_ADSB_OUT_DYNAMIC
+Ignoring MAVLink2 message UAVIONIX_ADSB_TRANSCEIVER_HEALTH_REPORT
+Validating /home/ardalan/catkin_ws/src/mavlink/message_definitions/v1.0/common.xml
+Parsing /home/ardalan/catkin_ws/src/mavlink/message_definitions/v1.0/common.xml
+Ignoring MAVLink2 message SETUP_SIGNING
+Ignoring MAVLink2 message BUTTON_CHANGE
+Ignoring MAVLink2 message PLAY_TUNE
+Ignoring MAVLink2 message CAMERA_INFORMATION
+Ignoring MAVLink2 message CAMERA_SETTINGS
+Ignoring MAVLink2 message STORAGE_INFORMATION
+Ignoring MAVLink2 message CAMERA_CAPTURE_STATUS
+Ignoring MAVLink2 message CAMERA_IMAGE_CAPTURED
+Ignoring MAVLink2 message FLIGHT_INFORMATION
+Ignoring MAVLink2 message MOUNT_ORIENTATION
+Ignoring MAVLink2 message LOGGING_DATA
+Ignoring MAVLink2 message LOGGING_DATA_ACKED
+Ignoring MAVLink2 message LOGGING_ACK
+Ignoring MAVLink2 message VIDEO_STREAM_INFORMATION
+Ignoring MAVLink2 message VIDEO_STREAM_STATUS
+Ignoring MAVLink2 message CAMERA_FOV_STATUS
+Ignoring MAVLink2 message CAMERA_TRACKING_IMAGE_STATUS
+Ignoring MAVLink2 message CAMERA_TRACKING_GEO_STATUS
+Ignoring MAVLink2 message GIMBAL_MANAGER_INFORMATION
+Ignoring MAVLink2 message GIMBAL_MANAGER_STATUS
+Ignoring MAVLink2 message GIMBAL_MANAGER_SET_ATTITUDE
+Ignoring MAVLink2 message GIMBAL_DEVICE_INFORMATION
+Ignoring MAVLink2 message GIMBAL_DEVICE_SET_ATTITUDE
+Ignoring MAVLink2 message GIMBAL_DEVICE_ATTITUDE_STATUS
+Ignoring MAVLink2 message AUTOPILOT_STATE_FOR_GIMBAL_DEVICE
+Ignoring MAVLink2 message GIMBAL_MANAGER_SET_PITCHYAW
+Ignoring MAVLink2 message GIMBAL_MANAGER_SET_MANUAL_CONTROL
+Ignoring MAVLink2 message ESC_INFO
+Ignoring MAVLink2 message ESC_STATUS
+Ignoring MAVLink2 message WIFI_CONFIG_AP
+Ignoring MAVLink2 message AIS_VESSEL
+Ignoring MAVLink2 message UAVCAN_NODE_STATUS
+Ignoring MAVLink2 message UAVCAN_NODE_INFO
+Ignoring MAVLink2 message PARAM_EXT_REQUEST_READ
+Ignoring MAVLink2 message PARAM_EXT_REQUEST_LIST
+Ignoring MAVLink2 message PARAM_EXT_VALUE
+Ignoring MAVLink2 message PARAM_EXT_SET
+Ignoring MAVLink2 message PARAM_EXT_ACK
+Ignoring MAVLink2 message PARAM_EXT_VALUE_TRIMMED
+Ignoring MAVLink2 message PARAM_EXT_SET_TRIMMED
+Ignoring MAVLink2 message PARAM_EXT_ACK_TRIMMED
+Ignoring MAVLink2 message OBSTACLE_DISTANCE
+Ignoring MAVLink2 message ODOMETRY
+Ignoring MAVLink2 message TRAJECTORY_REPRESENTATION_WAYPOINTS
+Ignoring MAVLink2 message TRAJECTORY_REPRESENTATION_BEZIER
+Ignoring MAVLink2 message CELLULAR_STATUS
+Ignoring MAVLink2 message ISBD_LINK_STATUS
+Ignoring MAVLink2 message CELLULAR_CONFIG
+Ignoring MAVLink2 message RAW_RPM
+Ignoring MAVLink2 message UTM_GLOBAL_POSITION
+Ignoring MAVLink2 message DEBUG_FLOAT_ARRAY
+Ignoring MAVLink2 message ORBIT_EXECUTION_STATUS
+Ignoring MAVLink2 message SMART_BATTERY_INFO
+Ignoring MAVLink2 message GENERATOR_STATUS
+Ignoring MAVLink2 message ACTUATOR_OUTPUT_STATUS
+Ignoring MAVLink2 message TIME_ESTIMATE_TO_TARGET
+Ignoring MAVLink2 message TUNNEL
+Ignoring MAVLink2 message ONBOARD_COMPUTER_STATUS
+Ignoring MAVLink2 message COMPONENT_INFORMATION
+Ignoring MAVLink2 message PLAY_TUNE_V2
+Ignoring MAVLink2 message SUPPORTED_TUNES
+Ignoring MAVLink2 message WHEEL_DISTANCE
+Ignoring MAVLink2 message WINCH_STATUS
+Ignoring MAVLink2 message OPEN_DRONE_ID_BASIC_ID
+Ignoring MAVLink2 message OPEN_DRONE_ID_LOCATION
+Ignoring MAVLink2 message OPEN_DRONE_ID_AUTHENTICATION
+Ignoring MAVLink2 message OPEN_DRONE_ID_SELF_ID
+Ignoring MAVLink2 message OPEN_DRONE_ID_SYSTEM
+Ignoring MAVLink2 message OPEN_DRONE_ID_OPERATOR_ID
+Ignoring MAVLink2 message OPEN_DRONE_ID_MESSAGE_PACK
+Validating /home/ardalan/catkin_ws/src/mavlink/message_definitions/v1.0/minimal.xml
+Parsing /home/ardalan/catkin_ws/src/mavlink/message_definitions/v1.0/minimal.xml
+Ignoring MAVLink2 message PROTOCOL_VERSION
+Merged enum MAV_CMD
+Note: An enum value was auto-generated: MAV_STATE_BOOT = 1
+Note: An enum value was auto-generated: MAV_STATE_CALIBRATING = 2
+Note: An enum value was auto-generated: MAV_STATE_STANDBY = 3
+Note: An enum value was auto-generated: MAV_STATE_ACTIVE = 4
+Note: An enum value was auto-generated: MAV_STATE_CRITICAL = 5
+Note: An enum value was auto-generated: MAV_STATE_EMERGENCY = 6
+Note: An enum value was auto-generated: MAV_STATE_POWEROFF = 7
+Note: An enum value was auto-generated: MAV_STATE_FLIGHT_TERMINATION = 8
+Found 144 MAVLink message types in 3 XML files
+Generating C implementation in directory include/v1.0/uAvionix
+Generating C implementation in directory include/v1.0/common
+Generating C implementation in directory include/v1.0/minimal
+Copying fixed headers for protocol 1.0 to include/v1.0
+[  4%] Built target uAvionix.xml-v1.0
+[35m[1mScanning dependencies of target standard.xml-v1.0[0m
+[  9%] [34m[1mGenerating include/v1.0/standard/standard.h[0m
+Validating /home/ardalan/catkin_ws/src/mavlink/message_definitions/v1.0/standard.xml
+Parsing /home/ardalan/catkin_ws/src/mavlink/message_definitions/v1.0/standard.xml
+Validating /home/ardalan/catkin_ws/src/mavlink/message_definitions/v1.0/common.xml
+Parsing /home/ardalan/catkin_ws/src/mavlink/message_definitions/v1.0/common.xml
+Ignoring MAVLink2 message SETUP_SIGNING
+Ignoring MAVLink2 message BUTTON_CHANGE
+Ignoring MAVLink2 message PLAY_TUNE
+Ignoring MAVLink2 message CAMERA_INFORMATION
+Ignoring MAVLink2 message CAMERA_SETTINGS
+Ignoring MAVLink2 message STORAGE_INFORMATION
+Ignoring MAVLink2 message CAMERA_CAPTURE_STATUS
+Ignoring MAVLink2 message CAMERA_IMAGE_CAPTURED
+Ignoring MAVLink2 message FLIGHT_INFORMATION
+Ignoring MAVLink2 message MOUNT_ORIENTATION
+Ignoring MAVLink2 message LOGGING_DATA
+Ignoring MAVLink2 message LOGGING_DATA_ACKED
+Ignoring MAVLink2 message LOGGING_ACK
+Ignoring MAVLink2 message VIDEO_STREAM_INFORMATION
+Ignoring MAVLink2 message VIDEO_STREAM_STATUS
+Ignoring MAVLink2 message CAMERA_FOV_STATUS
+Ignoring MAVLink2 message CAMERA_TRACKING_IMAGE_STATUS
+Ignoring MAVLink2 message CAMERA_TRACKING_GEO_STATUS
+Ignoring MAVLink2 message GIMBAL_MANAGER_INFORMATION
+Ignoring MAVLink2 message GIMBAL_MANAGER_STATUS
+Ignoring MAVLink2 message GIMBAL_MANAGER_SET_ATTITUDE
+Ignoring MAVLink2 message GIMBAL_DEVICE_INFORMATION
+Ignoring MAVLink2 message GIMBAL_DEVICE_SET_ATTITUDE
+Ignoring MAVLink2 message GIMBAL_DEVICE_ATTITUDE_STATUS
+Ignoring MAVLink2 message AUTOPILOT_STATE_FOR_GIMBAL_DEVICE
+Ignoring MAVLink2 message GIMBAL_MANAGER_SET_PITCHYAW
+Ignoring MAVLink2 message GIMBAL_MANAGER_SET_MANUAL_CONTROL
+Ignoring MAVLink2 message ESC_INFO
+Ignoring MAVLink2 message ESC_STATUS
+Ignoring MAVLink2 message WIFI_CONFIG_AP
+Ignoring MAVLink2 message AIS_VESSEL
+Ignoring MAVLink2 message UAVCAN_NODE_STATUS
+Ignoring MAVLink2 message UAVCAN_NODE_INFO
+Ignoring MAVLink2 message PARAM_EXT_REQUEST_READ
+Ignoring MAVLink2 message PARAM_EXT_REQUEST_LIST
+Ignoring MAVLink2 message PARAM_EXT_VALUE
+Ignoring MAVLink2 message PARAM_EXT_SET
+Ignoring MAVLink2 message PARAM_EXT_ACK
+Ignoring MAVLink2 message PARAM_EXT_VALUE_TRIMMED
+Ignoring MAVLink2 message PARAM_EXT_SET_TRIMMED
+Ignoring MAVLink2 message PARAM_EXT_ACK_TRIMMED
+Ignoring MAVLink2 message OBSTACLE_DISTANCE
+Ignoring MAVLink2 message ODOMETRY
+Ignoring MAVLink2 message TRAJECTORY_REPRESENTATION_WAYPOINTS
+Ignoring MAVLink2 message TRAJECTORY_REPRESENTATION_BEZIER
+Ignoring MAVLink2 message CELLULAR_STATUS
+Ignoring MAVLink2 message ISBD_LINK_STATUS
+Ignoring MAVLink2 message CELLULAR_CONFIG
+Ignoring MAVLink2 message RAW_RPM
+Ignoring MAVLink2 message UTM_GLOBAL_POSITION
+Ignoring MAVLink2 message DEBUG_FLOAT_ARRAY
+Ignoring MAVLink2 message ORBIT_EXECUTION_STATUS
+Ignoring MAVLink2 message SMART_BATTERY_INFO
+Ignoring MAVLink2 message GENERATOR_STATUS
+Ignoring MAVLink2 message ACTUATOR_OUTPUT_STATUS
+Ignoring MAVLink2 message TIME_ESTIMATE_TO_TARGET
+Ignoring MAVLink2 message TUNNEL
+Ignoring MAVLink2 message ONBOARD_COMPUTER_STATUS
+Ignoring MAVLink2 message COMPONENT_INFORMATION
+Ignoring MAVLink2 message PLAY_TUNE_V2
+Ignoring MAVLink2 message SUPPORTED_TUNES
+Ignoring MAVLink2 message WHEEL_DISTANCE
+Ignoring MAVLink2 message WINCH_STATUS
+Ignoring MAVLink2 message OPEN_DRONE_ID_BASIC_ID
+Ignoring MAVLink2 message OPEN_DRONE_ID_LOCATION
+Ignoring MAVLink2 message OPEN_DRONE_ID_AUTHENTICATION
+Ignoring MAVLink2 message OPEN_DRONE_ID_SELF_ID
+Ignoring MAVLink2 message OPEN_DRONE_ID_SYSTEM
+Ignoring MAVLink2 message OPEN_DRONE_ID_OPERATOR_ID
+Ignoring MAVLink2 message OPEN_DRONE_ID_MESSAGE_PACK
+Validating /home/ardalan/catkin_ws/src/mavlink/message_definitions/v1.0/minimal.xml
+Parsing /home/ardalan/catkin_ws/src/mavlink/message_definitions/v1.0/minimal.xml
+Ignoring MAVLink2 message PROTOCOL_VERSION
+Merged enum MAV_CMD
+Note: An enum value was auto-generated: MAV_STATE_BOOT = 1
+Note: An enum value was auto-generated: MAV_STATE_CALIBRATING = 2
+Note: An enum value was auto-generated: MAV_STATE_STANDBY = 3
+Note: An enum value was auto-generated: MAV_STATE_ACTIVE = 4
+Note: An enum value was auto-generated: MAV_STATE_CRITICAL = 5
+Note: An enum value was auto-generated: MAV_STATE_EMERGENCY = 6
+Note: An enum value was auto-generated: MAV_STATE_POWEROFF = 7
+Note: An enum value was auto-generated: MAV_STATE_FLIGHT_TERMINATION = 8
+Found 144 MAVLink message types in 3 XML files
+Generating C implementation in directory include/v1.0/standard
+Generating C implementation in directory include/v1.0/common
+Generating C implementation in directory include/v1.0/minimal
+Copying fixed headers for protocol 1.0 to include/v1.0
+[  9%] Built target standard.xml-v1.0
+[35m[1mScanning dependencies of target paparazzi.xml-v1.0[0m
+[ 13%] [34m[1mGenerating include/v1.0/paparazzi/paparazzi.h[0m
+Validating /home/ardalan/catkin_ws/src/mavlink/message_definitions/v1.0/paparazzi.xml
+Parsing /home/ardalan/catkin_ws/src/mavlink/message_definitions/v1.0/paparazzi.xml
+Validating /home/ardalan/catkin_ws/src/mavlink/message_definitions/v1.0/common.xml
+Parsing /home/ardalan/catkin_ws/src/mavlink/message_definitions/v1.0/common.xml
+Ignoring MAVLink2 message SETUP_SIGNING
+Ignoring MAVLink2 message BUTTON_CHANGE
+Ignoring MAVLink2 message PLAY_TUNE
+Ignoring MAVLink2 message CAMERA_INFORMATION
+Ignoring MAVLink2 message CAMERA_SETTINGS
+Ignoring MAVLink2 message STORAGE_INFORMATION
+Ignoring MAVLink2 message CAMERA_CAPTURE_STATUS
+Ignoring MAVLink2 message CAMERA_IMAGE_CAPTURED
+Ignoring MAVLink2 message FLIGHT_INFORMATION
+Ignoring MAVLink2 message MOUNT_ORIENTATION
+Ignoring MAVLink2 message LOGGING_DATA
+Ignoring MAVLink2 message LOGGING_DATA_ACKED
+Ignoring MAVLink2 message LOGGING_ACK
+Ignoring MAVLink2 message VIDEO_STREAM_INFORMATION
+Ignoring MAVLink2 message VIDEO_STREAM_STATUS
+Ignoring MAVLink2 message CAMERA_FOV_STATUS
+Ignoring MAVLink2 message CAMERA_TRACKING_IMAGE_STATUS
+Ignoring MAVLink2 message CAMERA_TRACKING_GEO_STATUS
+Ignoring MAVLink2 message GIMBAL_MANAGER_INFORMATION
+Ignoring MAVLink2 message GIMBAL_MANAGER_STATUS
+Ignoring MAVLink2 message GIMBAL_MANAGER_SET_ATTITUDE
+Ignoring MAVLink2 message GIMBAL_DEVICE_INFORMATION
+Ignoring MAVLink2 message GIMBAL_DEVICE_SET_ATTITUDE
+Ignoring MAVLink2 message GIMBAL_DEVICE_ATTITUDE_STATUS
+Ignoring MAVLink2 message AUTOPILOT_STATE_FOR_GIMBAL_DEVICE
+Ignoring MAVLink2 message GIMBAL_MANAGER_SET_PITCHYAW
+Ignoring MAVLink2 message GIMBAL_MANAGER_SET_MANUAL_CONTROL
+Ignoring MAVLink2 message ESC_INFO
+Ignoring MAVLink2 message ESC_STATUS
+Ignoring MAVLink2 message WIFI_CONFIG_AP
+Ignoring MAVLink2 message AIS_VESSEL
+Ignoring MAVLink2 message UAVCAN_NODE_STATUS
+Ignoring MAVLink2 message UAVCAN_NODE_INFO
+Ignoring MAVLink2 message PARAM_EXT_REQUEST_READ
+Ignoring MAVLink2 message PARAM_EXT_REQUEST_LIST
+Ignoring MAVLink2 message PARAM_EXT_VALUE
+Ignoring MAVLink2 message PARAM_EXT_SET
+Ignoring MAVLink2 message PARAM_EXT_ACK
+Ignoring MAVLink2 message PARAM_EXT_VALUE_TRIMMED
+Ignoring MAVLink2 message PARAM_EXT_SET_TRIMMED
+Ignoring MAVLink2 message PARAM_EXT_ACK_TRIMMED
+Ignoring MAVLink2 message OBSTACLE_DISTANCE
+Ignoring MAVLink2 message ODOMETRY
+Ignoring MAVLink2 message TRAJECTORY_REPRESENTATION_WAYPOINTS
+Ignoring MAVLink2 message TRAJECTORY_REPRESENTATION_BEZIER
+Ignoring MAVLink2 message CELLULAR_STATUS
+Ignoring MAVLink2 message ISBD_LINK_STATUS
+Ignoring MAVLink2 message CELLULAR_CONFIG
+Ignoring MAVLink2 message RAW_RPM
+Ignoring MAVLink2 message UTM_GLOBAL_POSITION
+Ignoring MAVLink2 message DEBUG_FLOAT_ARRAY
+Ignoring MAVLink2 message ORBIT_EXECUTION_STATUS
+Ignoring MAVLink2 message SMART_BATTERY_INFO
+Ignoring MAVLink2 message GENERATOR_STATUS
+Ignoring MAVLink2 message ACTUATOR_OUTPUT_STATUS
+Ignoring MAVLink2 message TIME_ESTIMATE_TO_TARGET
+Ignoring MAVLink2 message TUNNEL
+Ignoring MAVLink2 message ONBOARD_COMPUTER_STATUS
+Ignoring MAVLink2 message COMPONENT_INFORMATION
+Ignoring MAVLink2 message PLAY_TUNE_V2
+Ignoring MAVLink2 message SUPPORTED_TUNES
+Ignoring MAVLink2 message WHEEL_DISTANCE
+Ignoring MAVLink2 message WINCH_STATUS
+Ignoring MAVLink2 message OPEN_DRONE_ID_BASIC_ID
+Ignoring MAVLink2 message OPEN_DRONE_ID_LOCATION
+Ignoring MAVLink2 message OPEN_DRONE_ID_AUTHENTICATION
+Ignoring MAVLink2 message OPEN_DRONE_ID_SELF_ID
+Ignoring MAVLink2 message OPEN_DRONE_ID_SYSTEM
+Ignoring MAVLink2 message OPEN_DRONE_ID_OPERATOR_ID
+Ignoring MAVLink2 message OPEN_DRONE_ID_MESSAGE_PACK
+Validating /home/ardalan/catkin_ws/src/mavlink/message_definitions/v1.0/minimal.xml
+Parsing /home/ardalan/catkin_ws/src/mavlink/message_definitions/v1.0/minimal.xml
+Ignoring MAVLink2 message PROTOCOL_VERSION
+Merged enum MAV_CMD
+Note: An enum value was auto-generated: MAV_STATE_BOOT = 1
+Note: An enum value was auto-generated: MAV_STATE_CALIBRATING = 2
+Note: An enum value was auto-generated: MAV_STATE_STANDBY = 3
+Note: An enum value was auto-generated: MAV_STATE_ACTIVE = 4
+Note: An enum value was auto-generated: MAV_STATE_CRITICAL = 5
+Note: An enum value was auto-generated: MAV_STATE_EMERGENCY = 6
+Note: An enum value was auto-generated: MAV_STATE_POWEROFF = 7
+Note: An enum value was auto-generated: MAV_STATE_FLIGHT_TERMINATION = 8
+Found 149 MAVLink message types in 3 XML files
+Generating C implementation in directory include/v1.0/paparazzi
+Generating C implementation in directory include/v1.0/common
+Generating C implementation in directory include/v1.0/minimal
+Copying fixed headers for protocol 1.0 to include/v1.0
+[ 13%] Built target paparazzi.xml-v1.0
+[35m[1mScanning dependencies of target uAvionix.xml-v2.0[0m
+[ 18%] [34m[1mGenerating uAvionix-v2.0-cxx-stamp[0m
+Validating /home/ardalan/catkin_ws/src/mavlink/message_definitions/v1.0/uAvionix.xml
+Parsing /home/ardalan/catkin_ws/src/mavlink/message_definitions/v1.0/uAvionix.xml
+Validating /home/ardalan/catkin_ws/src/mavlink/message_definitions/v1.0/common.xml
+Parsing /home/ardalan/catkin_ws/src/mavlink/message_definitions/v1.0/common.xml
+Validating /home/ardalan/catkin_ws/src/mavlink/message_definitions/v1.0/minimal.xml
+Parsing /home/ardalan/catkin_ws/src/mavlink/message_definitions/v1.0/minimal.xml
+Merged enum MAV_CMD
+Note: An enum value was auto-generated: MAV_STATE_BOOT = 1
+Note: An enum value was auto-generated: MAV_STATE_CALIBRATING = 2
+Note: An enum value was auto-generated: MAV_STATE_STANDBY = 3
+Note: An enum value was auto-generated: MAV_STATE_ACTIVE = 4
+Note: An enum value was auto-generated: MAV_STATE_CRITICAL = 5
+Note: An enum value was auto-generated: MAV_STATE_EMERGENCY = 6
+Note: An enum value was auto-generated: MAV_STATE_POWEROFF = 7
+Note: An enum value was auto-generated: MAV_STATE_FLIGHT_TERMINATION = 8
+Found 218 MAVLink message types in 3 XML files
+Generating C headers
+Generating C implementation in directory include/v2.0/uAvionix
+Generating C implementation in directory include/v2.0/common
+[35m[1mScanning dependencies of target matrixpilot.xml-v1.0[0m
+[ 22%] [34m[1mGenerating include/v1.0/matrixpilot/matrixpilot.h[0m
+Validating /home/ardalan/catkin_ws/src/mavlink/message_definitions/v1.0/matrixpilot.xml
+Parsing /home/ardalan/catkin_ws/src/mavlink/message_definitions/v1.0/matrixpilot.xml
+Validating /home/ardalan/catkin_ws/src/mavlink/message_definitions/v1.0/common.xml
+Parsing /home/ardalan/catkin_ws/src/mavlink/message_definitions/v1.0/common.xml
+Ignoring MAVLink2 message SETUP_SIGNING
+Ignoring MAVLink2 message BUTTON_CHANGE
+Ignoring MAVLink2 message PLAY_TUNE
+Ignoring MAVLink2 message CAMERA_INFORMATION
+Ignoring MAVLink2 message CAMERA_SETTINGS
+Ignoring MAVLink2 message STORAGE_INFORMATION
+Ignoring MAVLink2 message CAMERA_CAPTURE_STATUS
+Ignoring MAVLink2 message CAMERA_IMAGE_CAPTURED
+Ignoring MAVLink2 message FLIGHT_INFORMATION
+Ignoring MAVLink2 message MOUNT_ORIENTATION
+Ignoring MAVLink2 message LOGGING_DATA
+Ignoring MAVLink2 message LOGGING_DATA_ACKED
+Ignoring MAVLink2 message LOGGING_ACK
+Ignoring MAVLink2 message VIDEO_STREAM_INFORMATION
+Ignoring MAVLink2 message VIDEO_STREAM_STATUS
+Ignoring MAVLink2 message CAMERA_FOV_STATUS
+Ignoring MAVLink2 message CAMERA_TRACKING_IMAGE_STATUS
+Ignoring MAVLink2 message CAMERA_TRACKING_GEO_STATUS
+Ignoring MAVLink2 message GIMBAL_MANAGER_INFORMATION
+Ignoring MAVLink2 message GIMBAL_MANAGER_STATUS
+Ignoring MAVLink2 message GIMBAL_MANAGER_SET_ATTITUDE
+Ignoring MAVLink2 message GIMBAL_DEVICE_INFORMATION
+Ignoring MAVLink2 message GIMBAL_DEVICE_SET_ATTITUDE
+Ignoring MAVLink2 message GIMBAL_DEVICE_ATTITUDE_STATUS
+Ignoring MAVLink2 message AUTOPILOT_STATE_FOR_GIMBAL_DEVICE
+Ignoring MAVLink2 message GIMBAL_MANAGER_SET_PITCHYAW
+Ignoring MAVLink2 message GIMBAL_MANAGER_SET_MANUAL_CONTROL
+Ignoring MAVLink2 message ESC_INFO
+Ignoring MAVLink2 message ESC_STATUS
+Ignoring MAVLink2 message WIFI_CONFIG_AP
+Ignoring MAVLink2 message AIS_VESSEL
+Ignoring MAVLink2 message UAVCAN_NODE_STATUS
+Ignoring MAVLink2 message UAVCAN_NODE_INFO
+Ignoring MAVLink2 message PARAM_EXT_REQUEST_READ
+Ignoring MAVLink2 message PARAM_EXT_REQUEST_LIST
+Ignoring MAVLink2 message PARAM_EXT_VALUE
+Ignoring MAVLink2 message PARAM_EXT_SET
+Ignoring MAVLink2 message PARAM_EXT_ACK
+Ignoring MAVLink2 message PARAM_EXT_VALUE_TRIMMED
+Ignoring MAVLink2 message PARAM_EXT_SET_TRIMMED
+Ignoring MAVLink2 message PARAM_EXT_ACK_TRIMMED
+Ignoring MAVLink2 message OBSTACLE_DISTANCE
+Ignoring MAVLink2 message ODOMETRY
+Ignoring MAVLink2 message TRAJECTORY_REPRESENTATION_WAYPOINTS
+Ignoring MAVLink2 message TRAJECTORY_REPRESENTATION_BEZIER
+Ignoring MAVLink2 message CELLULAR_STATUS
+Ignoring MAVLink2 message ISBD_LINK_STATUS
+Ignoring MAVLink2 message CELLULAR_CONFIG
+Ignoring MAVLink2 message RAW_RPM
+Ignoring MAVLink2 message UTM_GLOBAL_POSITION
+Ignoring MAVLink2 message DEBUG_FLOAT_ARRAY
+Ignoring MAVLink2 message ORBIT_EXECUTION_STATUS
+Ignoring MAVLink2 message SMART_BATTERY_INFO
+Ignoring MAVLink2 message GENERATOR_STATUS
+Ignoring MAVLink2 message ACTUATOR_OUTPUT_STATUS
+Ignoring MAVLink2 message TIME_ESTIMATE_TO_TARGET
+Ignoring MAVLink2 message TUNNEL
+Ignoring MAVLink2 message ONBOARD_COMPUTER_STATUS
+Ignoring MAVLink2 message COMPONENT_INFORMATION
+Ignoring MAVLink2 message PLAY_TUNE_V2
+Ignoring MAVLink2 message SUPPORTED_TUNES
+Ignoring MAVLink2 message WHEEL_DISTANCE
+Ignoring MAVLink2 message WINCH_STATUS
+Ignoring MAVLink2 message OPEN_DRONE_ID_BASIC_ID
+Ignoring MAVLink2 message OPEN_DRONE_ID_LOCATION
+Ignoring MAVLink2 message OPEN_DRONE_ID_AUTHENTICATION
+Ignoring MAVLink2 message OPEN_DRONE_ID_SELF_ID
+Ignoring MAVLink2 message OPEN_DRONE_ID_SYSTEM
+Ignoring MAVLink2 message OPEN_DRONE_ID_OPERATOR_ID
+Ignoring MAVLink2 message OPEN_DRONE_ID_MESSAGE_PACK
+Validating /home/ardalan/catkin_ws/src/mavlink/message_definitions/v1.0/minimal.xml
+Parsing /home/ardalan/catkin_ws/src/mavlink/message_definitions/v1.0/minimal.xml
+Ignoring MAVLink2 message PROTOCOL_VERSION
+Merged enum MAV_CMD
+Merged enum MAV_CMD
+Note: An enum value was auto-generated: MAV_STATE_BOOT = 1
+Note: An enum value was auto-generated: MAV_STATE_CALIBRATING = 2
+Note: An enum value was auto-generated: MAV_STATE_STANDBY = 3
+Note: An enum value was auto-generated: MAV_STATE_ACTIVE = 4
+Note: An enum value was auto-generated: MAV_STATE_CRITICAL = 5
+Note: An enum value was auto-generated: MAV_STATE_EMERGENCY = 6
+Note: An enum value was auto-generated: MAV_STATE_POWEROFF = 7
+Note: An enum value was auto-generated: MAV_STATE_FLIGHT_TERMINATION = 8
+Found 171 MAVLink message types in 3 XML files
+Generating C implementation in directory include/v1.0/matrixpilot
+Generating C implementation in directory include/v1.0/common
+Generating C implementation in directory include/v2.0/minimal
+Copying fixed headers for protocol 2.0 to include/v2.0
+Generating C++ implementation in directory include/v2.0/uAvionix
+Generating C++ implementation in directory include/v2.0/common
+Generating C++ implementation in directory include/v2.0/minimal
+Copying fixed C++ headers for protocol 2.0 to include/v2.0
+[ 22%] Built target uAvionix.xml-v2.0
+[35m[1mScanning dependencies of target common.xml-v1.0[0m
+[ 27%] Built target common.xml-v1.0
+[35m[1mScanning dependencies of target all.xml-v1.0[0m
+[ 31%] [34m[1mGenerating include/v1.0/all/all.h[0m
+Generating C implementation in directory include/v1.0/minimal
+Copying fixed headers for protocol 1.0 to include/v1.0
+[ 31%] Built target matrixpilot.xml-v1.0
+[35m[1mScanning dependencies of target ualberta.xml-v2.0[0m
+[35m[1mScanning dependencies of target all.xml-v2.0[0m
+[ 36%] [34m[1mGenerating ualberta-v2.0-cxx-stamp[0m
+Validating /home/ardalan/catkin_ws/src/mavlink/message_definitions/v1.0/all.xml
+Parsing /home/ardalan/catkin_ws/src/mavlink/message_definitions/v1.0/all.xml
+Validating /home/ardalan/catkin_ws/src/mavlink/message_definitions/v1.0/ardupilotmega.xml
+[ 40%] [34m[1mGenerating all-v2.0-cxx-stamp[0m
+Parsing /home/ardalan/catkin_ws/src/mavlink/message_definitions/v1.0/ardupilotmega.xml
+Ignoring MAVLink2 message DEVICE_OP_READ
+Ignoring MAVLink2 message DEVICE_OP_READ_REPLY
+Ignoring MAVLink2 message DEVICE_OP_WRITE
+Ignoring MAVLink2 message DEVICE_OP_WRITE_REPLY
+Ignoring MAVLink2 message ADAP_TUNING
+Ignoring MAVLink2 message VISION_POSITION_DELTA
+Ignoring MAVLink2 message AOA_SSA
+Ignoring MAVLink2 message ESC_TELEMETRY_1_TO_4
+Ignoring MAVLink2 message ESC_TELEMETRY_5_TO_8
+Ignoring MAVLink2 message ESC_TELEMETRY_9_TO_12
+Ignoring MAVLink2 message OSD_PARAM_CONFIG
+Ignoring MAVLink2 message OSD_PARAM_CONFIG_REPLY
+Ignoring MAVLink2 message OSD_PARAM_SHOW_CONFIG
+Ignoring MAVLink2 message OSD_PARAM_SHOW_CONFIG_REPLY
+Validating /home/ardalan/catkin_ws/src/mavlink/message_definitions/v1.0/common.xml
+Parsing /home/ardalan/catkin_ws/src/mavlink/message_definitions/v1.0/common.xml
+Validating /home/ardalan/catkin_ws/src/mavlink/message_definitions/v1.0/ualberta.xml
+Parsing /home/ardalan/catkin_ws/src/mavlink/message_definitions/v1.0/ualberta.xml
+Validating /home/ardalan/catkin_ws/src/mavlink/message_definitions/v1.0/common.xml
+Validating /home/ardalan/catkin_ws/src/mavlink/message_definitions/v1.0/all.xml
+Parsing /home/ardalan/catkin_ws/src/mavlink/message_definitions/v1.0/all.xml
+Validating /home/ardalan/catkin_ws/src/mavlink/message_definitions/v1.0/ardupilotmega.xml
+Parsing /home/ardalan/catkin_ws/src/mavlink/message_definitions/v1.0/common.xml
+Parsing /home/ardalan/catkin_ws/src/mavlink/message_definitions/v1.0/ardupilotmega.xml
+Validating /home/ardalan/catkin_ws/src/mavlink/message_definitions/v1.0/common.xml
+Ignoring MAVLink2 message SETUP_SIGNING
+Ignoring MAVLink2 message BUTTON_CHANGE
+Ignoring MAVLink2 message PLAY_TUNE
+Ignoring MAVLink2 message CAMERA_INFORMATION
+Ignoring MAVLink2 message CAMERA_SETTINGS
+Ignoring MAVLink2 message STORAGE_INFORMATION
+Ignoring MAVLink2 message CAMERA_CAPTURE_STATUS
+Ignoring MAVLink2 message CAMERA_IMAGE_CAPTURED
+Ignoring MAVLink2 message FLIGHT_INFORMATION
+Ignoring MAVLink2 message MOUNT_ORIENTATION
+Ignoring MAVLink2 message LOGGING_DATA
+Ignoring MAVLink2 message LOGGING_DATA_ACKED
+Ignoring MAVLink2 message LOGGING_ACK
+Ignoring MAVLink2 message VIDEO_STREAM_INFORMATION
+Ignoring MAVLink2 message VIDEO_STREAM_STATUS
+Ignoring MAVLink2 message CAMERA_FOV_STATUS
+Ignoring MAVLink2 message CAMERA_TRACKING_IMAGE_STATUS
+Ignoring MAVLink2 message CAMERA_TRACKING_GEO_STATUS
+Ignoring MAVLink2 message GIMBAL_MANAGER_INFORMATION
+Ignoring MAVLink2 message GIMBAL_MANAGER_STATUS
+Ignoring MAVLink2 message GIMBAL_MANAGER_SET_ATTITUDE
+Ignoring MAVLink2 message GIMBAL_DEVICE_INFORMATION
+Ignoring MAVLink2 message GIMBAL_DEVICE_SET_ATTITUDE
+Ignoring MAVLink2 message GIMBAL_DEVICE_ATTITUDE_STATUS
+Ignoring MAVLink2 message AUTOPILOT_STATE_FOR_GIMBAL_DEVICE
+Ignoring MAVLink2 message GIMBAL_MANAGER_SET_PITCHYAW
+Ignoring MAVLink2 message GIMBAL_MANAGER_SET_MANUAL_CONTROL
+Ignoring MAVLink2 message ESC_INFO
+Ignoring MAVLink2 message ESC_STATUS
+Ignoring MAVLink2 message WIFI_CONFIG_AP
+Ignoring MAVLink2 message AIS_VESSEL
+Ignoring MAVLink2 message UAVCAN_NODE_STATUS
+Ignoring MAVLink2 message UAVCAN_NODE_INFO
+Ignoring MAVLink2 message PARAM_EXT_REQUEST_READ
+Ignoring MAVLink2 message PARAM_EXT_REQUEST_LIST
+Ignoring MAVLink2 message PARAM_EXT_VALUE
+Ignoring MAVLink2 message PARAM_EXT_SET
+Ignoring MAVLink2 message PARAM_EXT_ACK
+Ignoring MAVLink2 message PARAM_EXT_VALUE_TRIMMED
+Ignoring MAVLink2 message PARAM_EXT_SET_TRIMMED
+Ignoring MAVLink2 message PARAM_EXT_ACK_TRIMMED
+Ignoring MAVLink2 message OBSTACLE_DISTANCE
+Ignoring MAVLink2 message ODOMETRY
+Ignoring MAVLink2 message TRAJECTORY_REPRESENTATION_WAYPOINTS
+Ignoring MAVLink2 message TRAJECTORY_REPRESENTATION_BEZIER
+Ignoring MAVLink2 message CELLULAR_STATUS
+Ignoring MAVLink2 message ISBD_LINK_STATUS
+Ignoring MAVLink2 message CELLULAR_CONFIG
+Ignoring MAVLink2 message RAW_RPM
+Ignoring MAVLink2 message UTM_GLOBAL_POSITION
+Ignoring MAVLink2 message DEBUG_FLOAT_ARRAY
+Ignoring MAVLink2 message ORBIT_EXECUTION_STATUS
+Ignoring MAVLink2 message SMART_BATTERY_INFO
+Ignoring MAVLink2 message GENERATOR_STATUS
+Ignoring MAVLink2 message ACTUATOR_OUTPUT_STATUS
+Ignoring MAVLink2 message TIME_ESTIMATE_TO_TARGET
+Ignoring MAVLink2 message TUNNEL
+Ignoring MAVLink2 message ONBOARD_COMPUTER_STATUS
+Ignoring MAVLink2 message COMPONENT_INFORMATION
+Ignoring MAVLink2 message PLAY_TUNE_V2
+Ignoring MAVLink2 message SUPPORTED_TUNES
+Ignoring MAVLink2 message WHEEL_DISTANCE
+Ignoring MAVLink2 message WINCH_STATUS
+Ignoring MAVLink2 message OPEN_DRONE_ID_BASIC_ID
+Ignoring MAVLink2 message OPEN_DRONE_ID_LOCATION
+Ignoring MAVLink2 message OPEN_DRONE_ID_AUTHENTICATION
+Ignoring MAVLink2 message OPEN_DRONE_ID_SELF_ID
+Ignoring MAVLink2 message OPEN_DRONE_ID_SYSTEM
+Ignoring MAVLink2 message OPEN_DRONE_ID_OPERATOR_ID
+Ignoring MAVLink2 message OPEN_DRONE_ID_MESSAGE_PACK
+Parsing /home/ardalan/catkin_ws/src/mavlink/message_definitions/v1.0/common.xml
+Validating /home/ardalan/catkin_ws/src/mavlink/message_definitions/v1.0/icarous.xml
+Parsing /home/ardalan/catkin_ws/src/mavlink/message_definitions/v1.0/icarous.xml
+Ignoring MAVLink2 message ICAROUS_HEARTBEAT
+Ignoring MAVLink2 message ICAROUS_KINEMATIC_BANDS
+Validating /home/ardalan/catkin_ws/src/mavlink/message_definitions/v1.0/standard.xml
+Parsing /home/ardalan/catkin_ws/src/mavlink/message_definitions/v1.0/standard.xml
+Validating /home/ardalan/catkin_ws/src/mavlink/message_definitions/v1.0/ualberta.xml
+Parsing /home/ardalan/catkin_ws/src/mavlink/message_definitions/v1.0/ualberta.xml
+Validating /home/ardalan/catkin_ws/src/mavlink/message_definitions/v1.0/uAvionix.xml
+Parsing /home/ardalan/catkin_ws/src/mavlink/message_definitions/v1.0/uAvionix.xml
+Ignoring MAVLink2 message UAVIONIX_ADSB_OUT_CFG
+Ignoring MAVLink2 message UAVIONIX_ADSB_OUT_DYNAMIC
+Ignoring MAVLink2 message UAVIONIX_ADSB_TRANSCEIVER_HEALTH_REPORT
+Validating /home/ardalan/catkin_ws/src/mavlink/message_definitions/v1.0/minimal.xml
+Parsing /home/ardalan/catkin_ws/src/mavlink/message_definitions/v1.0/minimal.xml
+Ignoring MAVLink2 message PROTOCOL_VERSION
+Merged enum MAV_CMD
+Merged enum MAV_CMD
+Note: An enum value was auto-generated: MODE_MANUAL_DIRECT = 1
+Note: An enum value was auto-generated: MODE_MANUAL_SCALED = 2
+Note: An enum value was auto-generated: MODE_AUTO_PID_ATT = 3
+Note: An enum value was auto-generated: MODE_AUTO_PID_VEL = 4
+Note: An enum value was auto-generated: MODE_AUTO_PID_POS = 5
+Note: An enum value was auto-generated: NAV_AHRS_INIT = 1
+Note: An enum value was auto-generated: NAV_AHRS = 2
+Note: An enum value was auto-generated: NAV_INS_GPS_INIT = 3
+Note: An enum value was auto-generated: NAV_INS_GPS = 4
+Note: An enum value was auto-generated: PILOT_MANUAL = 1
+Note: An enum value was auto-generated: PILOT_AUTO = 2
+Note: An enum value was auto-generated: PILOT_ROTO = 3
+Note: An enum value was auto-generated: MAV_STATE_BOOT = 1
+Note: An enum value was auto-generated: MAV_STATE_CALIBRATING = 2
+Note: An enum value was auto-generated: MAV_STATE_STANDBY = 3
+Note: An enum value was auto-generated: MAV_STATE_ACTIVE = 4
+Note: An enum value was auto-generated: MAV_STATE_CRITICAL = 5
+Note: An enum value was auto-generated: MAV_STATE_EMERGENCY = 6
+Note: An enum value was auto-generated: MAV_STATE_POWEROFF = 7
+Note: An enum value was auto-generated: MAV_STATE_FLIGHT_TERMINATION = 8
+Found 195 MAVLink message types in 8 XML files
+Generating C implementation in directory include/v1.0/all
+Generating C implementation in directory include/v1.0/ardupilotmega
+Validating /home/ardalan/catkin_ws/src/mavlink/message_definitions/v1.0/minimal.xml
+Parsing /home/ardalan/catkin_ws/src/mavlink/message_definitions/v1.0/minimal.xml
+Merged enum MAV_CMD
+Note: An enum value was auto-generated: MODE_MANUAL_DIRECT = 1
+Note: An enum value was auto-generated: MODE_MANUAL_SCALED = 2
+Note: An enum value was auto-generated: MODE_AUTO_PID_ATT = 3
+Note: An enum value was auto-generated: MODE_AUTO_PID_VEL = 4
+Note: An enum value was auto-generated: MODE_AUTO_PID_POS = 5
+Note: An enum value was auto-generated: NAV_AHRS_INIT = 1
+Note: An enum value was auto-generated: NAV_AHRS = 2
+Note: An enum value was auto-generated: NAV_INS_GPS_INIT = 3
+Note: An enum value was auto-generated: NAV_INS_GPS = 4
+Note: An enum value was auto-generated: PILOT_MANUAL = 1
+Note: An enum value was auto-generated: PILOT_AUTO = 2
+Note: An enum value was auto-generated: PILOT_ROTO = 3
+Note: An enum value was auto-generated: MAV_STATE_BOOT = 1
+Note: An enum value was auto-generated: MAV_STATE_CALIBRATING = 2
+Note: An enum value was auto-generated: MAV_STATE_STANDBY = 3
+Note: An enum value was auto-generated: MAV_STATE_ACTIVE = 4
+Note: An enum value was auto-generated: MAV_STATE_CRITICAL = 5
+Note: An enum value was auto-generated: MAV_STATE_EMERGENCY = 6
+Note: An enum value was auto-generated: MAV_STATE_POWEROFF = 7
+Note: An enum value was auto-generated: MAV_STATE_FLIGHT_TERMINATION = 8
+Found 218 MAVLink message types in 3 XML files
+Generating C headers
+Generating C implementation in directory include/v2.0/ualberta
+Generating C implementation in directory include/v2.0/common
+Validating /home/ardalan/catkin_ws/src/mavlink/message_definitions/v1.0/icarous.xml
+Parsing /home/ardalan/catkin_ws/src/mavlink/message_definitions/v1.0/icarous.xml
+Validating /home/ardalan/catkin_ws/src/mavlink/message_definitions/v1.0/standard.xml
+Parsing /home/ardalan/catkin_ws/src/mavlink/message_definitions/v1.0/standard.xml
+Validating /home/ardalan/catkin_ws/src/mavlink/message_definitions/v1.0/ualberta.xml
+Parsing /home/ardalan/catkin_ws/src/mavlink/message_definitions/v1.0/ualberta.xml
+Generating C implementation in directory include/v1.0/common
+Validating /home/ardalan/catkin_ws/src/mavlink/message_definitions/v1.0/uAvionix.xml
+Parsing /home/ardalan/catkin_ws/src/mavlink/message_definitions/v1.0/uAvionix.xml
+Validating /home/ardalan/catkin_ws/src/mavlink/message_definitions/v1.0/minimal.xml
+Parsing /home/ardalan/catkin_ws/src/mavlink/message_definitions/v1.0/minimal.xml
+Merged enum MAV_CMD
+Merged enum MAV_CMD
+Note: An enum value was auto-generated: MODE_MANUAL_DIRECT = 1
+Note: An enum value was auto-generated: MODE_MANUAL_SCALED = 2
+Note: An enum value was auto-generated: MODE_AUTO_PID_ATT = 3
+Note: An enum value was auto-generated: MODE_AUTO_PID_VEL = 4
+Note: An enum value was auto-generated: MODE_AUTO_PID_POS = 5
+Note: An enum value was auto-generated: NAV_AHRS_INIT = 1
+Note: An enum value was auto-generated: NAV_AHRS = 2
+Note: An enum value was auto-generated: NAV_INS_GPS_INIT = 3
+Note: An enum value was auto-generated: NAV_INS_GPS = 4
+Note: An enum value was auto-generated: PILOT_MANUAL = 1
+Note: An enum value was auto-generated: PILOT_AUTO = 2
+Note: An enum value was auto-generated: PILOT_ROTO = 3
+Note: An enum value was auto-generated: MAV_STATE_BOOT = 1
+Note: An enum value was auto-generated: MAV_STATE_CALIBRATING = 2
+Note: An enum value was auto-generated: MAV_STATE_STANDBY = 3
+Note: An enum value was auto-generated: MAV_STATE_ACTIVE = 4
+Note: An enum value was auto-generated: MAV_STATE_CRITICAL = 5
+Note: An enum value was auto-generated: MAV_STATE_EMERGENCY = 6
+Note: An enum value was auto-generated: MAV_STATE_POWEROFF = 7
+Note: An enum value was auto-generated: MAV_STATE_FLIGHT_TERMINATION = 8
+Found 285 MAVLink message types in 8 XML files
+Generating C headers
+Generating C implementation in directory include/v2.0/all
+Generating C implementation in directory include/v2.0/ardupilotmega
+Generating C implementation in directory include/v2.0/common
+[35m[1mScanning dependencies of target standard.xml-v2.0[0m
+[ 45%] [34m[1mGenerating standard-v2.0-cxx-stamp[0m
+Generating C implementation in directory include/v1.0/icarous
+Generating C implementation in directory include/v1.0/standard
+Generating C implementation in directory include/v1.0/ualberta
+Generating C implementation in directory include/v1.0/uAvionix
+Generating C implementation in directory include/v1.0/minimal
+Copying fixed headers for protocol 1.0 to include/v1.0
+[ 45%] Built target all.xml-v1.0
+[35m[1mScanning dependencies of target ardupilotmega.xml-v2.0[0m
+[ 50%] [34m[1mGenerating ardupilotmega-v2.0-cxx-stamp[0m
+Validating /home/ardalan/catkin_ws/src/mavlink/message_definitions/v1.0/standard.xml
+Parsing /home/ardalan/catkin_ws/src/mavlink/message_definitions/v1.0/standard.xml
+Validating /home/ardalan/catkin_ws/src/mavlink/message_definitions/v1.0/common.xml
+Parsing /home/ardalan/catkin_ws/src/mavlink/message_definitions/v1.0/common.xml
+Validating /home/ardalan/catkin_ws/src/mavlink/message_definitions/v1.0/ardupilotmega.xml
+Parsing /home/ardalan/catkin_ws/src/mavlink/message_definitions/v1.0/ardupilotmega.xml
+Validating /home/ardalan/catkin_ws/src/mavlink/message_definitions/v1.0/common.xml
+Parsing /home/ardalan/catkin_ws/src/mavlink/message_definitions/v1.0/common.xml
+Generating C implementation in directory include/v2.0/minimal
+Copying fixed headers for protocol 2.0 to include/v2.0
+Generating C++ implementation in directory include/v2.0/ualberta
+Generating C++ implementation in directory include/v2.0/common
+Validating /home/ardalan/catkin_ws/src/mavlink/message_definitions/v1.0/minimal.xml
+Parsing /home/ardalan/catkin_ws/src/mavlink/message_definitions/v1.0/minimal.xml
+Merged enum MAV_CMD
+Note: An enum value was auto-generated: MAV_STATE_BOOT = 1
+Note: An enum value was auto-generated: MAV_STATE_CALIBRATING = 2
+Note: An enum value was auto-generated: MAV_STATE_STANDBY = 3
+Note: An enum value was auto-generated: MAV_STATE_ACTIVE = 4
+Note: An enum value was auto-generated: MAV_STATE_CRITICAL = 5
+Note: An enum value was auto-generated: MAV_STATE_EMERGENCY = 6
+Note: An enum value was auto-generated: MAV_STATE_POWEROFF = 7
+Note: An enum value was auto-generated: MAV_STATE_FLIGHT_TERMINATION = 8
+Found 215 MAVLink message types in 3 XML files
+Generating C headers
+Generating C implementation in directory include/v2.0/standard
+Generating C implementation in directory include/v2.0/common
+Validating /home/ardalan/catkin_ws/src/mavlink/message_definitions/v1.0/uAvionix.xml
+Parsing /home/ardalan/catkin_ws/src/mavlink/message_definitions/v1.0/uAvionix.xml
+Validating /home/ardalan/catkin_ws/src/mavlink/message_definitions/v1.0/icarous.xml
+Parsing /home/ardalan/catkin_ws/src/mavlink/message_definitions/v1.0/icarous.xml
+Validating /home/ardalan/catkin_ws/src/mavlink/message_definitions/v1.0/minimal.xml
+Parsing /home/ardalan/catkin_ws/src/mavlink/message_definitions/v1.0/minimal.xml
+Merged enum MAV_CMD
+Merged enum MAV_CMD
+Note: An enum value was auto-generated: MAV_STATE_BOOT = 1
+Note: An enum value was auto-generated: MAV_STATE_CALIBRATING = 2
+Note: An enum value was auto-generated: MAV_STATE_STANDBY = 3
+Note: An enum value was auto-generated: MAV_STATE_ACTIVE = 4
+Note: An enum value was auto-generated: MAV_STATE_CRITICAL = 5
+Note: An enum value was auto-generated: MAV_STATE_EMERGENCY = 6
+Note: An enum value was auto-generated: MAV_STATE_POWEROFF = 7
+Note: An enum value was auto-generated: MAV_STATE_FLIGHT_TERMINATION = 8
+Found 282 MAVLink message types in 5 XML files
+Generating C headers
+Generating C implementation in directory include/v2.0/ardupilotmega
+Generating C++ implementation in directory include/v2.0/minimal
+Copying fixed C++ headers for protocol 2.0 to include/v2.0
+[ 50%] Built target ualberta.xml-v2.0
+[35m[1mScanning dependencies of target ASLUAV.xml-v2.0[0m
+Generating C implementation in directory include/v2.0/icarous
+[ 54%] [34m[1mGenerating ASLUAV-v2.0-cxx-stamp[0m
+Generating C implementation in directory include/v2.0/standard
+Generating C implementation in directory include/v2.0/ualberta
+Generating C implementation in directory include/v2.0/uAvionix
+Generating C implementation in directory include/v2.0/minimal
+Copying fixed headers for protocol 2.0 to include/v2.0
+Generating C++ implementation in directory include/v2.0/all
+Generating C++ implementation in directory include/v2.0/ardupilotmega
+Generating C implementation in directory include/v2.0/common
+Validating /home/ardalan/catkin_ws/src/mavlink/message_definitions/v1.0/ASLUAV.xml
+Generating C++ implementation in directory include/v2.0/common
+Parsing /home/ardalan/catkin_ws/src/mavlink/message_definitions/v1.0/ASLUAV.xml
+Validating /home/ardalan/catkin_ws/src/mavlink/message_definitions/v1.0/common.xml
+Parsing /home/ardalan/catkin_ws/src/mavlink/message_definitions/v1.0/common.xml
+Generating C++ implementation in directory include/v2.0/icarous
+Generating C++ implementation in directory include/v2.0/standard
+Generating C++ implementation in directory include/v2.0/ualberta
+Generating C++ implementation in directory include/v2.0/uAvionix
+Generating C++ implementation in directory include/v2.0/minimal
+Copying fixed C++ headers for protocol 2.0 to include/v2.0
+Validating /home/ardalan/catkin_ws/src/mavlink/message_definitions/v1.0/minimal.xml
+Parsing /home/ardalan/catkin_ws/src/mavlink/message_definitions/v1.0/minimal.xml
+Merged enum MAV_CMD
+Merged enum MAV_CMD
+Note: An enum value was auto-generated: GSM_MODEM_TYPE_HUAWEI_E3372 = 1
+Note: An enum value was auto-generated: MAV_STATE_BOOT = 1
+Note: An enum value was auto-generated: MAV_STATE_CALIBRATING = 2
+Note: An enum value was auto-generated: MAV_STATE_STANDBY = 3
+Note: An enum value was auto-generated: MAV_STATE_ACTIVE = 4
+Note: An enum value was auto-generated: MAV_STATE_CRITICAL = 5
+Note: An enum value was auto-generated: MAV_STATE_EMERGENCY = 6
+Note: An enum value was auto-generated: MAV_STATE_POWEROFF = 7
+Note: An enum value was auto-generated: MAV_STATE_FLIGHT_TERMINATION = 8
+Found 230 MAVLink message types in 3 XML files
+Generating C headers
+Generating C implementation in directory include/v2.0/ASLUAV
+[ 54%] Built target all.xml-v2.0
+[35m[1mScanning dependencies of target paparazzi.xml-v2.0[0m
+[ 59%] [34m[1mGenerating paparazzi-v2.0-cxx-stamp[0m
+Generating C implementation in directory include/v2.0/common
+Validating /home/ardalan/catkin_ws/src/mavlink/message_definitions/v1.0/paparazzi.xml
+Parsing /home/ardalan/catkin_ws/src/mavlink/message_definitions/v1.0/paparazzi.xml
+Validating /home/ardalan/catkin_ws/src/mavlink/message_definitions/v1.0/common.xml
+Generating C implementation in directory include/v2.0/minimal
+Copying fixed headers for protocol 2.0 to include/v2.0
+Generating C++ implementation in directory include/v2.0/standard
+Generating C++ implementation in directory include/v2.0/common
+Parsing /home/ardalan/catkin_ws/src/mavlink/message_definitions/v1.0/common.xml
+Validating /home/ardalan/catkin_ws/src/mavlink/message_definitions/v1.0/minimal.xml
+Generating C++ implementation in directory include/v2.0/minimal
+Parsing /home/ardalan/catkin_ws/src/mavlink/message_definitions/v1.0/minimal.xml
+Copying fixed C++ headers for protocol 2.0 to include/v2.0
+Merged enum MAV_CMD
+Note: An enum value was auto-generated: MAV_STATE_BOOT = 1
+Note: An enum value was auto-generated: MAV_STATE_CALIBRATING = 2
+Note: An enum value was auto-generated: MAV_STATE_STANDBY = 3
+Note: An enum value was auto-generated: MAV_STATE_ACTIVE = 4
+Note: An enum value was auto-generated: MAV_STATE_CRITICAL = 5
+Note: An enum value was auto-generated: MAV_STATE_EMERGENCY = 6
+Note: An enum value was auto-generated: MAV_STATE_POWEROFF = 7
+Note: An enum value was auto-generated: MAV_STATE_FLIGHT_TERMINATION = 8
+Found 220 MAVLink message types in 3 XML files
+Generating C headers
+Generating C implementation in directory include/v2.0/paparazzi
+Generating C implementation in directory include/v2.0/common
+[ 59%] Built target standard.xml-v2.0
+[35m[1mScanning dependencies of target autoquad.xml-v2.0[0m
+[ 63%] [34m[1mGenerating autoquad-v2.0-cxx-stamp[0m
+Generating C implementation in directory include/v2.0/uAvionix
+Generating C implementation in directory include/v2.0/icarous
+Generating C implementation in directory include/v2.0/minimal
+Copying fixed headers for protocol 2.0 to include/v2.0
+Generating C++ implementation in directory include/v2.0/ardupilotmega
+Validating /home/ardalan/catkin_ws/src/mavlink/message_definitions/v1.0/autoquad.xml
+Generating C++ implementation in directory include/v2.0/common
+Parsing /home/ardalan/catkin_ws/src/mavlink/message_definitions/v1.0/autoquad.xml
+Validating /home/ardalan/catkin_ws/src/mavlink/message_definitions/v1.0/common.xml
+Parsing /home/ardalan/catkin_ws/src/mavlink/message_definitions/v1.0/common.xml
+Generating C++ implementation in directory include/v2.0/uAvionix
+Generating C++ implementation in directory include/v2.0/icarous
+Generating C++ implementation in directory include/v2.0/minimal
+Copying fixed C++ headers for protocol 2.0 to include/v2.0
+Validating /home/ardalan/catkin_ws/src/mavlink/message_definitions/v1.0/minimal.xml
+Parsing /home/ardalan/catkin_ws/src/mavlink/message_definitions/v1.0/minimal.xml
+[ 63%] Built target ardupilotmega.xml-v2.0
+Merged enum MAV_CMD
+Merged enum MAV_DATA_STREAM
+Merged enum MAV_CMD
+[35m[1mScanning dependencies of target icarous.xml-v2.0[0m
+Note: An enum value was auto-generated: AQ_MAVLINK_DEFS_VERSION_1 = 1
+Note: An enum value was auto-generated: MAV_DATA_STREAM_PROPULSION = 13
+Note: An enum value was auto-generated: MAV_STATE_BOOT = 1
+Note: An enum value was auto-generated: MAV_STATE_CALIBRATING = 2
+Note: An enum value was auto-generated: MAV_STATE_STANDBY = 3
+Note: An enum value was auto-generated: MAV_STATE_ACTIVE = 4
+Note: An enum value was auto-generated: MAV_STATE_CRITICAL = 5
+Note: An enum value was auto-generated: MAV_STATE_EMERGENCY = 6
+Note: An enum value was auto-generated: MAV_STATE_POWEROFF = 7
+Note: An enum value was auto-generated: MAV_STATE_FLIGHT_TERMINATION = 8
+Found 217 MAVLink message types in 3 XML files
+Generating C headers
+Generating C implementation in directory include/v2.0/autoquad
+[ 68%] [34m[1mGenerating icarous-v2.0-cxx-stamp[0m
+Generating C implementation in directory include/v2.0/common
+Generating C implementation in directory include/v2.0/minimal
+Copying fixed headers for protocol 2.0 to include/v2.0
+Generating C++ implementation in directory include/v2.0/ASLUAV
+Generating C++ implementation in directory include/v2.0/common
+Validating /home/ardalan/catkin_ws/src/mavlink/message_definitions/v1.0/icarous.xml
+Parsing /home/ardalan/catkin_ws/src/mavlink/message_definitions/v1.0/icarous.xml
+Found 2 MAVLink message types in 1 XML files
+Generating C headers
+Generating C implementation in directory include/v2.0/icarous
+Copying fixed headers for protocol 2.0 to include/v2.0
+Generating C++ implementation in directory include/v2.0/icarous
+Copying fixed C++ headers for protocol 2.0 to include/v2.0
+[ 68%] Built target icarous.xml-v2.0
+[35m[1mScanning dependencies of target matrixpilot.xml-v2.0[0m
+[ 72%] [34m[1mGenerating matrixpilot-v2.0-cxx-stamp[0m
+Validating /home/ardalan/catkin_ws/src/mavlink/message_definitions/v1.0/matrixpilot.xml
+Parsing /home/ardalan/catkin_ws/src/mavlink/message_definitions/v1.0/matrixpilot.xml
+Validating /home/ardalan/catkin_ws/src/mavlink/message_definitions/v1.0/common.xml
+Parsing /home/ardalan/catkin_ws/src/mavlink/message_definitions/v1.0/common.xml
+Generating C implementation in directory include/v2.0/minimal
+Generating C++ implementation in directory include/v2.0/minimal
+Copying fixed headers for protocol 2.0 to include/v2.0
+Copying fixed C++ headers for protocol 2.0 to include/v2.0
+Generating C++ implementation in directory include/v2.0/paparazzi
+Generating C++ implementation in directory include/v2.0/common
+[ 72%] Built target ASLUAV.xml-v2.0
+[35m[1mScanning dependencies of target ASLUAV.xml-v1.0[0m
+[ 77%] [34m[1mGenerating include/v1.0/ASLUAV/ASLUAV.h[0m
+Validating /home/ardalan/catkin_ws/src/mavlink/message_definitions/v1.0/ASLUAV.xml
+Parsing /home/ardalan/catkin_ws/src/mavlink/message_definitions/v1.0/ASLUAV.xml
+Validating /home/ardalan/catkin_ws/src/mavlink/message_definitions/v1.0/common.xml
+Validating /home/ardalan/catkin_ws/src/mavlink/message_definitions/v1.0/minimal.xml
+Parsing /home/ardalan/catkin_ws/src/mavlink/message_definitions/v1.0/minimal.xml
+Merged enum MAV_CMD
+Merged enum MAV_CMD
+Note: An enum value was auto-generated: MAV_STATE_BOOT = 1
+Note: An enum value was auto-generated: MAV_STATE_CALIBRATING = 2
+Note: An enum value was auto-generated: MAV_STATE_STANDBY = 3
+Note: An enum value was auto-generated: MAV_STATE_ACTIVE = 4
+Note: An enum value was auto-generated: MAV_STATE_CRITICAL = 5
+Note: An enum value was auto-generated: MAV_STATE_EMERGENCY = 6
+Note: An enum value was auto-generated: MAV_STATE_POWEROFF = 7
+Note: An enum value was auto-generated: MAV_STATE_FLIGHT_TERMINATION = 8
+Found 242 MAVLink message types in 3 XML files
+Generating C headers
+Generating C implementation in directory include/v2.0/matrixpilot
+Parsing /home/ardalan/catkin_ws/src/mavlink/message_definitions/v1.0/common.xml
+Generating C++ implementation in directory include/v2.0/minimal
+Copying fixed C++ headers for protocol 2.0 to include/v2.0
+[ 77%] Built target paparazzi.xml-v2.0
+[35m[1mScanning dependencies of target autoquad.xml-v1.0[0m
+[ 81%] [34m[1mGenerating include/v1.0/autoquad/autoquad.h[0m
+Generating C implementation in directory include/v2.0/common
+Ignoring MAVLink2 message SETUP_SIGNING
+Ignoring MAVLink2 message BUTTON_CHANGE
+Ignoring MAVLink2 message PLAY_TUNE
+Ignoring MAVLink2 message CAMERA_INFORMATION
+Ignoring MAVLink2 message CAMERA_SETTINGS
+Ignoring MAVLink2 message STORAGE_INFORMATION
+Ignoring MAVLink2 message CAMERA_CAPTURE_STATUS
+Ignoring MAVLink2 message CAMERA_IMAGE_CAPTURED
+Ignoring MAVLink2 message FLIGHT_INFORMATION
+Ignoring MAVLink2 message MOUNT_ORIENTATION
+Ignoring MAVLink2 message LOGGING_DATA
+Ignoring MAVLink2 message LOGGING_DATA_ACKED
+Ignoring MAVLink2 message LOGGING_ACK
+Ignoring MAVLink2 message VIDEO_STREAM_INFORMATION
+Ignoring MAVLink2 message VIDEO_STREAM_STATUS
+Ignoring MAVLink2 message CAMERA_FOV_STATUS
+Ignoring MAVLink2 message CAMERA_TRACKING_IMAGE_STATUS
+Ignoring MAVLink2 message CAMERA_TRACKING_GEO_STATUS
+Ignoring MAVLink2 message GIMBAL_MANAGER_INFORMATION
+Ignoring MAVLink2 message GIMBAL_MANAGER_STATUS
+Ignoring MAVLink2 message GIMBAL_MANAGER_SET_ATTITUDE
+Ignoring MAVLink2 message GIMBAL_DEVICE_INFORMATION
+Ignoring MAVLink2 message GIMBAL_DEVICE_SET_ATTITUDE
+Ignoring MAVLink2 message GIMBAL_DEVICE_ATTITUDE_STATUS
+Ignoring MAVLink2 message AUTOPILOT_STATE_FOR_GIMBAL_DEVICE
+Ignoring MAVLink2 message GIMBAL_MANAGER_SET_PITCHYAW
+Ignoring MAVLink2 message GIMBAL_MANAGER_SET_MANUAL_CONTROL
+Ignoring MAVLink2 message ESC_INFO
+Ignoring MAVLink2 message ESC_STATUS
+Ignoring MAVLink2 message WIFI_CONFIG_AP
+Ignoring MAVLink2 message AIS_VESSEL
+Ignoring MAVLink2 message UAVCAN_NODE_STATUS
+Ignoring MAVLink2 message UAVCAN_NODE_INFO
+Ignoring MAVLink2 message PARAM_EXT_REQUEST_READ
+Ignoring MAVLink2 message PARAM_EXT_REQUEST_LIST
+Ignoring MAVLink2 message PARAM_EXT_VALUE
+Ignoring MAVLink2 message PARAM_EXT_SET
+Ignoring MAVLink2 message PARAM_EXT_ACK
+Ignoring MAVLink2 message PARAM_EXT_VALUE_TRIMMED
+Ignoring MAVLink2 message PARAM_EXT_SET_TRIMMED
+Ignoring MAVLink2 message PARAM_EXT_ACK_TRIMMED
+Ignoring MAVLink2 message OBSTACLE_DISTANCE
+Ignoring MAVLink2 message ODOMETRY
+Ignoring MAVLink2 message TRAJECTORY_REPRESENTATION_WAYPOINTS
+Ignoring MAVLink2 message TRAJECTORY_REPRESENTATION_BEZIER
+Ignoring MAVLink2 message CELLULAR_STATUS
+Ignoring MAVLink2 message ISBD_LINK_STATUS
+Ignoring MAVLink2 message CELLULAR_CONFIG
+Ignoring MAVLink2 message RAW_RPM
+Ignoring MAVLink2 message UTM_GLOBAL_POSITION
+Ignoring MAVLink2 message DEBUG_FLOAT_ARRAY
+Ignoring MAVLink2 message ORBIT_EXECUTION_STATUS
+Ignoring MAVLink2 message SMART_BATTERY_INFO
+Ignoring MAVLink2 message GENERATOR_STATUS
+Ignoring MAVLink2 message ACTUATOR_OUTPUT_STATUS
+Ignoring MAVLink2 message TIME_ESTIMATE_TO_TARGET
+Ignoring MAVLink2 message TUNNEL
+Ignoring MAVLink2 message ONBOARD_COMPUTER_STATUS
+Ignoring MAVLink2 message COMPONENT_INFORMATION
+Ignoring MAVLink2 message PLAY_TUNE_V2
+Ignoring MAVLink2 message SUPPORTED_TUNES
+Ignoring MAVLink2 message WHEEL_DISTANCE
+Ignoring MAVLink2 message WINCH_STATUS
+Ignoring MAVLink2 message OPEN_DRONE_ID_BASIC_ID
+Ignoring MAVLink2 message OPEN_DRONE_ID_LOCATION
+Ignoring MAVLink2 message OPEN_DRONE_ID_AUTHENTICATION
+Ignoring MAVLink2 message OPEN_DRONE_ID_SELF_ID
+Ignoring MAVLink2 message OPEN_DRONE_ID_SYSTEM
+Ignoring MAVLink2 message OPEN_DRONE_ID_OPERATOR_ID
+Ignoring MAVLink2 message OPEN_DRONE_ID_MESSAGE_PACK
+Validating /home/ardalan/catkin_ws/src/mavlink/message_definitions/v1.0/autoquad.xml
+Parsing /home/ardalan/catkin_ws/src/mavlink/message_definitions/v1.0/autoquad.xml
+Validating /home/ardalan/catkin_ws/src/mavlink/message_definitions/v1.0/common.xml
+Validating /home/ardalan/catkin_ws/src/mavlink/message_definitions/v1.0/minimal.xml
+Parsing /home/ardalan/catkin_ws/src/mavlink/message_definitions/v1.0/minimal.xml
+Ignoring MAVLink2 message PROTOCOL_VERSION
+Merged enum MAV_CMD
+Merged enum MAV_CMD
+Note: An enum value was auto-generated: GSM_MODEM_TYPE_HUAWEI_E3372 = 1
+Note: An enum value was auto-generated: MAV_STATE_BOOT = 1
+Note: An enum value was auto-generated: MAV_STATE_CALIBRATING = 2
+Note: An enum value was auto-generated: MAV_STATE_STANDBY = 3
+Note: An enum value was auto-generated: MAV_STATE_ACTIVE = 4
+Note: An enum value was auto-generated: MAV_STATE_CRITICAL = 5
+Note: An enum value was auto-generated: MAV_STATE_EMERGENCY = 6
+Note: An enum value was auto-generated: MAV_STATE_POWEROFF = 7
+Note: An enum value was auto-generated: MAV_STATE_FLIGHT_TERMINATION = 8
+Found 159 MAVLink message types in 3 XML files
+Generating C implementation in directory include/v1.0/ASLUAV
+Parsing /home/ardalan/catkin_ws/src/mavlink/message_definitions/v1.0/common.xml
+Generating C implementation in directory include/v2.0/minimal
+Copying fixed headers for protocol 2.0 to include/v2.0
+Generating C++ implementation in directory include/v2.0/autoquad
+Generating C++ implementation in directory include/v2.0/common
+Generating C implementation in directory include/v1.0/common
+Ignoring MAVLink2 message SETUP_SIGNING
+Ignoring MAVLink2 message BUTTON_CHANGE
+Ignoring MAVLink2 message PLAY_TUNE
+Ignoring MAVLink2 message CAMERA_INFORMATION
+Ignoring MAVLink2 message CAMERA_SETTINGS
+Ignoring MAVLink2 message STORAGE_INFORMATION
+Ignoring MAVLink2 message CAMERA_CAPTURE_STATUS
+Ignoring MAVLink2 message CAMERA_IMAGE_CAPTURED
+Ignoring MAVLink2 message FLIGHT_INFORMATION
+Ignoring MAVLink2 message MOUNT_ORIENTATION
+Ignoring MAVLink2 message LOGGING_DATA
+Ignoring MAVLink2 message LOGGING_DATA_ACKED
+Ignoring MAVLink2 message LOGGING_ACK
+Ignoring MAVLink2 message VIDEO_STREAM_INFORMATION
+Ignoring MAVLink2 message VIDEO_STREAM_STATUS
+Ignoring MAVLink2 message CAMERA_FOV_STATUS
+Ignoring MAVLink2 message CAMERA_TRACKING_IMAGE_STATUS
+Ignoring MAVLink2 message CAMERA_TRACKING_GEO_STATUS
+Ignoring MAVLink2 message GIMBAL_MANAGER_INFORMATION
+Ignoring MAVLink2 message GIMBAL_MANAGER_STATUS
+Ignoring MAVLink2 message GIMBAL_MANAGER_SET_ATTITUDE
+Ignoring MAVLink2 message GIMBAL_DEVICE_INFORMATION
+Ignoring MAVLink2 message GIMBAL_DEVICE_SET_ATTITUDE
+Ignoring MAVLink2 message GIMBAL_DEVICE_ATTITUDE_STATUS
+Ignoring MAVLink2 message AUTOPILOT_STATE_FOR_GIMBAL_DEVICE
+Ignoring MAVLink2 message GIMBAL_MANAGER_SET_PITCHYAW
+Ignoring MAVLink2 message GIMBAL_MANAGER_SET_MANUAL_CONTROL
+Ignoring MAVLink2 message ESC_INFO
+Ignoring MAVLink2 message ESC_STATUS
+Ignoring MAVLink2 message WIFI_CONFIG_AP
+Ignoring MAVLink2 message AIS_VESSEL
+Ignoring MAVLink2 message UAVCAN_NODE_STATUS
+Ignoring MAVLink2 message UAVCAN_NODE_INFO
+Ignoring MAVLink2 message PARAM_EXT_REQUEST_READ
+Ignoring MAVLink2 message PARAM_EXT_REQUEST_LIST
+Ignoring MAVLink2 message PARAM_EXT_VALUE
+Ignoring MAVLink2 message PARAM_EXT_SET
+Ignoring MAVLink2 message PARAM_EXT_ACK
+Ignoring MAVLink2 message PARAM_EXT_VALUE_TRIMMED
+Ignoring MAVLink2 message PARAM_EXT_SET_TRIMMED
+Ignoring MAVLink2 message PARAM_EXT_ACK_TRIMMED
+Ignoring MAVLink2 message OBSTACLE_DISTANCE
+Ignoring MAVLink2 message ODOMETRY
+Ignoring MAVLink2 message TRAJECTORY_REPRESENTATION_WAYPOINTS
+Ignoring MAVLink2 message TRAJECTORY_REPRESENTATION_BEZIER
+Ignoring MAVLink2 message CELLULAR_STATUS
+Ignoring MAVLink2 message ISBD_LINK_STATUS
+Ignoring MAVLink2 message CELLULAR_CONFIG
+Ignoring MAVLink2 message RAW_RPM
+Ignoring MAVLink2 message UTM_GLOBAL_POSITION
+Ignoring MAVLink2 message DEBUG_FLOAT_ARRAY
+Ignoring MAVLink2 message ORBIT_EXECUTION_STATUS
+Ignoring MAVLink2 message SMART_BATTERY_INFO
+Ignoring MAVLink2 message GENERATOR_STATUS
+Ignoring MAVLink2 message ACTUATOR_OUTPUT_STATUS
+Ignoring MAVLink2 message TIME_ESTIMATE_TO_TARGET
+Ignoring MAVLink2 message TUNNEL
+Ignoring MAVLink2 message ONBOARD_COMPUTER_STATUS
+Ignoring MAVLink2 message COMPONENT_INFORMATION
+Ignoring MAVLink2 message PLAY_TUNE_V2
+Ignoring MAVLink2 message SUPPORTED_TUNES
+Ignoring MAVLink2 message WHEEL_DISTANCE
+Ignoring MAVLink2 message WINCH_STATUS
+Ignoring MAVLink2 message OPEN_DRONE_ID_BASIC_ID
+Ignoring MAVLink2 message OPEN_DRONE_ID_LOCATION
+Ignoring MAVLink2 message OPEN_DRONE_ID_AUTHENTICATION
+Ignoring MAVLink2 message OPEN_DRONE_ID_SELF_ID
+Ignoring MAVLink2 message OPEN_DRONE_ID_SYSTEM
+Ignoring MAVLink2 message OPEN_DRONE_ID_OPERATOR_ID
+Ignoring MAVLink2 message OPEN_DRONE_ID_MESSAGE_PACK
+Validating /home/ardalan/catkin_ws/src/mavlink/message_definitions/v1.0/minimal.xml
+Parsing /home/ardalan/catkin_ws/src/mavlink/message_definitions/v1.0/minimal.xml
+Ignoring MAVLink2 message PROTOCOL_VERSION
+Merged enum MAV_CMD
+Merged enum MAV_DATA_STREAM
+Merged enum MAV_CMD
+Note: An enum value was auto-generated: AQ_MAVLINK_DEFS_VERSION_1 = 1
+Note: An enum value was auto-generated: MAV_DATA_STREAM_PROPULSION = 13
+Note: An enum value was auto-generated: MAV_STATE_BOOT = 1
+Note: An enum value was auto-generated: MAV_STATE_CALIBRATING = 2
+Note: An enum value was auto-generated: MAV_STATE_STANDBY = 3
+Note: An enum value was auto-generated: MAV_STATE_ACTIVE = 4
+Note: An enum value was auto-generated: MAV_STATE_CRITICAL = 5
+Note: An enum value was auto-generated: MAV_STATE_EMERGENCY = 6
+Note: An enum value was auto-generated: MAV_STATE_POWEROFF = 7
+Note: An enum value was auto-generated: MAV_STATE_FLIGHT_TERMINATION = 8
+Found 146 MAVLink message types in 3 XML files
+Generating C implementation in directory include/v1.0/autoquad
+Generating C implementation in directory include/v1.0/common
+Generating C++ implementation in directory include/v2.0/minimal
+Copying fixed C++ headers for protocol 2.0 to include/v2.0
+[ 81%] Built target autoquad.xml-v2.0
+[35m[1mScanning dependencies of target icarous.xml-v1.0[0m
+[ 86%] Built target icarous.xml-v1.0
+[35m[1mScanning dependencies of target ardupilotmega.xml-v1.0[0m
+[ 90%] Built target ardupilotmega.xml-v1.0
+[35m[1mScanning dependencies of target ualberta.xml-v1.0[0m
+[ 95%] Built target ualberta.xml-v1.0
+Generating C implementation in directory include/v1.0/minimal
+Copying fixed headers for protocol 1.0 to include/v1.0
+[ 95%] Built target ASLUAV.xml-v1.0
+Generating C implementation in directory include/v2.0/minimal
+Copying fixed headers for protocol 2.0 to include/v2.0
+Generating C++ implementation in directory include/v2.0/matrixpilot
+Generating C implementation in directory include/v1.0/minimal
+Generating C++ implementation in directory include/v2.0/common
+Copying fixed headers for protocol 1.0 to include/v1.0
+[ 95%] Built target autoquad.xml-v1.0
+Generating C++ implementation in directory include/v2.0/minimal
+Copying fixed C++ headers for protocol 2.0 to include/v2.0
+[ 95%] Built target matrixpilot.xml-v2.0
+[35m[1mScanning dependencies of target common.xml-v2.0[0m
+[100%] [34m[1mGenerating common-v2.0-cxx-stamp[0m
+Validating /home/ardalan/catkin_ws/src/mavlink/message_definitions/v1.0/common.xml
+Parsing /home/ardalan/catkin_ws/src/mavlink/message_definitions/v1.0/common.xml
+Validating /home/ardalan/catkin_ws/src/mavlink/message_definitions/v1.0/minimal.xml
+Parsing /home/ardalan/catkin_ws/src/mavlink/message_definitions/v1.0/minimal.xml
+Merged enum MAV_CMD
+Note: An enum value was auto-generated: MAV_STATE_BOOT = 1
+Note: An enum value was auto-generated: MAV_STATE_CALIBRATING = 2
+Note: An enum value was auto-generated: MAV_STATE_STANDBY = 3
+Note: An enum value was auto-generated: MAV_STATE_ACTIVE = 4
+Note: An enum value was auto-generated: MAV_STATE_CRITICAL = 5
+Note: An enum value was auto-generated: MAV_STATE_EMERGENCY = 6
+Note: An enum value was auto-generated: MAV_STATE_POWEROFF = 7
+Note: An enum value was auto-generated: MAV_STATE_FLIGHT_TERMINATION = 8
+Found 215 MAVLink message types in 2 XML files
+Generating C headers
+Generating C implementation in directory include/v2.0/common
+Generating C implementation in directory include/v2.0/minimal
+Copying fixed headers for protocol 2.0 to include/v2.0
+Generating C++ implementation in directory include/v2.0/common
+Generating C++ implementation in directory include/v2.0/minimal
+Copying fixed C++ headers for protocol 2.0 to include/v2.0
+[100%] Built target common.xml-v2.0

@@ -1,0 +1,238 @@
+Performing C++ SOURCE FILE Test COMPILER_SUPPORT_Wshorten64to32 failed with the following output:
+Change Dir: /home/ardalan/catkin_ws/build/eigen_catkin/eigen_src-prefix/src/eigen_src-build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_10b75/fast"
+make[3]: Entering directory '/home/ardalan/catkin_ws/build/eigen_catkin/eigen_src-prefix/src/eigen_src-build/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_10b75.dir/build.make CMakeFiles/cmTC_10b75.dir/build
+make[4]: Entering directory '/home/ardalan/catkin_ws/build/eigen_catkin/eigen_src-prefix/src/eigen_src-build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_10b75.dir/src.cxx.o
+/usr/bin/c++     -pedantic -Wall -Wextra -Wundef -Wcast-align -Wchar-subscripts -Wnon-virtual-dtor -Wunused-local-typedefs -Wpointer-arith -Wwrite-strings -Wformat-security -DCOMPILER_SUPPORT_Wshorten64to32 -Werror   -Wshorten-64-to-32 -o CMakeFiles/cmTC_10b75.dir/src.cxx.o -c /home/ardalan/catkin_ws/build/eigen_catkin/eigen_src-prefix/src/eigen_src-build/CMakeFiles/CMakeTmp/src.cxx
+c++: error: unrecognized command line option '-Wshorten-64-to-32'
+CMakeFiles/cmTC_10b75.dir/build.make:65: recipe for target 'CMakeFiles/cmTC_10b75.dir/src.cxx.o' failed
+make[4]: *** [CMakeFiles/cmTC_10b75.dir/src.cxx.o] Error 1
+make[4]: Leaving directory '/home/ardalan/catkin_ws/build/eigen_catkin/eigen_src-prefix/src/eigen_src-build/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_10b75/fast' failed
+make[3]: *** [cmTC_10b75/fast] Error 2
+make[3]: Leaving directory '/home/ardalan/catkin_ws/build/eigen_catkin/eigen_src-prefix/src/eigen_src-build/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test COMPILER_SUPPORT_Wenumconversion failed with the following output:
+Change Dir: /home/ardalan/catkin_ws/build/eigen_catkin/eigen_src-prefix/src/eigen_src-build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_42ff2/fast"
+make[3]: Entering directory '/home/ardalan/catkin_ws/build/eigen_catkin/eigen_src-prefix/src/eigen_src-build/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_42ff2.dir/build.make CMakeFiles/cmTC_42ff2.dir/build
+make[4]: Entering directory '/home/ardalan/catkin_ws/build/eigen_catkin/eigen_src-prefix/src/eigen_src-build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_42ff2.dir/src.cxx.o
+/usr/bin/c++     -pedantic -Wall -Wextra -Wundef -Wcast-align -Wchar-subscripts -Wnon-virtual-dtor -Wunused-local-typedefs -Wpointer-arith -Wwrite-strings -Wformat-security -Wlogical-op -DCOMPILER_SUPPORT_Wenumconversion -Werror   -Wenum-conversion -o CMakeFiles/cmTC_42ff2.dir/src.cxx.o -c /home/ardalan/catkin_ws/build/eigen_catkin/eigen_src-prefix/src/eigen_src-build/CMakeFiles/CMakeTmp/src.cxx
+c++: error: unrecognized command line option '-Wenum-conversion'
+CMakeFiles/cmTC_42ff2.dir/build.make:65: recipe for target 'CMakeFiles/cmTC_42ff2.dir/src.cxx.o' failed
+make[4]: *** [CMakeFiles/cmTC_42ff2.dir/src.cxx.o] Error 1
+make[4]: Leaving directory '/home/ardalan/catkin_ws/build/eigen_catkin/eigen_src-prefix/src/eigen_src-build/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_42ff2/fast' failed
+make[3]: *** [cmTC_42ff2/fast] Error 2
+make[3]: Leaving directory '/home/ardalan/catkin_ws/build/eigen_catkin/eigen_src-prefix/src/eigen_src-build/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test COMPILER_SUPPORT_Wcpp11extensions failed with the following output:
+Change Dir: /home/ardalan/catkin_ws/build/eigen_catkin/eigen_src-prefix/src/eigen_src-build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_6ae66/fast"
+make[3]: Entering directory '/home/ardalan/catkin_ws/build/eigen_catkin/eigen_src-prefix/src/eigen_src-build/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_6ae66.dir/build.make CMakeFiles/cmTC_6ae66.dir/build
+make[4]: Entering directory '/home/ardalan/catkin_ws/build/eigen_catkin/eigen_src-prefix/src/eigen_src-build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_6ae66.dir/src.cxx.o
+/usr/bin/c++     -pedantic -Wall -Wextra -Wundef -Wcast-align -Wchar-subscripts -Wnon-virtual-dtor -Wunused-local-typedefs -Wpointer-arith -Wwrite-strings -Wformat-security -Wlogical-op -DCOMPILER_SUPPORT_Wcpp11extensions -Werror   -Wc++11-extensions -o CMakeFiles/cmTC_6ae66.dir/src.cxx.o -c /home/ardalan/catkin_ws/build/eigen_catkin/eigen_src-prefix/src/eigen_src-build/CMakeFiles/CMakeTmp/src.cxx
+c++: error: unrecognized command line option '-Wc++11-extensions'
+CMakeFiles/cmTC_6ae66.dir/build.make:65: recipe for target 'CMakeFiles/cmTC_6ae66.dir/src.cxx.o' failed
+make[4]: *** [CMakeFiles/cmTC_6ae66.dir/src.cxx.o] Error 1
+make[4]: Leaving directory '/home/ardalan/catkin_ws/build/eigen_catkin/eigen_src-prefix/src/eigen_src-build/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_6ae66/fast' failed
+make[3]: *** [cmTC_6ae66/fast] Error 2
+make[3]: Leaving directory '/home/ardalan/catkin_ws/build/eigen_catkin/eigen_src-prefix/src/eigen_src-build/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test COMPILER_SUPPORT_wd981 failed with the following output:
+Change Dir: /home/ardalan/catkin_ws/build/eigen_catkin/eigen_src-prefix/src/eigen_src-build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_d3974/fast"
+make[3]: Entering directory '/home/ardalan/catkin_ws/build/eigen_catkin/eigen_src-prefix/src/eigen_src-build/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_d3974.dir/build.make CMakeFiles/cmTC_d3974.dir/build
+make[4]: Entering directory '/home/ardalan/catkin_ws/build/eigen_catkin/eigen_src-prefix/src/eigen_src-build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_d3974.dir/src.cxx.o
+/usr/bin/c++     -pedantic -Wall -Wextra -Wundef -Wcast-align -Wchar-subscripts -Wnon-virtual-dtor -Wunused-local-typedefs -Wpointer-arith -Wwrite-strings -Wformat-security -Wlogical-op -Wdouble-promotion -Wno-psabi -Wno-variadic-macros -Wno-long-long -fno-check-new -fno-common -fstrict-aliasing -DCOMPILER_SUPPORT_wd981 -Werror   -wd981 -o CMakeFiles/cmTC_d3974.dir/src.cxx.o -c /home/ardalan/catkin_ws/build/eigen_catkin/eigen_src-prefix/src/eigen_src-build/CMakeFiles/CMakeTmp/src.cxx
+c++: error: unrecognized command line option '-wd981'
+CMakeFiles/cmTC_d3974.dir/build.make:65: recipe for target 'CMakeFiles/cmTC_d3974.dir/src.cxx.o' failed
+make[4]: *** [CMakeFiles/cmTC_d3974.dir/src.cxx.o] Error 1
+make[4]: Leaving directory '/home/ardalan/catkin_ws/build/eigen_catkin/eigen_src-prefix/src/eigen_src-build/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_d3974/fast' failed
+make[3]: *** [cmTC_d3974/fast] Error 2
+make[3]: Leaving directory '/home/ardalan/catkin_ws/build/eigen_catkin/eigen_src-prefix/src/eigen_src-build/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test COMPILER_SUPPORT_wd2304 failed with the following output:
+Change Dir: /home/ardalan/catkin_ws/build/eigen_catkin/eigen_src-prefix/src/eigen_src-build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_8504a/fast"
+make[3]: Entering directory '/home/ardalan/catkin_ws/build/eigen_catkin/eigen_src-prefix/src/eigen_src-build/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_8504a.dir/build.make CMakeFiles/cmTC_8504a.dir/build
+make[4]: Entering directory '/home/ardalan/catkin_ws/build/eigen_catkin/eigen_src-prefix/src/eigen_src-build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_8504a.dir/src.cxx.o
+/usr/bin/c++     -pedantic -Wall -Wextra -Wundef -Wcast-align -Wchar-subscripts -Wnon-virtual-dtor -Wunused-local-typedefs -Wpointer-arith -Wwrite-strings -Wformat-security -Wlogical-op -Wdouble-promotion -Wno-psabi -Wno-variadic-macros -Wno-long-long -fno-check-new -fno-common -fstrict-aliasing -DCOMPILER_SUPPORT_wd2304 -Werror   -wd2304 -o CMakeFiles/cmTC_8504a.dir/src.cxx.o -c /home/ardalan/catkin_ws/build/eigen_catkin/eigen_src-prefix/src/eigen_src-build/CMakeFiles/CMakeTmp/src.cxx
+c++: error: unrecognized command line option '-wd2304'
+CMakeFiles/cmTC_8504a.dir/build.make:65: recipe for target 'CMakeFiles/cmTC_8504a.dir/src.cxx.o' failed
+make[4]: *** [CMakeFiles/cmTC_8504a.dir/src.cxx.o] Error 1
+make[4]: Leaving directory '/home/ardalan/catkin_ws/build/eigen_catkin/eigen_src-prefix/src/eigen_src-build/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_8504a/fast' failed
+make[3]: *** [cmTC_8504a/fast] Error 2
+make[3]: Leaving directory '/home/ardalan/catkin_ws/build/eigen_catkin/eigen_src-prefix/src/eigen_src-build/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test COMPILER_SUPPORT_STRICTANSI failed with the following output:
+Change Dir: /home/ardalan/catkin_ws/build/eigen_catkin/eigen_src-prefix/src/eigen_src-build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_27efc/fast"
+make[3]: Entering directory '/home/ardalan/catkin_ws/build/eigen_catkin/eigen_src-prefix/src/eigen_src-build/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_27efc.dir/build.make CMakeFiles/cmTC_27efc.dir/build
+make[4]: Entering directory '/home/ardalan/catkin_ws/build/eigen_catkin/eigen_src-prefix/src/eigen_src-build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_27efc.dir/src.cxx.o
+/usr/bin/c++     -pedantic -Wall -Wextra -Wundef -Wcast-align -Wchar-subscripts -Wnon-virtual-dtor -Wunused-local-typedefs -Wpointer-arith -Wwrite-strings -Wformat-security -Wlogical-op -Wdouble-promotion -Wno-psabi -Wno-variadic-macros -Wno-long-long -fno-check-new -fno-common -fstrict-aliasing -DCOMPILER_SUPPORT_STRICTANSI -Werror   -strict-ansi -o CMakeFiles/cmTC_27efc.dir/src.cxx.o -c /home/ardalan/catkin_ws/build/eigen_catkin/eigen_src-prefix/src/eigen_src-build/CMakeFiles/CMakeTmp/src.cxx
+c++: error: unrecognized command line option '-strict-ansi'
+CMakeFiles/cmTC_27efc.dir/build.make:65: recipe for target 'CMakeFiles/cmTC_27efc.dir/src.cxx.o' failed
+make[4]: *** [CMakeFiles/cmTC_27efc.dir/src.cxx.o] Error 1
+make[4]: Leaving directory '/home/ardalan/catkin_ws/build/eigen_catkin/eigen_src-prefix/src/eigen_src-build/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_27efc/fast' failed
+make[3]: *** [cmTC_27efc/fast] Error 2
+make[3]: Leaving directory '/home/ardalan/catkin_ws/build/eigen_catkin/eigen_src-prefix/src/eigen_src-build/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test COMPILER_SUPPORT_Qunusedarguments failed with the following output:
+Change Dir: /home/ardalan/catkin_ws/build/eigen_catkin/eigen_src-prefix/src/eigen_src-build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_63bc5/fast"
+make[3]: Entering directory '/home/ardalan/catkin_ws/build/eigen_catkin/eigen_src-prefix/src/eigen_src-build/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_63bc5.dir/build.make CMakeFiles/cmTC_63bc5.dir/build
+make[4]: Entering directory '/home/ardalan/catkin_ws/build/eigen_catkin/eigen_src-prefix/src/eigen_src-build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_63bc5.dir/src.cxx.o
+/usr/bin/c++     -pedantic -Wall -Wextra -Wundef -Wcast-align -Wchar-subscripts -Wnon-virtual-dtor -Wunused-local-typedefs -Wpointer-arith -Wwrite-strings -Wformat-security -Wlogical-op -Wdouble-promotion -Wno-psabi -Wno-variadic-macros -Wno-long-long -fno-check-new -fno-common -fstrict-aliasing -DCOMPILER_SUPPORT_Qunusedarguments -Werror   -Qunused-arguments -o CMakeFiles/cmTC_63bc5.dir/src.cxx.o -c /home/ardalan/catkin_ws/build/eigen_catkin/eigen_src-prefix/src/eigen_src-build/CMakeFiles/CMakeTmp/src.cxx
+c++: error: unrecognized command line option '-Qunused-arguments'
+CMakeFiles/cmTC_63bc5.dir/build.make:65: recipe for target 'CMakeFiles/cmTC_63bc5.dir/src.cxx.o' failed
+make[4]: *** [CMakeFiles/cmTC_63bc5.dir/src.cxx.o] Error 1
+make[4]: Leaving directory '/home/ardalan/catkin_ws/build/eigen_catkin/eigen_src-prefix/src/eigen_src-build/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_63bc5/fast' failed
+make[3]: *** [cmTC_63bc5/fast] Error 2
+make[3]: Leaving directory '/home/ardalan/catkin_ws/build/eigen_catkin/eigen_src-prefix/src/eigen_src-build/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main() { return 0; }
+Determining if the Q_WS_WIN exist failed with the following output:
+Change Dir: /home/ardalan/catkin_ws/build/eigen_catkin/eigen_src-prefix/src/eigen_src-build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_d397e/fast"
+make[3]: Entering directory '/home/ardalan/catkin_ws/build/eigen_catkin/eigen_src-prefix/src/eigen_src-build/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_d397e.dir/build.make CMakeFiles/cmTC_d397e.dir/build
+make[4]: Entering directory '/home/ardalan/catkin_ws/build/eigen_catkin/eigen_src-prefix/src/eigen_src-build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_d397e.dir/CheckSymbolExists.cxx.o
+/usr/bin/c++    -I/usr/include/qt4  -pedantic -Wall -Wextra -Wundef -Wcast-align -Wchar-subscripts -Wnon-virtual-dtor -Wunused-local-typedefs -Wpointer-arith -Wwrite-strings -Wformat-security -Wlogical-op -Wdouble-promotion -Wno-psabi -Wno-variadic-macros -Wno-long-long -fno-check-new -fno-common -fstrict-aliasing -ansi -O1 -g1    -o CMakeFiles/cmTC_d397e.dir/CheckSymbolExists.cxx.o -c /home/ardalan/catkin_ws/build/eigen_catkin/eigen_src-prefix/src/eigen_src-build/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx
+/home/ardalan/catkin_ws/build/eigen_catkin/eigen_src-prefix/src/eigen_src-build/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx: In function ‘int main(int, char**)’:
+/home/ardalan/catkin_ws/build/eigen_catkin/eigen_src-prefix/src/eigen_src-build/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:8:19: error: ‘Q_WS_WIN’ was not declared in this scope
+   return ((int*)(&Q_WS_WIN))[argc];
+                   ^
+CMakeFiles/cmTC_d397e.dir/build.make:65: recipe for target 'CMakeFiles/cmTC_d397e.dir/CheckSymbolExists.cxx.o' failed
+make[4]: *** [CMakeFiles/cmTC_d397e.dir/CheckSymbolExists.cxx.o] Error 1
+make[4]: Leaving directory '/home/ardalan/catkin_ws/build/eigen_catkin/eigen_src-prefix/src/eigen_src-build/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_d397e/fast' failed
+make[3]: *** [cmTC_d397e/fast] Error 2
+make[3]: Leaving directory '/home/ardalan/catkin_ws/build/eigen_catkin/eigen_src-prefix/src/eigen_src-build/CMakeFiles/CMakeTmp'
+
+File /home/ardalan/catkin_ws/build/eigen_catkin/eigen_src-prefix/src/eigen_src-build/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:
+/* */
+#include <QtCore/qglobal.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef Q_WS_WIN
+  return ((int*)(&Q_WS_WIN))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the Q_WS_QWS exist failed with the following output:
+Change Dir: /home/ardalan/catkin_ws/build/eigen_catkin/eigen_src-prefix/src/eigen_src-build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_057aa/fast"
+make[3]: Entering directory '/home/ardalan/catkin_ws/build/eigen_catkin/eigen_src-prefix/src/eigen_src-build/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_057aa.dir/build.make CMakeFiles/cmTC_057aa.dir/build
+make[4]: Entering directory '/home/ardalan/catkin_ws/build/eigen_catkin/eigen_src-prefix/src/eigen_src-build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_057aa.dir/CheckSymbolExists.cxx.o
+/usr/bin/c++    -I/usr/include/qt4  -pedantic -Wall -Wextra -Wundef -Wcast-align -Wchar-subscripts -Wnon-virtual-dtor -Wunused-local-typedefs -Wpointer-arith -Wwrite-strings -Wformat-security -Wlogical-op -Wdouble-promotion -Wno-psabi -Wno-variadic-macros -Wno-long-long -fno-check-new -fno-common -fstrict-aliasing -ansi -O1 -g1    -o CMakeFiles/cmTC_057aa.dir/CheckSymbolExists.cxx.o -c /home/ardalan/catkin_ws/build/eigen_catkin/eigen_src-prefix/src/eigen_src-build/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx
+/home/ardalan/catkin_ws/build/eigen_catkin/eigen_src-prefix/src/eigen_src-build/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx: In function ‘int main(int, char**)’:
+/home/ardalan/catkin_ws/build/eigen_catkin/eigen_src-prefix/src/eigen_src-build/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:8:19: error: ‘Q_WS_QWS’ was not declared in this scope
+   return ((int*)(&Q_WS_QWS))[argc];
+                   ^
+CMakeFiles/cmTC_057aa.dir/build.make:65: recipe for target 'CMakeFiles/cmTC_057aa.dir/CheckSymbolExists.cxx.o' failed
+make[4]: *** [CMakeFiles/cmTC_057aa.dir/CheckSymbolExists.cxx.o] Error 1
+make[4]: Leaving directory '/home/ardalan/catkin_ws/build/eigen_catkin/eigen_src-prefix/src/eigen_src-build/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_057aa/fast' failed
+make[3]: *** [cmTC_057aa/fast] Error 2
+make[3]: Leaving directory '/home/ardalan/catkin_ws/build/eigen_catkin/eigen_src-prefix/src/eigen_src-build/CMakeFiles/CMakeTmp'
+
+File /home/ardalan/catkin_ws/build/eigen_catkin/eigen_src-prefix/src/eigen_src-build/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:
+/* */
+#include <QtCore/qglobal.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef Q_WS_QWS
+  return ((int*)(&Q_WS_QWS))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the Q_WS_MAC exist failed with the following output:
+Change Dir: /home/ardalan/catkin_ws/build/eigen_catkin/eigen_src-prefix/src/eigen_src-build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_6438a/fast"
+make[3]: Entering directory '/home/ardalan/catkin_ws/build/eigen_catkin/eigen_src-prefix/src/eigen_src-build/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_6438a.dir/build.make CMakeFiles/cmTC_6438a.dir/build
+make[4]: Entering directory '/home/ardalan/catkin_ws/build/eigen_catkin/eigen_src-prefix/src/eigen_src-build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_6438a.dir/CheckSymbolExists.cxx.o
+/usr/bin/c++    -I/usr/include/qt4  -pedantic -Wall -Wextra -Wundef -Wcast-align -Wchar-subscripts -Wnon-virtual-dtor -Wunused-local-typedefs -Wpointer-arith -Wwrite-strings -Wformat-security -Wlogical-op -Wdouble-promotion -Wno-psabi -Wno-variadic-macros -Wno-long-long -fno-check-new -fno-common -fstrict-aliasing -ansi -O1 -g1    -o CMakeFiles/cmTC_6438a.dir/CheckSymbolExists.cxx.o -c /home/ardalan/catkin_ws/build/eigen_catkin/eigen_src-prefix/src/eigen_src-build/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx
+/home/ardalan/catkin_ws/build/eigen_catkin/eigen_src-prefix/src/eigen_src-build/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx: In function ‘int main(int, char**)’:
+/home/ardalan/catkin_ws/build/eigen_catkin/eigen_src-prefix/src/eigen_src-build/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:8:19: error: ‘Q_WS_MAC’ was not declared in this scope
+   return ((int*)(&Q_WS_MAC))[argc];
+                   ^
+CMakeFiles/cmTC_6438a.dir/build.make:65: recipe for target 'CMakeFiles/cmTC_6438a.dir/CheckSymbolExists.cxx.o' failed
+make[4]: *** [CMakeFiles/cmTC_6438a.dir/CheckSymbolExists.cxx.o] Error 1
+make[4]: Leaving directory '/home/ardalan/catkin_ws/build/eigen_catkin/eigen_src-prefix/src/eigen_src-build/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_6438a/fast' failed
+make[3]: *** [cmTC_6438a/fast] Error 2
+make[3]: Leaving directory '/home/ardalan/catkin_ws/build/eigen_catkin/eigen_src-prefix/src/eigen_src-build/CMakeFiles/CMakeTmp'
+
+File /home/ardalan/catkin_ws/build/eigen_catkin/eigen_src-prefix/src/eigen_src-build/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:
+/* */
+#include <QtCore/qglobal.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef Q_WS_MAC
+  return ((int*)(&Q_WS_MAC))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+

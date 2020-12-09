@@ -1,0 +1,16 @@
+\subsubsection usage Usage
+\verbatim
+<node name="Config" pkg="mav_disturbance_observer" type="Config">
+  <param name="calibrate" type="bool" value="False" />
+  <param name="q_position" type="double" value="0.1" />
+  <param name="q_velocity" type="double" value="0.1" />
+  <param name="q_attitude" type="double" value="0.1" />
+  <param name="q_angular_velocity" type="double" value="0.1" />
+  <param name="q_force" type="double" value="0.1" />
+  <param name="q_torque" type="double" value="0.1" />
+  <param name="r_position" type="double" value="0.1" />
+  <param name="r_velocity" type="double" value="0.1" />
+  <param name="r_attitude" type="double" value="0.1" />
+</node>
+\endverbatim
+

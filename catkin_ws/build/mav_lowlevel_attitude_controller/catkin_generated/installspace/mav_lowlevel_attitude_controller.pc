@@ -1,0 +1,8 @@
+prefix=/home/ardalan/catkin_ws/install
+
+Name: mav_lowlevel_attitude_controller
+Description: Description of mav_lowlevel_attitude_controller
+Version: 0.0.0
+Cflags: -I${prefix}/include
+Libs: -L${prefix}/lib -lpid_attitude_controller_lib
+Requires: mav_msgs std_msgs cmake_modules geometry_msgs roscpp dynamic_reconfigure tf

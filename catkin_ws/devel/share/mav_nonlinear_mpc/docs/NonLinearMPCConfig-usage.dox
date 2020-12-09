@@ -1,0 +1,27 @@
+\subsubsection usage Usage
+\verbatim
+<node name="Config" pkg="mav_nonlinear_mpc" type="Config">
+  <param name="q_x" type="double" value="50.0" />
+  <param name="q_y" type="double" value="50.0" />
+  <param name="q_z" type="double" value="80.0" />
+  <param name="q_vx" type="double" value="20.0" />
+  <param name="q_vy" type="double" value="20.0" />
+  <param name="q_vz" type="double" value="35.0" />
+  <param name="q_roll" type="double" value="20.0" />
+  <param name="q_pitch" type="double" value="20.0" />
+  <param name="r_roll" type="double" value="30.0" />
+  <param name="r_pitch" type="double" value="30.0" />
+  <param name="r_thrust" type="double" value="5.0" />
+  <param name="roll_max" type="double" value="0.45" />
+  <param name="pitch_max" type="double" value="0.45" />
+  <param name="yaw_rate_max" type="double" value="1.5" />
+  <param name="thrust_min" type="double" value="5.0" />
+  <param name="thrust_max" type="double" value="15.0" />
+  <param name="K_yaw" type="double" value="0.5" />
+  <param name="Ki_xy" type="double" value="0.2" />
+  <param name="Ki_altitude" type="double" value="0.2" />
+  <param name="enable_offset_free" type="bool" value="True" />
+  <param name="enable_integrator" type="bool" value="False" />
+</node>
+\endverbatim
+

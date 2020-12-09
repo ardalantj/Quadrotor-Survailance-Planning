@@ -1,0 +1,8 @@
+prefix=/home/ardalan/catkin_ws/devel
+
+Name: yaml_cpp_catkin
+Description: Description of yaml_cpp_catkin
+Version: 0.5.90
+Cflags: -I/home/ardalan/catkin_ws/devel/include
+Libs: -L${prefix}/lib -lyaml-cpp0.5
+Requires: 

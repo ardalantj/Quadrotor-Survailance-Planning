@@ -1,0 +1,2 @@
+set(waypoint_navigator_MESSAGE_FILES "")
+set(waypoint_navigator_SERVICE_FILES "/home/ardalan/catkin_ws/src/waypoint_navigator/srv/ExecutePathFromFile.srv;/home/ardalan/catkin_ws/src/waypoint_navigator/srv/GoToHeight.srv;/home/ardalan/catkin_ws/src/waypoint_navigator/srv/GoToPoseWaypoints.srv;/home/ardalan/catkin_ws/src/waypoint_navigator/srv/GoToWaypoint.srv;/home/ardalan/catkin_ws/src/waypoint_navigator/srv/GoToWaypoints.srv")

@@ -1,0 +1,193 @@
+[35m[1mScanning dependencies of target _waypoint_navigator_generate_messages_check_deps_ExecutePathFromFile[0m
+[  0%] Built target _waypoint_navigator_generate_messages_check_deps_ExecutePathFromFile
+[35m[1mScanning dependencies of target roscpp_generate_messages_py[0m
+[  0%] Built target roscpp_generate_messages_py
+[35m[1mScanning dependencies of target geometry_msgs_generate_messages_py[0m
+[  0%] Built target geometry_msgs_generate_messages_py
+[35m[1mScanning dependencies of target _waypoint_navigator_generate_messages_check_deps_GoToPoseWaypoints[0m
+[  0%] Built target _waypoint_navigator_generate_messages_check_deps_GoToPoseWaypoints
+[35m[1mScanning dependencies of target sensor_msgs_generate_messages_py[0m
+[  0%] Built target sensor_msgs_generate_messages_py
+[35m[1mScanning dependencies of target _waypoint_navigator_generate_messages_check_deps_GoToWaypoint[0m
+[  0%] Built target _waypoint_navigator_generate_messages_check_deps_GoToWaypoint
+[35m[1mScanning dependencies of target std_msgs_generate_messages_py[0m
+[  0%] Built target std_msgs_generate_messages_py
+[35m[1mScanning dependencies of target mav_planning_msgs_generate_messages_py[0m
+[  0%] Built target mav_planning_msgs_generate_messages_py
+[35m[1mScanning dependencies of target _waypoint_navigator_generate_messages_check_deps_GoToHeight[0m
+[  0%] Built target _waypoint_navigator_generate_messages_check_deps_GoToHeight
+[35m[1mScanning dependencies of target mav_msgs_generate_messages_py[0m
+[  0%] Built target mav_msgs_generate_messages_py
+[35m[1mScanning dependencies of target _waypoint_navigator_generate_messages_check_deps_GoToWaypoints[0m
+[  0%] Built target _waypoint_navigator_generate_messages_check_deps_GoToWaypoints
+[35m[1mScanning dependencies of target sensor_msgs_generate_messages_cpp[0m
+[  0%] Built target sensor_msgs_generate_messages_cpp
+[35m[1mScanning dependencies of target std_msgs_generate_messages_cpp[0m
+[  0%] Built target std_msgs_generate_messages_cpp
+[35m[1mScanning dependencies of target geometry_msgs_generate_messages_cpp[0m
+[  0%] Built target geometry_msgs_generate_messages_cpp
+[35m[1mScanning dependencies of target roscpp_generate_messages_cpp[0m
+[  0%] Built target roscpp_generate_messages_cpp
+[35m[1mScanning dependencies of target mav_msgs_generate_messages_cpp[0m
+[  0%] Built target mav_msgs_generate_messages_cpp
+[35m[1mScanning dependencies of target mav_planning_msgs_generate_messages_cpp[0m
+[  0%] Built target mav_planning_msgs_generate_messages_cpp
+[35m[1mScanning dependencies of target mav_msgs_generate_messages_lisp[0m
+[  0%] Built target mav_msgs_generate_messages_lisp
+[35m[1mScanning dependencies of target sensor_msgs_generate_messages_lisp[0m
+[  0%] Built target sensor_msgs_generate_messages_lisp
+[35m[1mScanning dependencies of target geometry_msgs_generate_messages_lisp[0m
+[  0%] Built target geometry_msgs_generate_messages_lisp
+[35m[1mScanning dependencies of target std_msgs_generate_messages_lisp[0m
+[  0%] Built target std_msgs_generate_messages_lisp
+[35m[1mScanning dependencies of target roscpp_generate_messages_lisp[0m
+[  0%] Built target roscpp_generate_messages_lisp
+[35m[1mScanning dependencies of target mav_planning_msgs_generate_messages_lisp[0m
+[  0%] Built target mav_planning_msgs_generate_messages_lisp
+[35m[1mScanning dependencies of target sensor_msgs_generate_messages_eus[0m
+[  0%] Built target sensor_msgs_generate_messages_eus
+[35m[1mScanning dependencies of target geometry_msgs_generate_messages_eus[0m
+[  0%] Built target geometry_msgs_generate_messages_eus
+[35m[1mScanning dependencies of target roscpp_generate_messages_eus[0m
+[  0%] Built target roscpp_generate_messages_eus
+[35m[1mScanning dependencies of target std_msgs_generate_messages_eus[0m
+[  0%] Built target std_msgs_generate_messages_eus
+[35m[1mScanning dependencies of target mav_msgs_generate_messages_eus[0m
+[  0%] Built target mav_msgs_generate_messages_eus
+[35m[1mScanning dependencies of target mav_planning_msgs_generate_messages_eus[0m
+[  0%] Built target mav_planning_msgs_generate_messages_eus
+[35m[1mScanning dependencies of target std_msgs_generate_messages_nodejs[0m
+[  0%] Built target std_msgs_generate_messages_nodejs
+[35m[1mScanning dependencies of target sensor_msgs_generate_messages_nodejs[0m
+[  0%] Built target sensor_msgs_generate_messages_nodejs
+[35m[1mScanning dependencies of target geometry_msgs_generate_messages_nodejs[0m
+[  0%] Built target geometry_msgs_generate_messages_nodejs
+[35m[1mScanning dependencies of target mav_msgs_generate_messages_nodejs[0m
+[  0%] Built target mav_msgs_generate_messages_nodejs
+[35m[1mScanning dependencies of target mav_planning_msgs_generate_messages_nodejs[0m
+[  0%] Built target mav_planning_msgs_generate_messages_nodejs
+[35m[1mScanning dependencies of target roscpp_generate_messages_nodejs[0m
+[  0%] Built target roscpp_generate_messages_nodejs
+[35m[1mScanning dependencies of target actionlib_msgs_generate_messages_lisp[0m
+[  0%] Built target actionlib_msgs_generate_messages_lisp
+[35m[1mScanning dependencies of target actionlib_generate_messages_py[0m
+[  0%] Built target actionlib_generate_messages_py
+[35m[1mScanning dependencies of target actionlib_generate_messages_nodejs[0m
+[  0%] Built target actionlib_generate_messages_nodejs
+[35m[1mScanning dependencies of target actionlib_msgs_generate_messages_cpp[0m
+[  0%] Built target actionlib_msgs_generate_messages_cpp
+[35m[1mScanning dependencies of target actionlib_generate_messages_lisp[0m
+[  0%] Built target actionlib_generate_messages_lisp
+[35m[1mScanning dependencies of target actionlib_msgs_generate_messages_eus[0m
+[  0%] Built target actionlib_msgs_generate_messages_eus
+[35m[1mScanning dependencies of target actionlib_msgs_generate_messages_nodejs[0m
+[  0%] Built target actionlib_msgs_generate_messages_nodejs
+[35m[1mScanning dependencies of target tf2_msgs_generate_messages_py[0m
+[  0%] Built target tf2_msgs_generate_messages_py
+[35m[1mScanning dependencies of target trajectory_msgs_generate_messages_cpp[0m
+[  0%] Built target trajectory_msgs_generate_messages_cpp
+[35m[1mScanning dependencies of target tf_generate_messages_lisp[0m
+[  0%] Built target tf_generate_messages_lisp
+[35m[1mScanning dependencies of target actionlib_generate_messages_cpp[0m
+[  0%] Built target actionlib_generate_messages_cpp
+[35m[1mScanning dependencies of target rosgraph_msgs_generate_messages_py[0m
+[  0%] Built target rosgraph_msgs_generate_messages_py
+[35m[1mScanning dependencies of target actionlib_msgs_generate_messages_py[0m
+[  0%] Built target actionlib_msgs_generate_messages_py
+[35m[1mScanning dependencies of target visualization_msgs_generate_messages_eus[0m
+[  0%] Built target visualization_msgs_generate_messages_eus
+[35m[1mScanning dependencies of target std_srvs_generate_messages_lisp[0m
+[  0%] Built target std_srvs_generate_messages_lisp
+[35m[1mScanning dependencies of target tf_generate_messages_cpp[0m
+[  0%] Built target tf_generate_messages_cpp
+[35m[1mScanning dependencies of target std_srvs_generate_messages_eus[0m
+[  0%] Built target std_srvs_generate_messages_eus
+[35m[1mScanning dependencies of target rosgraph_msgs_generate_messages_cpp[0m
+[  0%] Built target rosgraph_msgs_generate_messages_cpp
+[35m[1mScanning dependencies of target rosgraph_msgs_generate_messages_nodejs[0m
+[  0%] Built target rosgraph_msgs_generate_messages_nodejs
+[35m[1mScanning dependencies of target tf_generate_messages_eus[0m
+[  0%] Built target tf_generate_messages_eus
+[35m[1mScanning dependencies of target tf_generate_messages_py[0m
+[  0%] Built target tf_generate_messages_py
+[35m[1mScanning dependencies of target rosgraph_msgs_generate_messages_lisp[0m
+[  0%] Built target rosgraph_msgs_generate_messages_lisp
+[35m[1mScanning dependencies of target tf_generate_messages_nodejs[0m
+[  0%] Built target tf_generate_messages_nodejs
+[35m[1mScanning dependencies of target std_srvs_generate_messages_py[0m
+[  0%] Built target std_srvs_generate_messages_py
+[35m[1mScanning dependencies of target actionlib_generate_messages_eus[0m
+[  0%] Built target actionlib_generate_messages_eus
+[35m[1mScanning dependencies of target tf2_msgs_generate_messages_cpp[0m
+[  0%] Built target tf2_msgs_generate_messages_cpp
+[35m[1mScanning dependencies of target tf2_msgs_generate_messages_eus[0m
+[  0%] Built target tf2_msgs_generate_messages_eus
+[35m[1mScanning dependencies of target tf2_msgs_generate_messages_lisp[0m
+[  0%] Built target tf2_msgs_generate_messages_lisp
+[35m[1mScanning dependencies of target tf2_msgs_generate_messages_nodejs[0m
+[  0%] Built target tf2_msgs_generate_messages_nodejs
+[35m[1mScanning dependencies of target std_srvs_generate_messages_cpp[0m
+[  0%] Built target std_srvs_generate_messages_cpp
+[35m[1mScanning dependencies of target rosgraph_msgs_generate_messages_eus[0m
+[  0%] Built target rosgraph_msgs_generate_messages_eus
+[35m[1mScanning dependencies of target std_srvs_generate_messages_nodejs[0m
+[  0%] Built target std_srvs_generate_messages_nodejs
+[35m[1mScanning dependencies of target visualization_msgs_generate_messages_py[0m
+[  0%] Built target visualization_msgs_generate_messages_py
+[35m[1mScanning dependencies of target trajectory_msgs_generate_messages_eus[0m
+[  0%] Built target trajectory_msgs_generate_messages_eus
+[35m[1mScanning dependencies of target trajectory_msgs_generate_messages_lisp[0m
+[  0%] Built target trajectory_msgs_generate_messages_lisp
+[35m[1mScanning dependencies of target trajectory_msgs_generate_messages_nodejs[0m
+[  0%] Built target trajectory_msgs_generate_messages_nodejs
+[35m[1mScanning dependencies of target trajectory_msgs_generate_messages_py[0m
+[  0%] Built target trajectory_msgs_generate_messages_py
+[35m[1mScanning dependencies of target visualization_msgs_generate_messages_cpp[0m
+[  0%] Built target visualization_msgs_generate_messages_cpp
+[35m[1mScanning dependencies of target visualization_msgs_generate_messages_lisp[0m
+[  0%] Built target visualization_msgs_generate_messages_lisp
+[35m[1mScanning dependencies of target visualization_msgs_generate_messages_nodejs[0m
+[  0%] Built target visualization_msgs_generate_messages_nodejs
+[35m[1mScanning dependencies of target waypoint_navigator_generate_messages_py[0m
+[  3%] [34m[1mGenerating Python code from SRV waypoint_navigator/GoToWaypoint[0m
+[  6%] [34m[1mGenerating Python code from SRV waypoint_navigator/GoToWaypoints[0m
+[ 10%] [34m[1mGenerating Python code from SRV waypoint_navigator/GoToHeight[0m
+[ 13%] [34m[1mGenerating Python code from SRV waypoint_navigator/ExecutePathFromFile[0m
+[ 17%] [34m[1mGenerating Python code from SRV waypoint_navigator/GoToPoseWaypoints[0m
+[ 20%] [34m[1mGenerating Python srv __init__.py for waypoint_navigator[0m
+[ 20%] Built target waypoint_navigator_generate_messages_py
+[35m[1mScanning dependencies of target waypoint_navigator_generate_messages_cpp[0m
+[ 24%] [34m[1mGenerating C++ code from waypoint_navigator/GoToWaypoint.srv[0m
+[ 27%] [34m[1mGenerating C++ code from waypoint_navigator/GoToWaypoints.srv[0m
+[ 31%] [34m[1mGenerating C++ code from waypoint_navigator/GoToHeight.srv[0m
+[ 34%] [34m[1mGenerating C++ code from waypoint_navigator/ExecutePathFromFile.srv[0m
+[ 37%] [34m[1mGenerating C++ code from waypoint_navigator/GoToPoseWaypoints.srv[0m
+[ 37%] Built target waypoint_navigator_generate_messages_cpp
+[35m[1mScanning dependencies of target waypoint_navigator_generate_messages_lisp[0m
+[ 41%] [34m[1mGenerating Lisp code from waypoint_navigator/GoToWaypoint.srv[0m
+[ 44%] [34m[1mGenerating Lisp code from waypoint_navigator/GoToWaypoints.srv[0m
+[ 48%] [34m[1mGenerating Lisp code from waypoint_navigator/GoToHeight.srv[0m
+[ 51%] [34m[1mGenerating Lisp code from waypoint_navigator/ExecutePathFromFile.srv[0m
+[ 55%] [34m[1mGenerating Lisp code from waypoint_navigator/GoToPoseWaypoints.srv[0m
+[ 55%] Built target waypoint_navigator_generate_messages_lisp
+[35m[1mScanning dependencies of target waypoint_navigator_generate_messages_eus[0m
+[ 58%] [34m[1mGenerating EusLisp code from waypoint_navigator/GoToWaypoint.srv[0m
+[ 62%] [34m[1mGenerating EusLisp code from waypoint_navigator/GoToWaypoints.srv[0m
+[ 65%] [34m[1mGenerating EusLisp code from waypoint_navigator/GoToHeight.srv[0m
+[ 68%] [34m[1mGenerating EusLisp code from waypoint_navigator/ExecutePathFromFile.srv[0m
+[ 72%] [34m[1mGenerating EusLisp code from waypoint_navigator/GoToPoseWaypoints.srv[0m
+[ 75%] [34m[1mGenerating EusLisp manifest code for waypoint_navigator[0m
+[ 75%] Built target waypoint_navigator_generate_messages_eus
+[35m[1mScanning dependencies of target waypoint_navigator_generate_messages_nodejs[0m
+[ 79%] [34m[1mGenerating Javascript code from waypoint_navigator/GoToWaypoint.srv[0m
+[ 82%] [34m[1mGenerating Javascript code from waypoint_navigator/GoToWaypoints.srv[0m
+[ 86%] [34m[1mGenerating Javascript code from waypoint_navigator/GoToHeight.srv[0m
+[ 89%] [34m[1mGenerating Javascript code from waypoint_navigator/ExecutePathFromFile.srv[0m
+[ 93%] [34m[1mGenerating Javascript code from waypoint_navigator/GoToPoseWaypoints.srv[0m
+[ 93%] Built target waypoint_navigator_generate_messages_nodejs
+[35m[1mScanning dependencies of target waypoint_navigator_generate_messages[0m
+[ 93%] Built target waypoint_navigator_generate_messages
+[35m[1mScanning dependencies of target waypoint_navigator_node[0m
+[ 96%] [32mBuilding CXX object CMakeFiles/waypoint_navigator_node.dir/src/waypoint_navigator_node.cpp.o[0m
+[100%] [32m[1mLinking CXX executable /home/ardalan/catkin_ws/devel/lib/waypoint_navigator/waypoint_navigator_node[0m
+[100%] Built target waypoint_navigator_node

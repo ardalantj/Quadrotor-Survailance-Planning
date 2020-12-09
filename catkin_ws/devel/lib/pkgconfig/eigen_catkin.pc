@@ -1,0 +1,8 @@
+prefix=/home/ardalan/catkin_ws/devel
+
+Name: eigen_catkin
+Description: Description of eigen_catkin
+Version: 3.2.12
+Cflags: -I/home/ardalan/catkin_ws/devel/include/eigen3
+Libs: -L${prefix}/lib 
+Requires: 

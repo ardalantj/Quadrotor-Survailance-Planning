@@ -1,0 +1,182 @@
+[libprotobuf WARNING google/protobuf/descriptor.cc:5411] Warning: Unused import: "MagneticField.proto" imports "quaternion.proto" which is not used.
+[01m[K/home/ardalan/catkin_ws/src/rotors_simulator/rotors_gazebo_plugins/src/gazebo_noisydepth_plugin.cpp:[m[K In member function ‘[01m[Kvirtual void gazebo::GazeboNoisyDepth::OnNewDepthFrame(const float*, unsigned int, unsigned int, unsigned int, const string&)[m[K’:
+[01m[K/home/ardalan/catkin_ws/src/rotors_simulator/rotors_gazebo_plugins/src/gazebo_noisydepth_plugin.cpp:194:80:[m[K [01;35m[Kwarning: [m[K‘[01m[Kgazebo::common::Time gazebo::sensors::Sensor::GetLastMeasurementTime()[m[K’ is deprecated [-Wdeprecated-declarations]
+   this->depth_sensor_update_time_ = this->parentSensor->GetLastMeasurementTime();
+[01;32m[K                                                                                ^[m[K
+In file included from [01m[K/usr/include/gazebo-7/gazebo/sensors/CameraSensor.hh:23:0[m[K,
+                 from [01m[K/usr/include/gazebo-7/gazebo/plugins/CameraPlugin.hh:23[m[K,
+                 from [01m[K/opt/ros/kinetic/include/gazebo_plugins/gazebo_ros_camera_utils.h:50[m[K,
+                 from [01m[K/home/ardalan/catkin_ws/src/rotors_simulator/rotors_gazebo_plugins/include/rotors_gazebo_plugins/gazebo_noisydepth_plugin.h:35[m[K,
+                 from [01m[K/home/ardalan/catkin_ws/src/rotors_simulator/rotors_gazebo_plugins/src/gazebo_noisydepth_plugin.cpp:24[m[K:
+[01m[K/usr/include/gazebo-7/gazebo/sensors/Sensor.hh:166:28:[m[K [01;36m[Knote: [m[Kdeclared here
+       public: common::Time GetLastMeasurementTime() GAZEBO_DEPRECATED(7.0);
+[01;32m[K                            ^[m[K
+[01m[K/home/ardalan/catkin_ws/src/rotors_simulator/rotors_gazebo_plugins/src/gazebo_noisydepth_plugin.cpp:[m[K In member function ‘[01m[Kvirtual void gazebo::GazeboNoisyDepth::OnNewImageFrame(const unsigned char*, unsigned int, unsigned int, unsigned int, const string&)[m[K’:
+[01m[K/home/ardalan/catkin_ws/src/rotors_simulator/rotors_gazebo_plugins/src/gazebo_noisydepth_plugin.cpp:220:75:[m[K [01;35m[Kwarning: [m[K‘[01m[Kgazebo::common::Time gazebo::sensors::Sensor::GetLastMeasurementTime()[m[K’ is deprecated [-Wdeprecated-declarations]
+   this->sensor_update_time_ = this->parentSensor_->GetLastMeasurementTime();
+[01;32m[K                                                                           ^[m[K
+In file included from [01m[K/usr/include/gazebo-7/gazebo/sensors/CameraSensor.hh:23:0[m[K,
+                 from [01m[K/usr/include/gazebo-7/gazebo/plugins/CameraPlugin.hh:23[m[K,
+                 from [01m[K/opt/ros/kinetic/include/gazebo_plugins/gazebo_ros_camera_utils.h:50[m[K,
+                 from [01m[K/home/ardalan/catkin_ws/src/rotors_simulator/rotors_gazebo_plugins/include/rotors_gazebo_plugins/gazebo_noisydepth_plugin.h:35[m[K,
+                 from [01m[K/home/ardalan/catkin_ws/src/rotors_simulator/rotors_gazebo_plugins/src/gazebo_noisydepth_plugin.cpp:24[m[K:
+[01m[K/usr/include/gazebo-7/gazebo/sensors/Sensor.hh:166:28:[m[K [01;36m[Knote: [m[Kdeclared here
+       public: common::Time GetLastMeasurementTime() GAZEBO_DEPRECATED(7.0);
+[01;32m[K                            ^[m[K
+[01m[K/home/ardalan/catkin_ws/src/rotors_simulator/rotors_gazebo_plugins/src/gazebo_noisydepth_plugin.cpp:[m[K In member function ‘[01m[Kvirtual void gazebo::GazeboNoisyDepth::PublishCameraInfo()[m[K’:
+[01m[K/home/ardalan/catkin_ws/src/rotors_simulator/rotors_gazebo_plugins/src/gazebo_noisydepth_plugin.cpp:284:77:[m[K [01;35m[Kwarning: [m[K‘[01m[Kgazebo::common::Time gazebo::sensors::Sensor::GetLastMeasurementTime()[m[K’ is deprecated [-Wdeprecated-declarations]
+     this->sensor_update_time_ = this->parentSensor_->GetLastMeasurementTime();
+[01;32m[K                                                                             ^[m[K
+In file included from [01m[K/usr/include/gazebo-7/gazebo/sensors/CameraSensor.hh:23:0[m[K,
+                 from [01m[K/usr/include/gazebo-7/gazebo/plugins/CameraPlugin.hh:23[m[K,
+                 from [01m[K/opt/ros/kinetic/include/gazebo_plugins/gazebo_ros_camera_utils.h:50[m[K,
+                 from [01m[K/home/ardalan/catkin_ws/src/rotors_simulator/rotors_gazebo_plugins/include/rotors_gazebo_plugins/gazebo_noisydepth_plugin.h:35[m[K,
+                 from [01m[K/home/ardalan/catkin_ws/src/rotors_simulator/rotors_gazebo_plugins/src/gazebo_noisydepth_plugin.cpp:24[m[K:
+[01m[K/usr/include/gazebo-7/gazebo/sensors/Sensor.hh:166:28:[m[K [01;36m[Knote: [m[Kdeclared here
+       public: common::Time GetLastMeasurementTime() GAZEBO_DEPRECATED(7.0);
+[01;32m[K                            ^[m[K
+[01m[K/home/ardalan/catkin_ws/src/rotors_simulator/rotors_gazebo_plugins/src/gazebo_gps_plugin.cpp:[m[K In member function ‘[01m[Kvirtual void gazebo::GazeboGpsPlugin::Load(gazebo::sensors::SensorPtr, sdf::ElementPtr)[m[K’:
+[01m[K/home/ardalan/catkin_ws/src/rotors_simulator/rotors_gazebo_plugins/src/gazebo_gps_plugin.cpp:45:60:[m[K [01;35m[Kwarning: [m[K‘[01m[Kstd::__cxx11::string gazebo::sensors::Sensor::GetWorldName() const[m[K’ is deprecated [-Wdeprecated-declarations]
+   world_ = physics::get_world(parent_sensor_->GetWorldName());
+[01;32m[K                                                            ^[m[K
+In file included from [01m[K/usr/include/gazebo-7/gazebo/sensors/AltimeterSensor.hh:25:0[m[K,
+                 from [01m[K/usr/include/gazebo-7/gazebo/sensors/sensors.hh:2[m[K,
+                 from [01m[K/home/ardalan/catkin_ws/src/rotors_simulator/rotors_gazebo_plugins/include/rotors_gazebo_plugins/gazebo_gps_plugin.h:27[m[K,
+                 from [01m[K/home/ardalan/catkin_ws/src/rotors_simulator/rotors_gazebo_plugins/src/gazebo_gps_plugin.cpp:19[m[K:
+[01m[K/usr/include/gazebo-7/gazebo/sensors/Sensor.hh:200:27:[m[K [01;36m[Knote: [m[Kdeclared here
+       public: std::string GetWorldName() const GAZEBO_DEPRECATED(7.0);
+[01;32m[K                           ^[m[K
+[01m[K/home/ardalan/catkin_ws/src/rotors_simulator/rotors_gazebo_plugins/src/gazebo_gps_plugin.cpp:[m[K In member function ‘[01m[Kvoid gazebo::GazeboGpsPlugin::OnUpdate()[m[K’:
+[01m[K/home/ardalan/catkin_ws/src/rotors_simulator/rotors_gazebo_plugins/src/gazebo_gps_plugin.cpp:177:57:[m[K [01;35m[Kwarning: [m[K‘[01m[Kgazebo::common::Time gazebo::sensors::Sensor::GetLastMeasurementTime()[m[K’ is deprecated [-Wdeprecated-declarations]
+   current_time = parent_sensor_->GetLastMeasurementTime();
+[01;32m[K                                                         ^[m[K
+In file included from [01m[K/usr/include/gazebo-7/gazebo/sensors/AltimeterSensor.hh:25:0[m[K,
+                 from [01m[K/usr/include/gazebo-7/gazebo/sensors/sensors.hh:2[m[K,
+                 from [01m[K/home/ardalan/catkin_ws/src/rotors_simulator/rotors_gazebo_plugins/include/rotors_gazebo_plugins/gazebo_gps_plugin.h:27[m[K,
+                 from [01m[K/home/ardalan/catkin_ws/src/rotors_simulator/rotors_gazebo_plugins/src/gazebo_gps_plugin.cpp:19[m[K:
+[01m[K/usr/include/gazebo-7/gazebo/sensors/Sensor.hh:166:28:[m[K [01;36m[Knote: [m[Kdeclared here
+       public: common::Time GetLastMeasurementTime() GAZEBO_DEPRECATED(7.0);
+[01;32m[K                            ^[m[K
+[01m[K/home/ardalan/catkin_ws/src/rotors_simulator/rotors_gazebo_plugins/src/external/gazebo_geotagged_images_plugin.cpp:[m[K In member function ‘[01m[Kvirtual void gazebo::GeotaggedImagesPlugin::Load(gazebo::sensors::SensorPtr, sdf::ElementPtr)[m[K’:
+[01m[K/home/ardalan/catkin_ws/src/rotors_simulator/rotors_gazebo_plugins/src/external/gazebo_geotagged_images_plugin.cpp:64:50:[m[K [01;35m[Kwarning: [m[K‘[01m[Kgazebo::rendering::CameraPtr gazebo::sensors::CameraSensor::GetCamera() const[m[K’ is deprecated [-Wdeprecated-declarations]
+   this->camera_ = this->parentSensor_->GetCamera();
+[01;32m[K                                                  ^[m[K
+In file included from [01m[K/home/ardalan/catkin_ws/src/rotors_simulator/rotors_gazebo_plugins/include/rotors_gazebo_plugins/external/gazebo_geotagged_images_plugin.h:22:0[m[K,
+                 from [01m[K/home/ardalan/catkin_ws/src/rotors_simulator/rotors_gazebo_plugins/src/external/gazebo_geotagged_images_plugin.cpp:18[m[K:
+[01m[K/usr/include/gazebo-7/gazebo/sensors/CameraSensor.hh:70:36:[m[K [01;36m[Knote: [m[Kdeclared here
+       public: rendering::CameraPtr GetCamera() const GAZEBO_DEPRECATED(7.0);
+[01;32m[K                                    ^[m[K
+[01m[K/home/ardalan/catkin_ws/src/rotors_simulator/rotors_gazebo_plugins/src/external/gazebo_geotagged_images_plugin.cpp:72:39:[m[K [01;35m[Kwarning: [m[K‘[01m[Kgazebo::common::Time gazebo::rendering::Scene::GetSimTime() const[m[K’ is deprecated [-Wdeprecated-declarations]
+   lastImageTime_ = scene_->GetSimTime();
+[01;32m[K                                       ^[m[K
+In file included from [01m[K/usr/include/gazebo-7/gazebo/rendering/rendering.hh:42:0[m[K,
+                 from [01m[K/home/ardalan/catkin_ws/src/rotors_simulator/rotors_gazebo_plugins/include/rotors_gazebo_plugins/external/gazebo_geotagged_images_plugin.h:30[m[K,
+                 from [01m[K/home/ardalan/catkin_ws/src/rotors_simulator/rotors_gazebo_plugins/src/external/gazebo_geotagged_images_plugin.cpp:18[m[K:
+[01m[K/usr/include/gazebo-7/gazebo/rendering/Scene.hh:673:28:[m[K [01;36m[Knote: [m[Kdeclared here
+       public: common::Time GetSimTime() const GAZEBO_DEPRECATED(7.0);
+[01;32m[K                            ^[m[K
+[01m[K/home/ardalan/catkin_ws/src/rotors_simulator/rotors_gazebo_plugins/src/external/gazebo_geotagged_images_plugin.cpp:74:47:[m[K [01;35m[Kwarning: [m[K‘[01m[Kvirtual unsigned int gazebo::rendering::Camera::GetImageWidth() const[m[K’ is deprecated [-Wdeprecated-declarations]
+   this->width_ = this->camera_->GetImageWidth();
+[01;32m[K                                               ^[m[K
+In file included from [01m[K/home/ardalan/catkin_ws/src/rotors_simulator/rotors_gazebo_plugins/include/rotors_gazebo_plugins/external/gazebo_geotagged_images_plugin.h:25:0[m[K,
+                 from [01m[K/home/ardalan/catkin_ws/src/rotors_simulator/rotors_gazebo_plugins/src/external/gazebo_geotagged_images_plugin.cpp:18[m[K:
+[01m[K/usr/include/gazebo-7/gazebo/rendering/Camera.hh:345:36:[m[K [01;36m[Knote: [m[Kdeclared here
+       public: virtual unsigned int GetImageWidth() const GAZEBO_DEPRECATED(7.0);
+[01;32m[K                                    ^[m[K
+[01m[K/home/ardalan/catkin_ws/src/rotors_simulator/rotors_gazebo_plugins/src/external/gazebo_geotagged_images_plugin.cpp:75:49:[m[K [01;35m[Kwarning: [m[K‘[01m[Kvirtual unsigned int gazebo::rendering::Camera::GetImageHeight() const[m[K’ is deprecated [-Wdeprecated-declarations]
+   this->height_ = this->camera_->GetImageHeight();
+[01;32m[K                                                 ^[m[K
+In file included from [01m[K/home/ardalan/catkin_ws/src/rotors_simulator/rotors_gazebo_plugins/include/rotors_gazebo_plugins/external/gazebo_geotagged_images_plugin.h:25:0[m[K,
+                 from [01m[K/home/ardalan/catkin_ws/src/rotors_simulator/rotors_gazebo_plugins/src/external/gazebo_geotagged_images_plugin.cpp:18[m[K:
+[01m[K/usr/include/gazebo-7/gazebo/rendering/Camera.hh:367:36:[m[K [01;36m[Knote: [m[Kdeclared here
+       public: virtual unsigned int GetImageHeight() const
+[01;32m[K                                    ^[m[K
+[01m[K/home/ardalan/catkin_ws/src/rotors_simulator/rotors_gazebo_plugins/src/external/gazebo_geotagged_images_plugin.cpp:76:47:[m[K [01;35m[Kwarning: [m[K‘[01m[Kunsigned int gazebo::rendering::Camera::GetImageDepth() const[m[K’ is deprecated [-Wdeprecated-declarations]
+   this->depth_ = this->camera_->GetImageDepth();
+[01;32m[K                                               ^[m[K
+In file included from [01m[K/home/ardalan/catkin_ws/src/rotors_simulator/rotors_gazebo_plugins/include/rotors_gazebo_plugins/external/gazebo_geotagged_images_plugin.h:25:0[m[K,
+                 from [01m[K/home/ardalan/catkin_ws/src/rotors_simulator/rotors_gazebo_plugins/src/external/gazebo_geotagged_images_plugin.cpp:18[m[K:
+[01m[K/usr/include/gazebo-7/gazebo/rendering/Camera.hh:377:28:[m[K [01;36m[Knote: [m[Kdeclared here
+       public: unsigned int GetImageDepth() const GAZEBO_DEPRECATED(7.0);
+[01;32m[K                            ^[m[K
+[01m[K/home/ardalan/catkin_ws/src/rotors_simulator/rotors_gazebo_plugins/src/external/gazebo_geotagged_images_plugin.cpp:77:49:[m[K [01;35m[Kwarning: [m[K‘[01m[Kstd::__cxx11::string gazebo::rendering::Camera::GetImageFormat() const[m[K’ is deprecated [-Wdeprecated-declarations]
+   this->format_ = this->camera_->GetImageFormat();
+[01;32m[K                                                 ^[m[K
+In file included from [01m[K/home/ardalan/catkin_ws/src/rotors_simulator/rotors_gazebo_plugins/include/rotors_gazebo_plugins/external/gazebo_geotagged_images_plugin.h:25:0[m[K,
+                 from [01m[K/home/ardalan/catkin_ws/src/rotors_simulator/rotors_gazebo_plugins/src/external/gazebo_geotagged_images_plugin.cpp:18[m[K:
+[01m[K/usr/include/gazebo-7/gazebo/rendering/Camera.hh:386:27:[m[K [01;36m[Knote: [m[Kdeclared here
+       public: std::string GetImageFormat() const GAZEBO_DEPRECATED(7.0);
+[01;32m[K                           ^[m[K
+[01m[K/home/ardalan/catkin_ws/src/rotors_simulator/rotors_gazebo_plugins/src/external/gazebo_geotagged_images_plugin.cpp:[m[K In member function ‘[01m[Kvoid gazebo::GeotaggedImagesPlugin::OnNewFrame(const unsigned char*)[m[K’:
+[01m[K/home/ardalan/catkin_ws/src/rotors_simulator/rotors_gazebo_plugins/src/external/gazebo_geotagged_images_plugin.cpp:133:40:[m[K [01;35m[Kwarning: [m[K‘[01m[Kvirtual const unsigned char* gazebo::rendering::Camera::GetImageData(unsigned int)[m[K’ is deprecated [-Wdeprecated-declarations]
+   image = this->camera_->GetImageData(0);
+[01;32m[K                                        ^[m[K
+In file included from [01m[K/home/ardalan/catkin_ws/src/rotors_simulator/rotors_gazebo_plugins/include/rotors_gazebo_plugins/external/gazebo_geotagged_images_plugin.h:25:0[m[K,
+                 from [01m[K/home/ardalan/catkin_ws/src/rotors_simulator/rotors_gazebo_plugins/src/external/gazebo_geotagged_images_plugin.cpp:18[m[K:
+[01m[K/usr/include/gazebo-7/gazebo/rendering/Camera.hh:592:44:[m[K [01;36m[Knote: [m[Kdeclared here
+       public: virtual const unsigned char *GetImageData(unsigned int i = 0)
+[01;32m[K                                            ^[m[K
+[01m[K/home/ardalan/catkin_ws/src/rotors_simulator/rotors_gazebo_plugins/src/external/gazebo_geotagged_images_plugin.cpp:135:49:[m[K [01;35m[Kwarning: [m[K‘[01m[Kgazebo::common::Time gazebo::rendering::Scene::GetSimTime() const[m[K’ is deprecated [-Wdeprecated-declarations]
+   common::Time currentTime = scene_->GetSimTime();
+[01;32m[K                                                 ^[m[K
+In file included from [01m[K/usr/include/gazebo-7/gazebo/rendering/rendering.hh:42:0[m[K,
+                 from [01m[K/home/ardalan/catkin_ws/src/rotors_simulator/rotors_gazebo_plugins/include/rotors_gazebo_plugins/external/gazebo_geotagged_images_plugin.h:30[m[K,
+                 from [01m[K/home/ardalan/catkin_ws/src/rotors_simulator/rotors_gazebo_plugins/src/external/gazebo_geotagged_images_plugin.cpp:18[m[K:
+[01m[K/usr/include/gazebo-7/gazebo/rendering/Scene.hh:673:28:[m[K [01;36m[Knote: [m[Kdeclared here
+       public: common::Time GetSimTime() const GAZEBO_DEPRECATED(7.0);
+[01;32m[K                            ^[m[K
+[01m[K/home/ardalan/catkin_ws/src/rotors_simulator/rotors_gazebo_plugins/src/external/gazebo_lidar_plugin.cpp:[m[K In member function ‘[01m[Kvirtual void gazebo::GazeboLidarPlugin::Load(gazebo::sensors::SensorPtr, sdf::ElementPtr)[m[K’:
+[01m[K/home/ardalan/catkin_ws/src/rotors_simulator/rotors_gazebo_plugins/src/external/gazebo_lidar_plugin.cpp:75:69:[m[K [01;35m[Kwarning: [m[K‘[01m[Kstd::__cxx11::string gazebo::sensors::Sensor::GetWorldName() const[m[K’ is deprecated [-Wdeprecated-declarations]
+   this->world = physics::get_world(this->parentSensor->GetWorldName());
+[01;32m[K                                                                     ^[m[K
+In file included from [01m[K/usr/include/gazebo-7/gazebo/sensors/RaySensor.hh:26:0[m[K,
+                 from [01m[K/home/ardalan/catkin_ws/src/rotors_simulator/rotors_gazebo_plugins/include/rotors_gazebo_plugins/external/gazebo_lidar_plugin.h:27[m[K,
+                 from [01m[K/home/ardalan/catkin_ws/src/rotors_simulator/rotors_gazebo_plugins/src/external/gazebo_lidar_plugin.cpp:23[m[K:
+[01m[K/usr/include/gazebo-7/gazebo/sensors/Sensor.hh:200:27:[m[K [01;36m[Knote: [m[Kdeclared here
+       public: std::string GetWorldName() const GAZEBO_DEPRECATED(7.0);
+[01;32m[K                           ^[m[K
+[01m[K/home/ardalan/catkin_ws/src/rotors_simulator/rotors_gazebo_plugins/src/external/gazebo_lidar_plugin.cpp:78:39:[m[K [01;35m[Kwarning: [m[K‘[01m[Kgazebo::physics::MultiRayShapePtr gazebo::sensors::RaySensor::GetLaserShape() const[m[K’ is deprecated [-Wdeprecated-declarations]
+     this->parentSensor->GetLaserShape()->ConnectNewLaserScans(
+[01;32m[K                                       ^[m[K
+In file included from [01m[K/home/ardalan/catkin_ws/src/rotors_simulator/rotors_gazebo_plugins/include/rotors_gazebo_plugins/external/gazebo_lidar_plugin.h:27:0[m[K,
+                 from [01m[K/home/ardalan/catkin_ws/src/rotors_simulator/rotors_gazebo_plugins/src/external/gazebo_lidar_plugin.cpp:23[m[K:
+[01m[K/usr/include/gazebo-7/gazebo/sensors/RaySensor.hh:253:41:[m[K [01;36m[Knote: [m[Kdeclared here
+       public: physics::MultiRayShapePtr GetLaserShape()
+[01;32m[K                                         ^[m[K
+[01m[K/home/ardalan/catkin_ws/src/rotors_simulator/rotors_gazebo_plugins/src/external/gazebo_lidar_plugin.cpp:89:52:[m[K [01;35m[Kwarning: [m[K‘[01m[Kstd::__cxx11::string gazebo::sensors::Sensor::GetParentName() const[m[K’ is deprecated [-Wdeprecated-declarations]
+   const string scopedName = _parent->GetParentName();
+[01;32m[K                                                    ^[m[K
+In file included from [01m[K/usr/include/gazebo-7/gazebo/sensors/RaySensor.hh:26:0[m[K,
+                 from [01m[K/home/ardalan/catkin_ws/src/rotors_simulator/rotors_gazebo_plugins/include/rotors_gazebo_plugins/external/gazebo_lidar_plugin.h:27[m[K,
+                 from [01m[K/home/ardalan/catkin_ws/src/rotors_simulator/rotors_gazebo_plugins/src/external/gazebo_lidar_plugin.cpp:23[m[K:
+[01m[K/usr/include/gazebo-7/gazebo/sensors/Sensor.hh:81:27:[m[K [01;36m[Knote: [m[Kdeclared here
+       public: std::string GetParentName() const
+[01;32m[K                           ^[m[K
+[01m[K/home/ardalan/catkin_ws/src/rotors_simulator/rotors_gazebo_plugins/src/external/gazebo_lidar_plugin.cpp:[m[K In member function ‘[01m[Kvirtual void gazebo::GazeboLidarPlugin::OnNewLaserScans()[m[K’:
+[01m[K/home/ardalan/catkin_ws/src/rotors_simulator/rotors_gazebo_plugins/src/external/gazebo_lidar_plugin.cpp:101:60:[m[K [01;35m[Kwarning: [m[K‘[01m[Kdouble gazebo::sensors::RaySensor::GetRangeMin() const[m[K’ is deprecated [-Wdeprecated-declarations]
+   lidar_message.set_min_distance(parentSensor->GetRangeMin());
+[01;32m[K                                                            ^[m[K
+In file included from [01m[K/home/ardalan/catkin_ws/src/rotors_simulator/rotors_gazebo_plugins/include/rotors_gazebo_plugins/external/gazebo_lidar_plugin.h:27:0[m[K,
+                 from [01m[K/home/ardalan/catkin_ws/src/rotors_simulator/rotors_gazebo_plugins/src/external/gazebo_lidar_plugin.cpp:23[m[K:
+[01m[K/usr/include/gazebo-7/gazebo/sensors/RaySensor.hh:94:22:[m[K [01;36m[Knote: [m[Kdeclared here
+       public: double GetRangeMin() const GAZEBO_DEPRECATED(7.0);
+[01;32m[K                      ^[m[K
+[01m[K/home/ardalan/catkin_ws/src/rotors_simulator/rotors_gazebo_plugins/src/external/gazebo_lidar_plugin.cpp:102:60:[m[K [01;35m[Kwarning: [m[K‘[01m[Kdouble gazebo::sensors::RaySensor::GetRangeMax() const[m[K’ is deprecated [-Wdeprecated-declarations]
+   lidar_message.set_max_distance(parentSensor->GetRangeMax());
+[01;32m[K                                                            ^[m[K
+In file included from [01m[K/home/ardalan/catkin_ws/src/rotors_simulator/rotors_gazebo_plugins/include/rotors_gazebo_plugins/external/gazebo_lidar_plugin.h:27:0[m[K,
+                 from [01m[K/home/ardalan/catkin_ws/src/rotors_simulator/rotors_gazebo_plugins/src/external/gazebo_lidar_plugin.cpp:23[m[K:
+[01m[K/usr/include/gazebo-7/gazebo/sensors/RaySensor.hh:103:22:[m[K [01;36m[Knote: [m[Kdeclared here
+       public: double GetRangeMax() const GAZEBO_DEPRECATED(7.0);
+[01;32m[K                      ^[m[K
+[01m[K/home/ardalan/catkin_ws/src/rotors_simulator/rotors_gazebo_plugins/src/external/gazebo_lidar_plugin.cpp:103:62:[m[K [01;35m[Kwarning: [m[K‘[01m[Kdouble gazebo::sensors::RaySensor::GetRange(unsigned int)[m[K’ is deprecated [-Wdeprecated-declarations]
+   lidar_message.set_current_distance(parentSensor->GetRange(0));
+[01;32m[K                                                              ^[m[K
+In file included from [01m[K/home/ardalan/catkin_ws/src/rotors_simulator/rotors_gazebo_plugins/include/rotors_gazebo_plugins/external/gazebo_lidar_plugin.h:27:0[m[K,
+                 from [01m[K/home/ardalan/catkin_ws/src/rotors_simulator/rotors_gazebo_plugins/src/external/gazebo_lidar_plugin.cpp:23[m[K:
+[01m[K/usr/include/gazebo-7/gazebo/sensors/RaySensor.hh:181:22:[m[K [01;36m[Knote: [m[Kdeclared here
+       public: double GetRange(unsigned int _index) GAZEBO_DEPRECATED(7.0);
+[01;32m[K                      ^[m[K
+[01m[K/home/ardalan/catkin_ws/src/rotors_simulator/rotors_gazebo_plugins/src/external/gazebo_geotagged_images_plugin.cpp:176:26:[m[K [01;35m[Kwarning: [m[Kignoring return value of ‘[01m[Kint system(const char*)[m[K’, declared with attribute warn_unused_result [-Wunused-result]
+   system(gps_tag_command);
+[01;32m[K                          ^[m[K

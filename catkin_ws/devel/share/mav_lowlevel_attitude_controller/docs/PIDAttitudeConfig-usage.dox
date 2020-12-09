@@ -1,0 +1,13 @@
+\subsubsection usage Usage
+\verbatim
+<node name="Config" pkg="mav_linear_mpc" type="Config">
+  <param name="roll_gain" type="double" value="90.0" />
+  <param name="pitch_gain" type="double" value="80.0" />
+  <param name="roll_int_gain" type="double" value="1.0" />
+  <param name="pitch_int_gain" type="double" value="1.0" />
+  <param name="p_gain" type="double" value="30.0" />
+  <param name="q_gain" type="double" value="25.0" />
+  <param name="r_gain" type="double" value="0.8" />
+</node>
+\endverbatim
+

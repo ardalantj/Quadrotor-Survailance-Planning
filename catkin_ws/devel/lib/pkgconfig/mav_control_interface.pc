@@ -1,0 +1,8 @@
+prefix=/home/ardalan/catkin_ws/devel
+
+Name: mav_control_interface
+Description: Description of mav_control_interface
+Version: 0.0.0
+Cflags: -I/home/ardalan/catkin_ws/src/mav_control_rw/mav_control_interface/include
+Libs: -L${prefix}/lib -lmav_control_interface
+Requires: cmake_modules roscpp mav_msgs nav_msgs std_msgs std_srvs tf tf_conversions visualization_msgs
