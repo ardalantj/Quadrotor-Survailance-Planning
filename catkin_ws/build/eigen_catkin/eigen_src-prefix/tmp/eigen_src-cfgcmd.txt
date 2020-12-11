@@ -1,1 +1,0 @@
-cmd='/usr/bin/cmake;-DCMAKE_INSTALL_PREFIX:PATH=/home/ardalan/catkin_ws/devel;-DCMAKE_BUILD_TYPE:STRING=Release;-DBUILD_TESTING=OFF;-GUnix Makefiles;/home/ardalan/catkin_ws/build/eigen_catkin/eigen_src-prefix/src/eigen_src'

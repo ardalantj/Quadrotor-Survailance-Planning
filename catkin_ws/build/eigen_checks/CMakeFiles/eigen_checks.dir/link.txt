@@ -1,1 +1,0 @@
-/usr/bin/c++  -fPIC -O3 -DNDEBUG  -shared -Wl,-soname,libeigen_checks.so -o /home/ardalan/catkin_ws/devel/lib/libeigen_checks.so CMakeFiles/eigen_checks.dir/src/eigen-checks.cc.o 

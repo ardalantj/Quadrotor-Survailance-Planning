@@ -1,9 +1,0 @@
-libdir=/home/ardalan/catkin_ws/devel/lib
-includedir=/home/ardalan/catkin_ws/devel/include
-
-Name: Yaml-cpp0.5
-Description: A YAML parser and emitter for C++
-Version: 0.5.3
-Requires:
-Libs: -L${libdir} -lyaml-cpp0.5
-Cflags: -I${includedir}

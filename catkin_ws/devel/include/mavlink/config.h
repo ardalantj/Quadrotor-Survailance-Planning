@@ -1,1 +1,0 @@
-#define MAVLINK_VERSION "2020.11.11"

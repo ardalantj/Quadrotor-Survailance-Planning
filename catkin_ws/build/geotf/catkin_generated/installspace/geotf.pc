@@ -1,8 +1,0 @@
-prefix=/home/ardalan/catkin_ws/install
-
-Name: geotf
-Description: Description of geotf
-Version: 1.0.0
-Cflags: -I${prefix}/include
-Libs: -L${prefix}/lib -lgeotf
-Requires: roslib roscpp tf sensor_msgs geometry_msgs tf_conversions

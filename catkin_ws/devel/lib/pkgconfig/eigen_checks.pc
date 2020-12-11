@@ -1,8 +1,0 @@
-prefix=/home/ardalan/catkin_ws/devel
-
-Name: eigen_checks
-Description: Description of eigen_checks
-Version: 0.0.1
-Cflags: -I/home/ardalan/catkin_ws/src/eigen_checks/include
-Libs: -L${prefix}/lib -leigen_checks
-Requires: 
